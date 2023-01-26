@@ -1,0 +1,1100 @@
+[12:51:46] [ServerMain/INFO]: Building unoptimized datafixer
+[12:51:47] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[12:51:49] [ServerMain/INFO]: Loaded 7 recipes
+[12:51:51] [Server thread/INFO]: Starting minecraft server version 1.19.3
+[12:51:51] [Server thread/INFO]: Loading properties
+[12:51:51] [Server thread/INFO]: This server is running CraftBukkit version 3634-Spigot-d90018e-397c555 (MC: 1.19.3) (Implementing API version 1.19.3-R0.1-SNAPSHOT)
+[12:51:51] [Server thread/INFO]: Debug logging is disabled
+[12:51:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[12:51:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[12:51:51] [Server thread/INFO]: Default game type: SURVIVAL
+[12:51:51] [Server thread/INFO]: Generating keypair
+[12:51:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:51:51] [Server thread/INFO]: Using default channel type
+[12:51:51] [Server thread/ERROR]: Could not load 'plugins\SOTReqirement.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:144) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+[12:51:52] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[12:51:56] [Server thread/WARN]: Legacy plugin Stp v1.0.1 does not specify an api-version.
+[12:51:56] [Server thread/ERROR]: Could not load 'plugins\SimpleOnlineTime.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency SimpleLib. Please download and install SimpleLib to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:269) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+[12:51:56] [Server thread/WARN]: Legacy plugin SimpleGame v1.7.6 does not specify an api-version.
+[12:51:56] [Server thread/ERROR]: Could not load 'plugins\SimpleGamesMap-v1.7.6.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: cn/nukkit/event/Listener
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.NoClassDefFoundError: cn/nukkit/event/Listener
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:193) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: cn.nukkit.event.Listener
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:193) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+[12:51:56] [Server thread/WARN]: Legacy plugin BedWar v1.8.5 does not specify an api-version.
+[12:51:56] [Server thread/ERROR]: Could not load 'plugins\BedWar_v1.8.5.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: cn/nukkit/plugin/PluginBase
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.NoClassDefFoundError: cn/nukkit/plugin/PluginBase
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:193) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+Caused by: java.lang.ClassNotFoundException: cn.nukkit.plugin.PluginBase
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1012) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:193) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:587) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:104) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:520) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:67) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+[12:51:56] [Server thread/WARN]: Legacy plugin AdvancedWarps v1.0.0 does not specify an api-version.
+[12:51:57] [Server thread/ERROR]: Could not load 'plugins\MiaoScript.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.IllegalStateException: file nashorn-core-15.4.pom sha1 not match.
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:394) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:301) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.loadPlugins(CraftServer.java:428) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:219) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301) ~[spigot-1.19.3-R0.1-SNAPSHOT.jar:3634-Spigot-d90018e-397c555]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: java.lang.IllegalStateException: file nashorn-core-15.4.pom sha1 not match.
+	at pw.yumc.MiaoScript.api.loader.MavenDependLoader.downloadAndCheckSha1(MavenDependLoader.java:52) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.api.loader.MavenDependLoader.load(MavenDependLoader.java:21) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.engine.MiaoScriptEngine.loadNetworkNashorn(MiaoScriptEngine.java:103) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.engine.MiaoScriptEngine.loadGraalJS(MiaoScriptEngine.java:41) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.engine.MiaoScriptEngine.<init>(MiaoScriptEngine.java:29) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.api.ScriptEngine.createEngine(ScriptEngine.java:35) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.api.ScriptEngine.loadEngine(ScriptEngine.java:46) ~[MiaoScript.jar:?]
+	at pw.yumc.MiaoScript.MiaoScriptBukkit.<init>(MiaoScriptBukkit.java:23) ~[MiaoScript.jar:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499) ~[?:?]
+	at java.lang.reflect.ReflectAccess.newInstance(ReflectAccess.java:128) ~[?:?]
+	at jdk.internal.reflect.ReflectionFactory.newInstance(ReflectionFactory.java:347) ~[?:?]
+	at java.lang.Class.newInstance(Class.java:645) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:79) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[spigot-api-1.19.3-R0.1-SNAPSHOT.jar:?]
+	... 7 more
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loading 4 libraries... please wait
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\redis\clients\jedis\4.3.1\jedis-4.3.1.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\org\apache\commons\commons-pool2\2.11.1\commons-pool2-2.11.1.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\org\json\json\20220320\json-20220320.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\mysql\mysql-connector-java\8.0.30\mysql-connector-java-8.0.30.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\com\google\protobuf\protobuf-java\3.19.4\protobuf-java-3.19.4.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\org\xerial\sqlite-jdbc\3.39.4.1\sqlite-jdbc-3.39.4.1.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar
+[12:51:57] [Server thread/INFO]: [HuskHomes] Loaded library F:\niangaodefuwuqi\niangaodefuwuqi\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[12:51:57] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.2
+[12:51:57] [Server thread/INFO]: [Stp] Loading Stp v1.0.1
+[12:51:57] [Server thread/INFO]: [DeluxeJoin] Loading DeluxeJoin v2.9.1
+[12:51:57] [Server thread/INFO]: [AntiGeyserPlayerUUID] Loading AntiGeyserPlayerUUID v1.0.0
+[12:51:57] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v3.2.0
+[12:51:57] [Server thread/INFO]: [ViaVersion] ViaVersion 3.2.0 is now loaded, waiting for boot. (late-bind)
+[12:51:57] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[12:51:57] [Server thread/INFO]: [AdvancedWarps] Loading AdvancedWarps v1.0.0
+[12:51:57] [Server thread/INFO]: [EpicCombat] Loading EpicCombat v1.19
+[12:51:57] [Server thread/INFO]: [PlayerPoints] Loading PlayerPoints v3.2.5
+[12:51:57] [Server thread/INFO]: [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+[12:51:57] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v4.8.0
+[12:51:57] [Server thread/WARN]: [ProtocolLib] Version (MC: 1.19.3) has not yet been tested! Proceed with caution.
+[12:51:58] [Server thread/INFO]: [SkinsRestorer] Loading SkinsRestorer v14.2.5
+[12:51:58] [Server thread/INFO]: [Multiverse-Inventories] Loading Multiverse-Inventories v4.2.3-b523
+[12:51:58] [Server thread/INFO]: [CatSeedLogin] Loading CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+[12:51:58] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser-Spigot v2.1.0-SNAPSHOT
+[12:51:59] [Server thread/INFO]: [Geyser-Spigot] ÕýÔÚ¼ÓÔØ²å¼þ...
+[12:51:59] [Server thread/INFO]: [Geyser-Spigot] ÒÑ¼ÓÔØ 0 ¸ö²å¼þ
+[12:51:59] [Server thread/INFO]: [HuskHomes] Loading HuskHomes v3.2.1
+[12:51:59] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[12:51:59] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[12:51:59] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[12:51:59] [Server thread/INFO]: [PlayerPoints] Enabling PlayerPoints v3.2.5
+[12:51:59] [Server thread/INFO]: [PlayerPoints] Initializing using RoseGarden v1.1.0.42-SNAPSHOT
+[12:51:59] [Server thread/INFO]: [PlayerPoints] Data handler connected using SQLite.
+[12:51:59] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v4.8.0
+[12:51:59] [Server thread/INFO]: [ProtocolLib] Started structure compiler thread.
+[12:51:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:51:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:51:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:51:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:51:59] [Server thread/INFO]: Preparing level "world"
+[12:51:59] [Server thread/INFO]: -------- World Settings For [world] --------
+[12:51:59] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:51:59] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:51:59] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:51:59] [Server thread/INFO]: Simulation Distance: 10
+[12:51:59] [Server thread/INFO]: View Distance: 10
+[12:51:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:51:59] [Server thread/INFO]: Mob Spawn Range: 6
+[12:51:59] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:51:59] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:51:59] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:51:59] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:51:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:51:59] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:51:59] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:51:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:51:59] [Server thread/INFO]: Max TNT Explosions: 100
+[12:51:59] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[12:52:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:00] [Server thread/INFO]: Simulation Distance: 10
+[12:52:00] [Server thread/INFO]: View Distance: 10
+[12:52:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:52:00] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:00] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:01] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[12:52:01] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:01] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:01] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:01] [Server thread/INFO]: Simulation Distance: 10
+[12:52:01] [Server thread/INFO]: View Distance: 10
+[12:52:01] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:52:01] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:01] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:01] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:01] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:01] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:01] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:01] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:01] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:01] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:01] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:01] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:01] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:52:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:06] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:52:06] [Worker-Main-2/INFO]: Preparing spawn area: 40%
+[12:52:07] [Worker-Main-4/INFO]: Preparing spawn area: 89%
+[12:52:07] [Server thread/INFO]: Time elapsed: 5826 ms
+[12:52:07] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[12:52:09] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[12:52:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:09] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:09] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:52:10] [Worker-Main-4/INFO]: Preparing spawn area: 14%
+[12:52:11] [Worker-Main-1/INFO]: Preparing spawn area: 88%
+[12:52:11] [Server thread/INFO]: Time elapsed: 3570 ms
+[12:52:11] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[12:52:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:52:13] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[12:52:14] [Worker-Main-4/INFO]: Preparing spawn area: 35%
+[12:52:14] [Server thread/INFO]: Time elapsed: 3333 ms
+[12:52:14] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.2
+[12:52:14] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[12:52:14] [Server thread/INFO]: [Stp] Enabling Stp v1.0.1
+[12:52:14] [Server thread/INFO]: [0;36;1m[21m[[0;32;1m[21mStp[0;36;1m[21m] [m[0;37;1m[0;32;1mStp ÒÑ¾­¼ÓÔØ.[m
+[12:52:14] [Server thread/INFO]: [DeluxeJoin] Enabling DeluxeJoin v2.9.1
+[12:52:14] [Server thread/INFO]: [DeluxeJoin] Your server version is not compatible with DeluxeJoin!!
+[12:52:14] [Server thread/INFO]: [DeluxeJoin] Disabling DeluxeJoin v2.9.1
+[12:52:14] [Server thread/INFO]: [AntiGeyserPlayerUUID] Enabling AntiGeyserPlayerUUID v1.0.0
+[12:52:14] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v3.2.0
+[12:52:14] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[12:52:15] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[12:52:15] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[12:52:15] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[12:52:15] [Server thread/ERROR]: [ViaVersion] Unable to inject ViaVersion, please post these details on our GitHub and ensure you're using a compatible server version.
+[12:52:15] [Server thread/ERROR]: [ViaVersion] ViaVersion failed to inject:
+[12:52:15] [Server thread/WARN]: java.lang.ClassNotFoundException: net.minecraft.server.v1_19_R2.MinecraftServer
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:147)
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:99)
+[12:52:15] [Server thread/WARN]: 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+[12:52:15] [Server thread/WARN]: 	at java.base/java.lang.Class.forName0(Native Method)
+[12:52:15] [Server thread/WARN]: 	at java.base/java.lang.Class.forName(Class.java:375)
+[12:52:15] [Server thread/WARN]: 	at us.myles.ViaVersion.bukkit.util.NMSUtil.nms(NMSUtil.java:21)
+[12:52:15] [Server thread/WARN]: 	at us.myles.ViaVersion.bukkit.platform.BukkitViaInjector.getServerConnection(BukkitViaInjector.java:221)
+[12:52:15] [Server thread/WARN]: 	at us.myles.ViaVersion.bukkit.platform.BukkitViaInjector.inject(BukkitViaInjector.java:32)
+[12:52:15] [Server thread/WARN]: 	at us.myles.ViaVersion.ViaManager.init(ViaManager.java:64)
+[12:52:15] [Server thread/WARN]: 	at us.myles.ViaVersion.ViaVersionPlugin.onEnable(ViaVersionPlugin.java:107)
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:264)
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:342)
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:480)
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugin(CraftServer.java:539)
+[12:52:15] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_19_R2.CraftServer.enablePlugins(CraftServer.java:453)
+[12:52:15] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:587)
+[12:52:15] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:412)
+[12:52:15] [Server thread/WARN]: 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250)
+[12:52:15] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:973)
+[12:52:15] [Server thread/WARN]: 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:301)
+[12:52:15] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:833)
+[12:52:15] [Server thread/INFO]: [AdvancedWarps] Enabling AdvancedWarps v1.0.0
+[12:52:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: aw [1.0]
+[12:52:15] [Server thread/INFO]: [AdvancedWarps] ²å¼þÆô¶¯Íê³É£¬ÊäÈë/aw help²é¿´°ïÖú£¡
+[12:52:15] [Server thread/INFO]: [EpicCombat] Enabling EpicCombat v1.19
+[12:52:15] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[12:52:15] [Via-Mappingloader-5/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[12:52:15] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[12:52:15] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[12:52:15] [Server thread/INFO]: [Multiverse-Core] ¡ìaWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[12:52:15] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[12:52:15] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: sc
+[12:52:15] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[12:52:15] [Server thread/INFO]: -------- World Settings For [xyx] --------
+[12:52:15] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:15] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:15] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:15] [Server thread/INFO]: Simulation Distance: 10
+[12:52:15] [Server thread/INFO]: View Distance: 10
+[12:52:15] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:52:15] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:15] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:15] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:15] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:15] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:15] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:15] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:15] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:15] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:15] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:15] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:15] [Server thread/INFO]: Preparing start region for dimension minecraft:xyx
+[12:52:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:18] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[12:52:18] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:19] [Worker-Main-3/INFO]: Preparing spawn area: 13%
+[12:52:19] [Server thread/INFO]: Time elapsed: 3977 ms
+[12:52:19] [Server thread/INFO]: -------- World Settings For [zc] --------
+[12:52:19] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:19] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:19] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:19] [Server thread/INFO]: Simulation Distance: 10
+[12:52:19] [Server thread/INFO]: View Distance: 10
+[12:52:19] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:52:19] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:19] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:19] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:19] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:19] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:19] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:19] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:19] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:19] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:19] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:19] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:19] [Server thread/INFO]: Preparing start region for dimension minecraft:zc
+[12:52:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:52:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:20] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[12:52:21] [Worker-Main-6/INFO]: Preparing spawn area: 2%
+[12:52:21] [Worker-Main-2/INFO]: Preparing spawn area: 84%
+[12:52:21] [Server thread/INFO]: Time elapsed: 2089 ms
+[12:52:21] [Server thread/WARN]: [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: jojo
+[12:52:21] [Server thread/WARN]: [Multiverse-Core] Use '/mv remove' to remove it from the config!
+[12:52:21] [Server thread/INFO]: -------- World Settings For [czf] --------
+[12:52:21] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[12:52:21] [Server thread/INFO]: Item Despawn Rate: 6000
+[12:52:21] [Server thread/INFO]: Item Merge Radius: 2.5
+[12:52:21] [Server thread/INFO]: Simulation Distance: 10
+[12:52:21] [Server thread/INFO]: View Distance: 10
+[12:52:21] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[12:52:21] [Server thread/INFO]: Mob Spawn Range: 6
+[12:52:21] [Server thread/INFO]: Experience Merge Radius: 3.0
+[12:52:21] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[12:52:21] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[12:52:21] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[12:52:21] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[12:52:21] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Cane Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Melon Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Potato Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Vine Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[12:52:21] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[12:52:21] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[12:52:21] [Server thread/INFO]: Max TNT Explosions: 100
+[12:52:21] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[12:52:21] [Server thread/INFO]: Preparing start region for dimension minecraft:czf
+[12:52:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:23] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:23] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[12:52:23] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[12:52:24] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[12:52:24] [Worker-Main-7/INFO]: Preparing spawn area: 58%
+[12:52:24] [Server thread/INFO]: Time elapsed: 3334 ms
+[12:52:24] [Server thread/INFO]: [Multiverse-Core] 6 - World(s) loaded.
+[12:52:25] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[12:52:25] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[12:52:25] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v14.2.5
+[12:52:25] [Server thread/INFO]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_19_R2[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+[12:52:25] [Server thread/INFO]: [Multiverse-Inventories] Enabling Multiverse-Inventories v4.2.3-b523
+[12:52:25] [Server thread/INFO]: [Multiverse-Inventories 4.2.3-b523] enabled.
+[12:52:25] [Server thread/INFO]: [CatSeedLogin] Enabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+[12:52:25] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.1.0-SNAPSHOT
+[12:52:25] [Server thread/INFO]: [HuskHomes] Enabling HuskHomes v3.2.1
+[12:52:25] [Server thread/INFO]: [HuskHomes] Loading plugin configuration settings & locales...
+[12:52:25] [Server thread/INFO]: [HuskHomes] Successfully loaded plugin configuration settings & locales
+[12:52:25] [Server thread/INFO]: [HuskHomes] Attempting to establish connection to the database...
+[12:52:25] [Server thread/INFO]: [HuskHomes] Successfully established a connection to the database
+[12:52:25] [Server thread/INFO]: [HuskHomes] Registering events...
+[12:52:25] [Server thread/INFO]: [HuskHomes] Successfully registered events listener
+[12:52:25] [Server thread/INFO]: [HuskHomes] Registering permissions & commands...
+[12:52:26] [Server thread/INFO]: [HuskHomes] Successfully registered permissions & commands.
+[12:52:26] [Server thread/INFO]: [HuskHomes] Checking for updates...
+[12:52:26] [Server thread/INFO]: [HuskHomes] Successfully enabled HuskHomes v3.2.1
+[12:52:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[12:52:26] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[12:52:26] [Server thread/INFO]: [0;33;22m0 placeholder hook(s) registered![m
+[12:52:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:52:26] [Server thread/INFO]: [Geyser-Spigot] 
+[12:52:26] [Server thread/INFO]: [Geyser-Spigot] ¼ÓÔØ Geyser ÖÐ, °æ±¾ 2.1.0-SNAPSHOT (git-master-e5867a2)
+[12:52:26] [Server thread/INFO]: [Geyser-Spigot] 
+[12:52:26] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[12:52:27] [ForkJoinPool.commonPool-worker-1/WARN]: [HuskHomes] An update is available for HuskHomes, v3.2.1 (Currently running v3.2.1)
+[12:52:28] [Network Listener - #1/INFO]: [Geyser-Spigot] GeyserÕýÔÚÆô¶¯ 0.0.0.0:19132
+[12:52:28] [Server thread/INFO]: [Geyser-Spigot] Íê³É (2.905s)! Ö´ÐÐ/geyser help À´»ñÈ¡°ïÖúÐÅÏ¢!
+[12:52:28] [Server thread/WARN]: [Geyser-Spigot] ÄúÕýÔÚÊ¹ÓÃ ViaVersion µÄ¹ýÊ±°æ±¾£» Çë´Ó https://ci.viaversion.com/job/ViaVersion/ ÏÂÔØ×îÐÂ°æ±¾
+[12:52:29] [Server thread/INFO]: Done (29.582s)! For help, type "help"
+[12:52:29] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: playerpoints [3.2.5]
+[12:52:29] [Server thread/INFO]: [Multiverse-Inventories] First run!
+[12:52:29] [Craft Scheduler Thread - 6/INFO]: [CatSeedLogin] »º´æ¼ÓÔØ 15 ¸öÊý¾Ý
+[12:52:29] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[12:52:29] [Geyser Spigot connection thread-4-2/INFO]: Error Unable to intercept a read client packet. (java.lang.IllegalArgumentException: Unable to find a field null with the type com.mojang.authlib.GameProfile in net.minecraft.network.protocol.login.PacketLoginInStart) occured in com.comphenix.protocol.injector.netty.ChannelInjector@1accf33c.[m
+[12:52:29] [Geyser Spigot connection thread-4-2/ERROR]:   [ProtocolLib] INTERNAL ERROR: Unable to intercept a read client packet.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field null with the type com.mojang.authlib.GameProfile in net.minecraft.network.protocol.login.PacketLoginInStart
+  	at com.comphenix.protocol.reflect.FuzzyReflection.getFieldByType(FuzzyReflection.java:397)
+  	at com.comphenix.protocol.reflect.accessors.Accessors.getFieldAccessor(Accessors.java:57)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector.handleLogin(ChannelInjector.java:658)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:591)
+  	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+  	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+  	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:292)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+  	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at net.minecraft.server.network.LegacyPingHandler.channelRead(LegacyPingHandler.java:91)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+  	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299)
+  	at io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:445)
+  	at io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:50)
+  	at io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:403)
+  	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+  	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+  	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+  	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+  	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+  	at java.base/java.lang.Thread.run(Thread.java:833)
+  Dump:
+  Parameters: 
+    io.netty.buffer.PooledUnsafeDirectByteBuf@67aef95b[
+      memoryAddress=1488076185664
+      recyclerHandle=io.netty.util.Recycler$DefaultHandle@23088fa1
+      chunk=Chunk(3d44f52b: 1%, 8192/4194304)
+      handle=30064771072
+      memory=java.nio.DirectByteBuffer[pos=0 lim=4194304 cap=4194304]
+      offset=0
+      length=18
+      maxLength=32
+      cache=io.netty.buffer.PoolThreadCache@f67a833
+      tmpNioBuf=<null>
+      allocator=PooledByteBufAllocator(directByDefault: true)
+      refCnt=2
+      readerIndex=18
+      writerIndex=18
+      markedReaderIndex=0
+      markedWriterIndex=0
+      maxCapacity=2147483647
+    ]
+    manager:
+      com.comphenix.protocol.injector.PacketFilterManager@62f642f7[
+        unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@50e258aa
+        packetListeners=[PacketAdapter[plugin=CatSeedLogin, sending=ListeningWhitelist[priority=HIGHEST, packets=[WINDOW_ITEMS[class=ClientboundCustomChatCompletionsPacket, id=20], SET_SLOT[class=ClientboundDeleteChatPacket, id=22]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST]]
+        packetInjector=com.comphenix.protocol.injector.netty.ProtocolInjector$5@501460d7
+        playerInjection=com.comphenix.protocol.injector.netty.ProtocolInjector$4@200e8521
+        inputBufferedPackets=[]
+        recievedListeners=com.comphenix.protocol.injector.SortedPacketListenerList@703f9a2d
+        sendingListeners=com.comphenix.protocol.injector.SortedPacketListenerList@325aab88
+        hasClosed=false
+        classLoader=org.bukkit.plugin.java.PluginClassLoader@2b3d3952
+        reporter=com.comphenix.protocol.ProtocolLib$1@41bb77cc
+        server=CraftServer{serverName=CraftBukkit,serverVersion=3634-Spigot-d90018e-397c555,minecraftVersion=1.19.3}
+        library=ProtocolLib v4.8.0
+        asyncFilterManager=com.comphenix.protocol.async.AsyncFilterManager@192acb31
+        knowsServerPackets=true
+        knowsClientPackets=true
+        phaseLoginCount=0
+        phasePlayingCount=1
+        packetCreation=false
+        nettyInjector=com.comphenix.protocol.injector.netty.ProtocolInjector@78d90d4b
+        pluginVerifier=com.comphenix.protocol.injector.PluginVerifier@5f9eefba
+        hasRecycleDistance=true
+        minecraftVersion=(MC: 1.19.3)
+        debug=false
+      ]
+  Sender:
+    com.comphenix.protocol.injector.netty.ChannelInjector@1accf33c[
+      decodeBuffer=protected void net.minecraft.network.PacketDecoder.decode(io.netty.channel.ChannelHandlerContext,io.netty.buffer.ByteBuf,java.util.List) throws java.lang.Exception
+      encodeBuffer=protected void net.minecraft.network.PacketEncoder.encode(io.netty.channel.ChannelHandlerContext,java.lang.Object,io.netty.buffer.ByteBuf) throws java.lang.Exception
+      factory=com.comphenix.protocol.injector.netty.InjectionFactory@1ca16428
+      player=com.comphenix.protocol.injector.server.TemporaryPlayerInvocationHandler@61092193
+      updated=<null>
+      playerName=<null>
+      playerConnection=<null>
+      networkManager=net.minecraft.network.NetworkManager@2f6b5151
+      originalChannel=org.geysermc.geyser.network.netty.ChannelWrapper@4e916122
+      channelField=VolatileField [accessor=DefaultFieldAccessor [field=public io.netty.channel.Channel net.minecraft.network.NetworkManager.m], container=net.minecraft.network.NetworkManager@2f6b5151, previous=org.geysermc.geyser.network.netty.ChannelWrapper@4e916122, current=com.comphenix.protocol.injector.netty.ChannelInjector$3@71ab7bf6, previousLoaded=true, currentSet=true, forceAccess=true]
+      packetMarker={}
+      currentEvent=<null>
+      finalEvent=<null>
+      unfilteredProcessedPackets=com.comphenix.protocol.injector.netty.PacketFilterQueue@2e6c7163
+      vanillaDecoder=net.minecraft.network.PacketDecoder@432cb93
+      vanillaEncoder=net.minecraft.network.PacketEncoder@7a990b4b
+      finishQueue=[]
+      channelListener=com.comphenix.protocol.injector.netty.ProtocolInjector@78d90d4b
+      processor=com.comphenix.protocol.injector.NetworkProcessor@63219580
+      injected=true
+      closed=false
+      cumulation=PooledUnsafeDirectByteBuf(ridx: 18, widx: 18, cap: 18)
+      cumulator=io.netty.handler.codec.ByteToMessageDecoder$1@71ddb424
+      singleDecode=false
+      first=true
+      firedChannelRead=false
+      selfFiredChannelRead=true
+      decodeState=1
+      discardAfterReads=16
+      numReads=0
+      added=true
+    ]
+  Version:
+    ProtocolLib v4.8.0
+  Java Version:
+    17.0.4
+  Server:
+    3634-Spigot-d90018e-397c555 (MC: 1.19.3)
+
+[12:52:29] [Geyser Spigot connection thread-4-2/INFO]: Error Unable to intercept a read client packet. (java.lang.IllegalArgumentException: Unable to find a field null with the type com.mojang.authlib.GameProfile in net.minecraft.network.protocol.login.PacketLoginInStart) occured in com.comphenix.protocol.injector.netty.ChannelInjector@1accf33c.[m
+[12:52:29] [Geyser Spigot connection thread-4-2/ERROR]:   [ProtocolLib] INTERNAL ERROR: Unable to intercept a read client packet.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field null with the type com.mojang.authlib.GameProfile in net.minecraft.network.protocol.login.PacketLoginInStart
+  	at com.comphenix.protocol.reflect.FuzzyReflection.getFieldByType(FuzzyReflection.java:397)
+  	at com.comphenix.protocol.reflect.accessors.Accessors.getFieldAccessor(Accessors.java:57)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector.handleLogin(ChannelInjector.java:658)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:591)
+  	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+  	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+  	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:292)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+  	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+  	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299)
+  	at io.netty.channel.local.LocalChannel.doBeginRead(LocalChannel.java:322)
+  	at io.netty.channel.AbstractChannel$AbstractUnsafe.beginRead(AbstractChannel.java:834)
+  	at io.netty.channel.DefaultChannelPipeline$HeadContext.read(DefaultChannelPipeline.java:1362)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeRead(AbstractChannelHandlerContext.java:686)
+  	at io.netty.channel.AbstractChannelHandlerContext.read(AbstractChannelHandlerContext.java:671)
+  	at io.netty.channel.DefaultChannelPipeline.read(DefaultChannelPipeline.java:1004)
+  	at io.netty.channel.AbstractChannel.read(AbstractChannel.java:290)
+  	at org.geysermc.geyser.network.netty.ChannelWrapper.read(ChannelWrapper.java:197)
+  	at io.netty.channel.DefaultChannelPipeline$HeadContext.readIfIsAutoRead(DefaultChannelPipeline.java:1422)
+  	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelReadComplete(DefaultChannelPipeline.java:1417)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete(AbstractChannelHandlerContext.java:410)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelReadComplete(AbstractChannelHandlerContext.java:397)
+  	at io.netty.channel.DefaultChannelPipeline.fireChannelReadComplete(DefaultChannelPipeline.java:925)
+  	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:302)
+  	at io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:445)
+  	at io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:50)
+  	at io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:403)
+  	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+  	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+  	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+  	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+  	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+  	at java.base/java.lang.Thread.run(Thread.java:833)
+  Dump:
+  Parameters: 
+    io.netty.buffer.PooledUnsafeDirectByteBuf@67aef95b[
+      memoryAddress=1488076193856
+      recyclerHandle=io.netty.util.Recycler$DefaultHandle@23088fa1
+      chunk=Chunk(3d44f52b: 1%, 16384/4194304)
+      handle=562980018192384
+      memory=java.nio.DirectByteBuffer[pos=0 lim=4194304 cap=4194304]
+      offset=8192
+      length=1
+      maxLength=16
+      cache=io.netty.buffer.PoolThreadCache@f67a833
+      tmpNioBuf=<null>
+      allocator=PooledByteBufAllocator(directByDefault: true)
+      refCnt=2
+      readerIndex=1
+      writerIndex=1
+      markedReaderIndex=0
+      markedWriterIndex=0
+      maxCapacity=2147483647
+    ]
+    manager:
+      com.comphenix.protocol.injector.PacketFilterManager@62f642f7[
+        unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@50e258aa
+        packetListeners=[PacketAdapter[plugin=CatSeedLogin, sending=ListeningWhitelist[priority=HIGHEST, packets=[WINDOW_ITEMS[class=ClientboundCustomChatCompletionsPacket, id=20], SET_SLOT[class=ClientboundDeleteChatPacket, id=22]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST]]
+        packetInjector=com.comphenix.protocol.injector.netty.ProtocolInjector$5@501460d7
+        playerInjection=com.comphenix.protocol.injector.netty.ProtocolInjector$4@200e8521
+        inputBufferedPackets=[]
+        recievedListeners=com.comphenix.protocol.injector.SortedPacketListenerList@703f9a2d
+        sendingListeners=com.comphenix.protocol.injector.SortedPacketListenerList@325aab88
+        hasClosed=false
+        classLoader=org.bukkit.plugin.java.PluginClassLoader@2b3d3952
+        reporter=com.comphenix.protocol.ProtocolLib$1@41bb77cc
+        server=CraftServer{serverName=CraftBukkit,serverVersion=3634-Spigot-d90018e-397c555,minecraftVersion=1.19.3}
+        library=ProtocolLib v4.8.0
+        asyncFilterManager=com.comphenix.protocol.async.AsyncFilterManager@192acb31
+        knowsServerPackets=true
+        knowsClientPackets=true
+        phaseLoginCount=0
+        phasePlayingCount=1
+        packetCreation=false
+        nettyInjector=com.comphenix.protocol.injector.netty.ProtocolInjector@78d90d4b
+        pluginVerifier=com.comphenix.protocol.injector.PluginVerifier@5f9eefba
+        hasRecycleDistance=true
+        minecraftVersion=(MC: 1.19.3)
+        debug=false
+      ]
+  Sender:
+    com.comphenix.protocol.injector.netty.ChannelInjector@1accf33c[
+      decodeBuffer=protected void net.minecraft.network.PacketDecoder.decode(io.netty.channel.ChannelHandlerContext,io.netty.buffer.ByteBuf,java.util.List) throws java.lang.Exception
+      encodeBuffer=protected void net.minecraft.network.PacketEncoder.encode(io.netty.channel.ChannelHandlerContext,java.lang.Object,io.netty.buffer.ByteBuf) throws java.lang.Exception
+      factory=com.comphenix.protocol.injector.netty.InjectionFactory@1ca16428
+      player=com.comphenix.protocol.injector.server.TemporaryPlayerInvocationHandler@61092193
+      updated=<null>
+      playerName=<null>
+      playerConnection=<null>
+      networkManager=net.minecraft.network.NetworkManager@2f6b5151
+      originalChannel=org.geysermc.geyser.network.netty.ChannelWrapper@4e916122
+      channelField=VolatileField [accessor=DefaultFieldAccessor [field=public io.netty.channel.Channel net.minecraft.network.NetworkManager.m], container=net.minecraft.network.NetworkManager@2f6b5151, previous=org.geysermc.geyser.network.netty.ChannelWrapper@4e916122, current=com.comphenix.protocol.injector.netty.ChannelInjector$3@71ab7bf6, previousLoaded=true, currentSet=true, forceAccess=true]
+      packetMarker={}
+      currentEvent=<null>
+      finalEvent=<null>
+      unfilteredProcessedPackets=com.comphenix.protocol.injector.netty.PacketFilterQueue@2e6c7163
+      vanillaDecoder=net.minecraft.network.PacketDecoder@432cb93
+      vanillaEncoder=net.minecraft.network.PacketEncoder@7a990b4b
+      finishQueue=[]
+      channelListener=com.comphenix.protocol.injector.netty.ProtocolInjector@78d90d4b
+      processor=com.comphenix.protocol.injector.NetworkProcessor@63219580
+      injected=true
+      closed=false
+      cumulation=PooledUnsafeDirectByteBuf(ridx: 1, widx: 1, cap: 1)
+      cumulator=io.netty.handler.codec.ByteToMessageDecoder$1@71ddb424
+      singleDecode=false
+      first=true
+      firedChannelRead=false
+      selfFiredChannelRead=true
+      decodeState=1
+      discardAfterReads=16
+      numReads=0
+      added=true
+    ]
+  Version:
+    ProtocolLib v4.8.0
+  Java Version:
+    17.0.4
+  Server:
+    3634-Spigot-d90018e-397c555 (MC: 1.19.3)
+
+[12:52:29] [Geyser Spigot connection thread-4-2/INFO]: Error Unable to intercept a read client packet. (java.lang.IllegalArgumentException: Unable to find a field null with the type com.mojang.authlib.GameProfile in net.minecraft.network.protocol.login.PacketLoginInStart) occured in com.comphenix.protocol.injector.netty.ChannelInjector@1accf33c.[m
+[12:52:29] [Geyser Spigot connection thread-4-2/ERROR]:   [ProtocolLib] INTERNAL ERROR: Unable to intercept a read client packet.
+  If this problem hasn't already been reported, please open a ticket
+  at https://github.com/dmulloy2/ProtocolLib/issues with the following data:
+  Stack Trace:
+  java.lang.IllegalArgumentException: Unable to find a field null with the type com.mojang.authlib.GameProfile in net.minecraft.network.protocol.login.PacketLoginInStart
+  	at com.comphenix.protocol.reflect.FuzzyReflection.getFieldByType(FuzzyReflection.java:397)
+  	at com.comphenix.protocol.reflect.accessors.Accessors.getFieldAccessor(Accessors.java:57)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector.handleLogin(ChannelInjector.java:658)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector.decode(ChannelInjector.java:591)
+  	at io.netty.handler.codec.ByteToMessageDecoder.decodeRemovalReentryProtection(ByteToMessageDecoder.java:519)
+  	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:458)
+  	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:280)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at com.comphenix.protocol.injector.netty.ChannelInjector$2.channelRead(ChannelInjector.java:292)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:336)
+  	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:308)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.handler.timeout.IdleStateHandler.channelRead(IdleStateHandler.java:286)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:357)
+  	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:379)
+  	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:365)
+  	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+  	at io.netty.channel.local.LocalChannel.readInbound(LocalChannel.java:299)
+  	at io.netty.channel.local.LocalChannel.finishPeerRead0(LocalChannel.java:445)
+  	at io.netty.channel.local.LocalChannel.access$400(LocalChannel.java:50)
+  	at io.netty.channel.local.LocalChannel$5.run(LocalChannel.java:403)
+  	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+  	at io.netty.channel.DefaultEventLoop.run(DefaultEventLoop.java:54)
+  	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+  	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+  	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+  	at java.base/java.lang.Thread.run(Thread.java:833)
+  Dump:
+  Parameters: 
+    io.netty.buffer.PooledUnsafeDirectByteBuf@67aef95b[
+      memoryAddress=1488076193856
+      recyclerHandle=io.netty.util.Recycler$DefaultHandle@23088fa1
+      chunk=Chunk(3d44f52b: 1%, 16384/4194304)
+      handle=562980018192384
+      memory=java.nio.DirectByteBuffer[pos=0 lim=4194304 cap=4194304]
+      offset=8192
+      length=9
+      maxLength=16
+      cache=io.netty.buffer.PoolThreadCache@f67a833
+      tmpNioBuf=<null>
+      allocator=PooledByteBufAllocator(directByDefault: true)
+      refCnt=2
+      readerIndex=9
+      writerIndex=9
+      markedReaderIndex=0
+      markedWriterIndex=0
+      maxCapacity=2147483647
+    ]
+    manager:
+      com.comphenix.protocol.injector.PacketFilterManager@62f642f7[
+        unhookTask=com.comphenix.protocol.injector.DelayedSingleTask@50e258aa
+        packetListeners=[PacketAdapter[plugin=CatSeedLogin, sending=ListeningWhitelist[priority=HIGHEST, packets=[WINDOW_ITEMS[class=ClientboundCustomChatCompletionsPacket, id=20], SET_SLOT[class=ClientboundDeleteChatPacket, id=22]], gamephase=PLAYING, options=[]], receiving=EMPTY_WHITELIST]]
+        packetInjector=com.comphenix.protocol.injector.netty.ProtocolInjector$5@501460d7
+        playerInjection=com.comphenix.protocol.injector.netty.ProtocolInjector$4@200e8521
+        inputBufferedPackets=[]
+        recievedListeners=com.comphenix.protocol.injector.SortedPacketListenerList@703f9a2d
+        sendingListeners=com.comphenix.protocol.injector.SortedPacketListenerList@325aab88
+        hasClosed=false
+        classLoader=org.bukkit.plugin.java.PluginClassLoader@2b3d3952
+        reporter=com.comphenix.protocol.ProtocolLib$1@41bb77cc
+        server=CraftServer{serverName=CraftBukkit,serverVersion=3634-Spigot-d90018e-397c555,minecraftVersion=1.19.3}
+        library=ProtocolLib v4.8.0
+        asyncFilterManager=com.comphenix.protocol.async.AsyncFilterManager@192acb31
+        knowsServerPackets=true
+        knowsClientPackets=true
+        phaseLoginCount=0
+        phasePlayingCount=1
+        packetCreation=false
+        nettyInjector=com.comphenix.protocol.injector.netty.ProtocolInjector@78d90d4b
+        pluginVerifier=com.comphenix.protocol.injector.PluginVerifier@5f9eefba
+        hasRecycleDistance=true
+        minecraftVersion=(MC: 1.19.3)
+        debug=false
+      ]
+  Sender:
+    com.comphenix.protocol.injector.netty.ChannelInjector@1accf33c[
+      decodeBuffer=protected void net.minecraft.network.PacketDecoder.decode(io.netty.channel.ChannelHandlerContext,io.netty.buffer.ByteBuf,java.util.List) throws java.lang.Exception
+      encodeBuffer=protected void net.minecraft.network.PacketEncoder.encode(io.netty.channel.ChannelHandlerContext,java.lang.Object,io.netty.buffer.ByteBuf) throws java.lang.Exception
+      factory=com.comphenix.protocol.injector.netty.InjectionFactory@1ca16428
+      player=com.comphenix.protocol.injector.server.TemporaryPlayerInvocationHandler@61092193
+      updated=<null>
+      playerName=<null>
+      playerConnection=<null>
+      networkManager=net.minecraft.network.NetworkManager@2f6b5151
+      originalChannel=org.geysermc.geyser.network.netty.ChannelWrapper@4e916122
+      channelField=VolatileField [accessor=DefaultFieldAccessor [field=public io.netty.channel.Channel net.minecraft.network.NetworkManager.m], container=net.minecraft.network.NetworkManager@2f6b5151, previous=org.geysermc.geyser.network.netty.ChannelWrapper@4e916122, current=com.comphenix.protocol.injector.netty.ChannelInjector$3@71ab7bf6, previousLoaded=true, currentSet=true, forceAccess=true]
+      packetMarker={}
+      currentEvent=<null>
+      finalEvent=<null>
+      unfilteredProcessedPackets=com.comphenix.protocol.injector.netty.PacketFilterQueue@2e6c7163
+      vanillaDecoder=net.minecraft.network.PacketDecoder@432cb93
+      vanillaEncoder=net.minecraft.network.PacketEncoder@7a990b4b
+      finishQueue=[]
+      channelListener=com.comphenix.protocol.injector.netty.ProtocolInjector@78d90d4b
+      processor=com.comphenix.protocol.injector.NetworkProcessor@63219580
+      injected=true
+      closed=false
+      cumulation=PooledUnsafeDirectByteBuf(ridx: 9, widx: 9, cap: 9)
+      cumulator=io.netty.handler.codec.ByteToMessageDecoder$1@71ddb424
+      singleDecode=false
+      first=true
+      firedChannelRead=false
+      selfFiredChannelRead=true
+      decodeState=1
+      discardAfterReads=16
+      numReads=0
+      added=true
+    ]
+  Version:
+    ProtocolLib v4.8.0
+  Java Version:
+    17.0.4
+  Server:
+    3634-Spigot-d90018e-397c555 (MC: 1.19.3)
+
+[12:52:29] [Craft Scheduler Thread - 3/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[12:52:30] [Server thread/WARN]: [ViaVersion] There is a newer version available: 4.5.1, you're on: 3.2.0
+[12:52:30] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[12:52:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:53:31] [Craft Scheduler Thread - 4/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:54:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:55:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:56:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:57:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:58:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[12:59:31] [Craft Scheduler Thread - 4/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:00:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:01:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:02:31] [Craft Scheduler Thread - 8/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:03:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:04:31] [Craft Scheduler Thread - 9/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:05:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:06:31] [Craft Scheduler Thread - 9/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:07:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:08:31] [Craft Scheduler Thread - 9/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:09:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:10:31] [Craft Scheduler Thread - 9/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:11:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:11:49] [Craft Scheduler Thread - 3/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[13:12:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:13:31] [Craft Scheduler Thread - 10/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:14:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:15:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:16:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:17:31] [Craft Scheduler Thread - 11/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:18:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:19:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:20:31] [Craft Scheduler Thread - 11/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:21:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:22:31] [Craft Scheduler Thread - 11/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:23:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:24:31] [Craft Scheduler Thread - 11/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:25:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:26:31] [Craft Scheduler Thread - 12/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:27:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:28:31] [Craft Scheduler Thread - 12/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:29:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:30:31] [Craft Scheduler Thread - 12/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:31:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:32:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:33:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:34:31] [Craft Scheduler Thread - 7/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:35:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:36:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:37:31] [Craft Scheduler Thread - 12/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:38:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:39:31] [Craft Scheduler Thread - 14/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:40:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:41:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:42:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:43:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:44:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:45:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:46:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:47:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:48:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:49:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:50:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:51:31] [Craft Scheduler Thread - 3/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:52:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:53:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:54:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:55:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:56:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:57:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:58:31] [Craft Scheduler Thread - 13/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[13:59:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:00:31] [Craft Scheduler Thread - 17/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:01:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:02:31] [Craft Scheduler Thread - 17/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:03:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:04:31] [Craft Scheduler Thread - 17/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:05:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:06:31] [Craft Scheduler Thread - 17/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:07:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:08:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:09:31] [Craft Scheduler Thread - 15/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:10:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:11:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:12:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:13:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:14:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:15:31] [Craft Scheduler Thread - 19/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:16:31] [Craft Scheduler Thread - 16/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:17:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:18:31] [Craft Scheduler Thread - 19/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:19:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:20:31] [Craft Scheduler Thread - 19/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:21:31] [Craft Scheduler Thread - 18/ERROR]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mOutdated ViaVersion found! Please update to at least ViaVersion 4.0.0 for SkinsRestorer to work again![0;39m
+[14:21:49] [Craft Scheduler Thread - 18/WARN]: [33;1m[[32;22mSkinsRestorer[33;1m] [0;39mFailed to get release info from api.github.com. 
+ If this message is repeated a lot, please see http://skinsrestorer.net/firewall[0;39m
+[14:22:22] [Server thread/INFO]: Stopping the server
+[14:22:22] [Server thread/INFO]: Stopping server
+[14:22:22] [Server thread/INFO]: [HuskHomes] Disabling HuskHomes v3.2.1
+[14:22:22] [Server thread/INFO]: [HuskHomes] Successfully disabled HuskHomes v3.2.1
+[14:22:22] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.1.0-SNAPSHOT
+[14:22:22] [Server thread/INFO]: [Geyser-Spigot] Geyser¹Ø±ÕÖÐ
+[14:22:22] [Server thread/INFO]: [Geyser-Spigot] Geyser³É¹¦¹Ø±Õ.
+[14:22:23] [Server thread/INFO]: [CatSeedLogin] Disabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+[14:22:23] [Server thread/INFO]: [Multiverse-Inventories] Disabling Multiverse-Inventories v4.2.3-b523
+[14:22:23] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v14.2.5
+[14:22:23] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v4.8.0
+[14:22:23] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[14:22:23] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.5
+[14:22:23] [Server thread/INFO]: [EpicCombat] Disabling EpicCombat v1.19
+[14:22:23] [Server thread/INFO]: [AdvancedWarps] Disabling AdvancedWarps v1.0.0
+[14:22:23] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[14:22:23] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v3.2.0
+[14:22:23] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[14:22:23] [Server thread/INFO]: [AntiGeyserPlayerUUID] Disabling AntiGeyserPlayerUUID v1.0.0
+[14:22:23] [Server thread/INFO]: [Stp] Disabling Stp v1.0.1
+[14:22:23] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.2
+[14:22:23] [Server thread/INFO]: Saving players
+[14:22:23] [Server thread/INFO]: Saving worlds
+[14:22:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[14:22:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[14:22:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[14:22:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[xyx]'/minecraft:xyx
+[14:22:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[zc]'/minecraft:zc
+[14:22:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[czf]'/minecraft:czf
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (xyx): All chunks are saved
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (zc): All chunks are saved
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (czf): All chunks are saved
+[14:22:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
