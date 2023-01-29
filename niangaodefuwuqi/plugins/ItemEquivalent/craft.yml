@@ -1,0 +1,39 @@
+tablet:
+  A:
+  - type: OBSIDIAN
+  B:
+  - type: STONE
+  C:
+  - type: OBSIDIAN
+  D:
+  - type: STONE
+  E:
+  - type: DIAMOND
+  F:
+  - type: STONE
+  G:
+  - type: OBSIDIAN
+  H:
+  - type: STONE
+  I:
+  - type: OBSIDIAN
+
+portable_tablet:
+  A:
+  - type: OBSIDIAN
+  B:
+  - type: STONE
+  C:
+  - type: OBSIDIAN
+  D:
+  - type: STONE
+  E:
+  - type: EMERALD
+  F:
+  - type: STONE
+  G:
+  - type: OBSIDIAN
+  H:
+  - type: STONE
+  I:
+  - type: OBSIDIAN

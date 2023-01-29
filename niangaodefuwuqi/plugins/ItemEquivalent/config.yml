@@ -1,0 +1,126 @@
+#检测更新
+update_check: true
+
+#数据库
+mysql:
+
+  #启用
+  enabled: false
+  
+  #地址
+  host: 127.0.0.1
+  
+  #端口
+  port: 3306
+  
+  #用户
+  user: root
+  
+  #密码
+  password: root
+  
+  #数据库
+  database: ItemEquivalent
+
+#使用Value经济系统
+value: true
+
+#中文物品名称
+item_name_chinesize: true
+
+#全息
+holographic:
+
+  #物品转化桌
+  tablet: "&e物品转化桌"
+
+#GUI标题
+title: "&8物品转化桌"
+
+#转化桌物品属性
+tablet_item:
+
+  #物品类型
+  type: DAYLIGHT_DETECTOR
+  
+  #物品名称
+  name: "&f物品转化桌"
+  
+  #耐久值
+  durability: 0
+  
+  #物品注释
+  lore:
+  - ""
+  - "&e放置后右键打开"
+   
+#便携式转化桌物品属性
+portable_tablet_item:
+
+  #物品类型
+  type: ENCHANTED_BOOK
+  
+  #物品名称
+  name: "&f便携式物品转化桌"
+  
+  #耐久值
+  durability: 0
+  
+  #物品注释
+  lore:
+  - ""
+  - "&e右键打开"
+
+#购买价格物品注释
+item_value_lore:
+
+  #启用
+  enabled: true
+
+  #注释
+  lore:
+  - ""
+  - "&e{value} 元"
+
+#购买物品注释
+item_lore:
+- "&e{value} 元"
+
+#边框
+frame:
+- "&e我的金钱: &f{coin}"
+  
+#出售窗口
+sell_frame:
+- "&f中间空位放入物品"
+  
+#物品空槽
+empty_slot:
+- "&f空槽"
+  
+#首页按键
+home_page:
+- "&a首页"
+- "&e{page}&f/&e{pages}"
+  
+#翻页按键
+previous_page:
+- "&a上一页"
+- "&e{page}&f/&e{pages}"
+  
+#翻页按键
+next_page:
+- "&a下一页"
+- "&e{page}&f/&e{pages}"
+  
+#移除物品注释
+remove_item_lore:
+- "&e是否移除这个物品？"
+  
+#确定按键
+confirm_key:
+- "&a确定"
+  
+#取消按键
+cancel_key:
+- "&c取消"

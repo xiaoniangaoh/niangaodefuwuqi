@@ -1,0 +1,1926 @@
+STAINED_GLASS_1:
+  item:
+  - type: STAINED_GLASS
+    damage: 1
+  value: 1
+STAINED_CLAY_0:
+  item:
+  - type: STAINED_CLAY
+  value: 64
+GRAVEL_0:
+  item:
+  - type: GRAVEL
+  value: 4
+STAINED_GLASS_0:
+  item:
+  - type: STAINED_GLASS
+  value: 1
+STAINED_CLAY_2:
+  item:
+  - type: STAINED_CLAY
+    damage: 2
+  value: 64
+STAINED_CLAY_1:
+  item:
+  - type: STAINED_CLAY
+    damage: 1
+  value: 64
+STAINED_GLASS_5:
+  item:
+  - type: STAINED_GLASS
+    damage: 5
+  value: 1
+STAINED_GLASS_4:
+  item:
+  - type: STAINED_GLASS
+    damage: 4
+  value: 1
+GOLD_HOE_0:
+  item:
+  - type: GOLD_HOE
+  value: 4104
+STAINED_GLASS_3:
+  item:
+  - type: STAINED_GLASS
+    damage: 3
+  value: 1
+BIRCH_FENCE_0:
+  item:
+  - type: BIRCH_FENCE
+  value: 13
+STAINED_GLASS_2:
+  item:
+  - type: STAINED_GLASS
+    damage: 2
+  value: 1
+STAINED_GLASS_9:
+  item:
+  - type: STAINED_GLASS
+    damage: 9
+  value: 1
+SMOOTH_BRICK_2:
+  item:
+  - type: SMOOTH_BRICK
+    damage: 2
+  value: 1
+RAW_CHICKEN_0:
+  item:
+  - type: RAW_CHICKEN
+  value: 64
+STAINED_GLASS_8:
+  item:
+  - type: STAINED_GLASS
+    damage: 8
+  value: 1
+SMOOTH_BRICK_1:
+  item:
+  - type: SMOOTH_BRICK
+    damage: 1
+  value: 2
+STAINED_GLASS_7:
+  item:
+  - type: STAINED_GLASS
+    damage: 7
+  value: 1
+SMOOTH_BRICK_0:
+  item:
+  - type: SMOOTH_BRICK
+  value: 1
+STAINED_GLASS_6:
+  item:
+  - type: STAINED_GLASS
+    damage: 6
+  value: 1
+SPRUCE_FENCE_0:
+  item:
+  - type: SPRUCE_FENCE
+  value: 13
+BUCKET_0:
+  item:
+  - type: BUCKET
+  value: 768
+SMOOTH_BRICK_3:
+  item:
+  - type: SMOOTH_BRICK
+    damage: 3
+  value: 1
+BED_0:
+  item:
+  - type: BED
+  value: 168
+GOLD_LEGGINGS_0:
+  item:
+  - type: GOLD_LEGGINGS
+  value: 14336
+STAINED_CLAY_8:
+  item:
+  - type: STAINED_CLAY
+    damage: 8
+  value: 64
+REDSTONE_LAMP_OFF_0:
+  item:
+  - type: REDSTONE_LAMP_OFF
+  value: 1792
+STAINED_CLAY_7:
+  item:
+  - type: STAINED_CLAY
+    damage: 7
+  value: 64
+JUNGLE_FENCE_GATE_0:
+  item:
+  - type: JUNGLE_FENCE_GATE
+  value: 32
+STAINED_CLAY_9:
+  item:
+  - type: STAINED_CLAY
+    damage: 9
+  value: 64
+STAINED_CLAY_4:
+  item:
+  - type: STAINED_CLAY
+    damage: 4
+  value: 64
+STAINED_CLAY_3:
+  item:
+  - type: STAINED_CLAY
+    damage: 3
+  value: 64
+ACACIA_DOOR_ITEM_0:
+  item:
+  - type: ACACIA_DOOR_ITEM
+  value: 16
+STAINED_CLAY_6:
+  item:
+  - type: STAINED_CLAY
+    damage: 6
+  value: 64
+STAINED_CLAY_5:
+  item:
+  - type: STAINED_CLAY
+    damage: 5
+  value: 64
+IRON_CHESTPLATE_0:
+  item:
+  - type: IRON_CHESTPLATE
+  value: 2048
+STAINED_GLASS_12:
+  item:
+  - type: STAINED_GLASS
+    damage: 12
+  value: 1
+STAINED_GLASS_11:
+  item:
+  - type: STAINED_GLASS
+    damage: 11
+  value: 1
+STONE_SLAB2_0:
+  item:
+  - type: STONE_SLAB2
+  value: 2
+STAINED_GLASS_10:
+  item:
+  - type: STAINED_GLASS
+    damage: 10
+  value: 1
+STONE_BUTTON_0:
+  item:
+  - type: STONE_BUTTON
+  value: 1
+RECORD_8_0:
+  item:
+  - type: RECORD_8
+  value: 2048
+ENDER_CHEST_0:
+  item:
+  - type: ENDER_CHEST
+  value: 2304
+BOOK_AND_QUILL_0:
+  item:
+  - type: BOOK_AND_QUILL
+  value: 224
+GOLD_NUGGET_0:
+  item:
+  - type: GOLD_NUGGET
+  value: 227
+SAPLING_0:
+  item:
+  - type: SAPLING
+  value: 32
+SAPLING_1:
+  item:
+  - type: SAPLING
+    damage: 1
+  value: 32
+SAPLING_2:
+  item:
+  - type: SAPLING
+    damage: 2
+  value: 32
+SAPLING_3:
+  item:
+  - type: SAPLING
+    damage: 3
+  value: 32
+GRASS_0:
+  item:
+  - type: GRASS
+  value: 2
+SAPLING_4:
+  item:
+  - type: SAPLING
+    damage: 4
+  value: 32
+SAPLING_5:
+  item:
+  - type: SAPLING
+    damage: 5
+  value: 32
+MAGMA_CREAM_0:
+  item:
+  - type: MAGMA_CREAM
+  value: 800
+RECORD_12_0:
+  item:
+  - type: RECORD_12
+  value: 2048
+BIRCH_FENCE_GATE_0:
+  item:
+  - type: BIRCH_FENCE_GATE
+  value: 32
+STAINED_GLASS_15:
+  item:
+  - type: STAINED_GLASS
+    damage: 15
+  value: 1
+STAINED_GLASS_14:
+  item:
+  - type: STAINED_GLASS
+    damage: 14
+  value: 1
+STAINED_GLASS_13:
+  item:
+  - type: STAINED_GLASS
+    damage: 13
+  value: 1
+GREEN_RECORD_0:
+  item:
+  - type: GREEN_RECORD
+  value: 2048
+PAINTING_0:
+  item:
+  - type: PAINTING
+  value: 80
+RED_SANDSTONE_0:
+  item:
+  - type: RED_SANDSTONE
+  value: 4
+RED_SANDSTONE_1:
+  item:
+  - type: RED_SANDSTONE
+    damage: 1
+  value: 4
+RED_SANDSTONE_2:
+  item:
+  - type: RED_SANDSTONE
+    damage: 2
+  value: 4
+DIAMOND_0:
+  item:
+  - type: DIAMOND
+  value: 8192
+COOKED_BEEF_0:
+  item:
+  - type: COOKED_BEEF
+  value: 64
+BIRCH_DOOR_ITEM_0:
+  item:
+  - type: BIRCH_DOOR_ITEM
+  value: 16
+LEATHER_BOOTS_0:
+  item:
+  - type: LEATHER_BOOTS
+  value: 256
+BONE_0:
+  item:
+  - type: BONE
+  value: 144
+DETECTOR_RAIL_0:
+  item:
+  - type: DETECTOR_RAIL
+  value: 267
+WOOD_STEP_0:
+  item:
+  - type: WOOD_STEP
+  value: 4
+POTION_0:
+  item:
+  - type: POTION
+  value: 1
+WOOD_STEP_4:
+  item:
+  - type: WOOD_STEP
+    damage: 4
+  value: 4
+WOOD_STEP_3:
+  item:
+  - type: WOOD_STEP
+    damage: 3
+  value: 4
+WOOD_STEP_2:
+  item:
+  - type: WOOD_STEP
+    damage: 2
+  value: 4
+DARK_OAK_FENCE_0:
+  item:
+  - type: DARK_OAK_FENCE
+  value: 13
+WOOD_STEP_1:
+  item:
+  - type: WOOD_STEP
+    damage: 1
+  value: 4
+RECORD_11_0:
+  item:
+  - type: RECORD_11
+  value: 2048
+RECORD_9_0:
+  item:
+  - type: RECORD_9
+  value: 2048
+WOOD_STEP_5:
+  item:
+  - type: WOOD_STEP
+    damage: 5
+  value: 4
+DIAMOND_CHESTPLATE_0:
+  item:
+  - type: DIAMOND_CHESTPLATE
+  value: 65536
+MOSSY_COBBLESTONE_0:
+  item:
+  - type: MOSSY_COBBLESTONE
+  value: 2
+FISHING_ROD_0:
+  item:
+  - type: FISHING_ROD
+  value: 36
+COBBLESTONE_STAIRS_0:
+  item:
+  - type: COBBLESTONE_STAIRS
+  value: 1
+WOOD_AXE_0:
+  item:
+  - type: WOOD_AXE
+  value: 32
+GLOWSTONE_DUST_0:
+  item:
+  - type: GLOWSTONE_DUST
+  value: 384
+LEATHER_0:
+  item:
+  - type: LEATHER
+  value: 64
+BLAZE_POWDER_0:
+  item:
+  - type: BLAZE_POWDER
+  value: 768
+DOUBLE_PLANT_3:
+  item:
+  - type: DOUBLE_PLANT
+    damage: 3
+  value: 1
+DOUBLE_PLANT_2:
+  item:
+  - type: DOUBLE_PLANT
+    damage: 2
+  value: 1
+DOUBLE_PLANT_5:
+  item:
+  - type: DOUBLE_PLANT
+    damage: 5
+  value: 32
+DOUBLE_PLANT_4:
+  item:
+  - type: DOUBLE_PLANT
+    damage: 4
+  value: 32
+ITEM_FRAME_0:
+  item:
+  - type: ITEM_FRAME
+  value: 96
+LEATHER_LEGGINGS_0:
+  item:
+  - type: LEATHER_LEGGINGS
+  value: 448
+MINECART_0:
+  item:
+  - type: MINECART
+  value: 1280
+DOUBLE_PLANT_1:
+  item:
+  - type: DOUBLE_PLANT
+    damage: 1
+  value: 32
+DOUBLE_PLANT_0:
+  item:
+  - type: DOUBLE_PLANT
+  value: 32
+REDSTONE_TORCH_ON_0:
+  item:
+  - type: REDSTONE_TORCH_ON
+  value: 68
+STONE_4:
+  item:
+  - type: STONE
+    damage: 4
+  value: 257
+STONE_5:
+  item:
+  - type: STONE
+    damage: 5
+  value: 129
+STONE_2:
+  item:
+  - type: STONE
+    damage: 2
+  value: 513
+STONE_3:
+  item:
+  - type: STONE
+    damage: 3
+  value: 257
+STONE_6:
+  item:
+  - type: STONE
+    damage: 6
+  value: 129
+BAKED_POTATO_0:
+  item:
+  - type: BAKED_POTATO
+  value: 64
+STONE_0:
+  item:
+  - type: STONE
+  value: 1
+STONE_1:
+  item:
+  - type: STONE
+    damage: 1
+  value: 513
+SNOW_BALL_0:
+  item:
+  - type: SNOW_BALL
+  value: 1
+PUMPKIN_PIE_0:
+  item:
+  - type: PUMPKIN_PIE
+  value: 208
+IRON_BLOCK_0:
+  item:
+  - type: IRON_BLOCK
+  value: 2304
+IRON_PLATE_0:
+  item:
+  - type: IRON_PLATE
+  value: 512
+STONE_SPADE_0:
+  item:
+  - type: STONE_SPADE
+  value: 9
+RED_MUSHROOM_0:
+  item:
+  - type: RED_MUSHROOM
+  value: 32
+WATER_BUCKET_0:
+  item:
+  - type: WATER_BUCKET
+  value: 768
+PUMPKIN_SEEDS_0:
+  item:
+  - type: PUMPKIN_SEEDS
+  value: 36
+YELLOW_FLOWER_0:
+  item:
+  - type: YELLOW_FLOWER
+  value: 16
+LOG_2_0:
+  item:
+  - type: LOG_2
+  value: 32
+BRICK_0:
+  item:
+  - type: BRICK
+  value: 64
+SUGAR_0:
+  item:
+  - type: SUGAR
+  value: 32
+NETHERRACK_0:
+  item:
+  - type: NETHERRACK
+  value: 1
+WEB_0:
+  item:
+  - type: WEB
+  value: 12
+BANNER_12:
+  item:
+  - type: BANNER
+    damage: 12
+  value: 388
+BANNER_13:
+  item:
+  - type: BANNER
+    damage: 13
+  value: 388
+BANNER_14:
+  item:
+  - type: BANNER
+    damage: 14
+  value: 388
+DARK_OAK_STAIRS_0:
+  item:
+  - type: DARK_OAK_STAIRS
+  value: 12
+BANNER_15:
+  item:
+  - type: BANNER
+    damage: 15
+  value: 292
+MELON_SEEDS_0:
+  item:
+  - type: MELON_SEEDS
+  value: 16
+BANNER_10:
+  item:
+  - type: BANNER
+    damage: 10
+  value: 460
+DIAMOND_PICKAXE_0:
+  item:
+  - type: DIAMOND_PICKAXE
+  value: 24584
+BANNER_11:
+  item:
+  - type: BANNER
+    damage: 11
+  value: 388
+GOLD_BLOCK_0:
+  item:
+  - type: GOLD_BLOCK
+  value: 18432
+STEP_1:
+  item:
+  - type: STEP
+    damage: 1
+  value: 2
+BOW_0:
+  item:
+  - type: BOW
+  value: 48
+CACTUS_0:
+  item:
+  - type: CACTUS
+  value: 8
+SPRUCE_DOOR_ITEM_0:
+  item:
+  - type: SPRUCE_DOOR_ITEM
+  value: 16
+CARROT_STICK_0:
+  item:
+  - type: CARROT_STICK
+  value: 100
+LAPIS_BLOCK_0:
+  item:
+  - type: LAPIS_BLOCK
+  value: 7776
+COAL_BLOCK_0:
+  item:
+  - type: COAL_BLOCK
+  value: 1152
+ANVIL_0:
+  item:
+  - type: ANVIL
+  value: 7936
+GOLD_RECORD_0:
+  item:
+  - type: GOLD_RECORD
+  value: 2048
+RECORD_4_0:
+  item:
+  - type: RECORD_4
+  value: 2048
+CHEST_0:
+  item:
+  - type: CHEST
+  value: 64
+BOOK_0:
+  item:
+  - type: BOOK
+  value: 160
+COAL_0:
+  item:
+  - type: COAL
+  value: 128
+COAL_1:
+  item:
+  - type: COAL
+    damage: 1
+  value: 32
+GLASS_0:
+  item:
+  - type: GLASS
+  value: 1
+WATCH_0:
+  item:
+  - type: WATCH
+  value: 8256
+TRAPPED_CHEST_0:
+  item:
+  - type: TRAPPED_CHEST
+  value: 198
+IRON_DOOR_0:
+  item:
+  - type: IRON_DOOR
+  value: 512
+REDSTONE_0:
+  item:
+  - type: REDSTONE
+  value: 64
+DIAMOND_HELMET_0:
+  item:
+  - type: DIAMOND_HELMET
+  value: 40960
+DIODE_0:
+  item:
+  - type: DIODE
+  value: 203
+RECORD_5_0:
+  item:
+  - type: RECORD_5
+  value: 2048
+TRAP_DOOR_0:
+  item:
+  - type: TRAP_DOOR
+  value: 24
+PAPER_0:
+  item:
+  - type: PAPER
+  value: 32
+LEAVES_2_1:
+  item:
+  - type: LEAVES_2
+    damage: 1
+  value: 198
+LEAVES_2_0:
+  item:
+  - type: LEAVES_2
+  value: 1
+LOG_2:
+  item:
+  - type: LOG
+    damage: 2
+  value: 32
+LOG_1:
+  item:
+  - type: LOG
+    damage: 1
+  value: 32
+LOG_0:
+  item:
+  - type: LOG
+  value: 32
+HOPPER_0:
+  item:
+  - type: HOPPER
+  value: 1344
+LOG_3:
+  item:
+  - type: LOG
+    damage: 3
+  value: 32
+ACTIVATOR_RAIL_0:
+  item:
+  - type: ACTIVATOR_RAIL
+  value: 268
+EMERALD_BLOCK_0:
+  item:
+  - type: EMERALD_BLOCK
+  value: 147456
+GOLD_SWORD_0:
+  item:
+  - type: GOLD_SWORD
+  value: 4100
+PISTON_BASE_0:
+  item:
+  - type: PISTON_BASE
+  value: 348
+NETHER_BRICK_0:
+  item:
+  - type: NETHER_BRICK
+  value: 4
+REDSTONE_COMPARATOR_0:
+  item:
+  - type: REDSTONE_COMPARATOR
+  value: 463
+DIAMOND_LEGGINGS_0:
+  item:
+  - type: DIAMOND_LEGGINGS
+  value: 57344
+NETHER_STAR_0:
+  item:
+  - type: NETHER_STAR
+  value: 139264
+SUGAR_CANE_0:
+  item:
+  - type: SUGAR_CANE
+  value: 32
+IRON_AXE_0:
+  item:
+  - type: IRON_AXE
+  value: 776
+RECORD_10_0:
+  item:
+  - type: RECORD_10
+  value: 2048
+RECORD_6_0:
+  item:
+  - type: RECORD_6
+  value: 2048
+LONG_GRASS_1:
+  item:
+  - type: LONG_GRASS
+    damage: 1
+  value: 1
+BREAD_0:
+  item:
+  - type: BREAD
+  value: 72
+LONG_GRASS_2:
+  item:
+  - type: LONG_GRASS
+    damage: 2
+  value: 1
+EGG_0:
+  item:
+  - type: EGG
+  value: 32
+WHEAT_0:
+  item:
+  - type: WHEAT
+  value: 24
+WOOD_PICKAXE_0:
+  item:
+  - type: WOOD_PICKAXE
+  value: 32
+INK_SACK_15:
+  item:
+  - type: INK_SACK
+    damage: 15
+  value: 48
+INK_SACK_14:
+  item:
+  - type: INK_SACK
+    damage: 14
+  value: 16
+INK_SACK_13:
+  item:
+  - type: INK_SACK
+    damage: 13
+  value: 16
+INK_SACK_12:
+  item:
+  - type: INK_SACK
+    damage: 12
+  value: 16
+COMPASS_0:
+  item:
+  - type: COMPASS
+  value: 1088
+INK_SACK_11:
+  item:
+  - type: INK_SACK
+    damage: 11
+  value: 16
+BIRCH_WOOD_STAIRS_0:
+  item:
+  - type: BIRCH_WOOD_STAIRS
+  value: 12
+QUARTZ_0:
+  item:
+  - type: QUARTZ
+  value: 256
+WOOL_1:
+  item:
+  - type: WOOL
+    damage: 1
+  value: 64
+PUMPKIN_0:
+  item:
+  - type: PUMPKIN
+  value: 144
+EYE_OF_ENDER_0:
+  item:
+  - type: EYE_OF_ENDER
+  value: 1792
+WOOL_0:
+  item:
+  - type: WOOL
+  value: 48
+GOLD_AXE_0:
+  item:
+  - type: GOLD_AXE
+  value: 6152
+WOOL_5:
+  item:
+  - type: WOOL
+    damage: 5
+  value: 76
+EMPTY_MAP_0:
+  item:
+  - type: EMPTY_MAP
+  value: 1344
+INK_SACK_10:
+  item:
+  - type: INK_SACK
+    damage: 10
+  value: 28
+WOOL_4:
+  item:
+  - type: WOOL
+    damage: 4
+  value: 64
+WOOL_3:
+  item:
+  - type: WOOL
+    damage: 3
+  value: 64
+WOOL_2:
+  item:
+  - type: WOOL
+    damage: 2
+  value: 64
+WOOD_BUTTON_0:
+  item:
+  - type: WOOD_BUTTON
+  value: 8
+WOOL_9:
+  item:
+  - type: WOOL
+    damage: 9
+  value: 484
+WOOL_8:
+  item:
+  - type: WOOL
+    damage: 8
+  value: 64
+WOOL_7:
+  item:
+  - type: WOOL
+    damage: 7
+  value: 80
+WOOL_6:
+  item:
+  - type: WOOL
+    damage: 6
+  value: 64
+LEAVES_1:
+  item:
+  - type: LEAVES
+    damage: 1
+  value: 1
+STEP_6:
+  item:
+  - type: STEP
+    damage: 6
+  value: 2
+LEAVES_2:
+  item:
+  - type: LEAVES
+    damage: 2
+  value: 1
+DAYLIGHT_DETECTOR_0:
+  item:
+  - type: DAYLIGHT_DETECTOR
+  value: 783
+STEP_4:
+  item:
+  - type: STEP
+    damage: 4
+  value: 32
+LEAVES_0:
+  item:
+  - type: LEAVES
+  value: 1
+STEP_7:
+  item:
+  - type: STEP
+    damage: 7
+  value: 512
+BOAT_0:
+  item:
+  - type: BOAT
+  value: 40
+IRON_LEGGINGS_0:
+  item:
+  - type: IRON_LEGGINGS
+  value: 1792
+ACACIA_FENCE_GATE_0:
+  item:
+  - type: ACACIA_FENCE_GATE
+  value: 32
+JUNGLE_WOOD_STAIRS_0:
+  item:
+  - type: JUNGLE_WOOD_STAIRS
+  value: 12
+STONE_HOE_0:
+  item:
+  - type: STONE_HOE
+  value: 10
+FURNACE_0:
+  item:
+  - type: FURNACE
+  value: 8
+RECORD_7_0:
+  item:
+  - type: RECORD_7
+  value: 2048
+DARK_OAK_FENCE_GATE_0:
+  item:
+  - type: DARK_OAK_FENCE_GATE
+  value: 32
+LEAVES_3:
+  item:
+  - type: LEAVES
+    damage: 3
+  value: 1
+STONE_SWORD_0:
+  item:
+  - type: STONE_SWORD
+  value: 6
+STICK_0:
+  item:
+  - type: STICK
+  value: 4
+GOLD_INGOT_0:
+  item:
+  - type: GOLD_INGOT
+  value: 2048
+BROWN_MUSHROOM_0:
+  item:
+  - type: BROWN_MUSHROOM
+  value: 32
+GOLDEN_APPLE_1:
+  item:
+  - type: GOLDEN_APPLE
+    damage: 1
+  value: 147584
+GOLDEN_APPLE_0:
+  item:
+  - type: GOLDEN_APPLE
+  value: 16512
+REDSTONE_BLOCK_0:
+  item:
+  - type: REDSTONE_BLOCK
+  value: 576
+ACACIA_STAIRS_0:
+  item:
+  - type: ACACIA_STAIRS
+  value: 12
+SLIME_BALL_0:
+  item:
+  - type: SLIME_BALL
+  value: 32
+STRING_0:
+  item:
+  - type: STRING
+  value: 12
+ENDER_PEARL_0:
+  item:
+  - type: ENDER_PEARL
+  value: 1024
+WATER_LILY_0:
+  item:
+  - type: WATER_LILY
+  value: 16
+SOUL_SAND_0:
+  item:
+  - type: SOUL_SAND
+  value: 49
+BEACON_0:
+  item:
+  - type: BEACON
+  value: 139461
+EXPLOSIVE_MINECART_0:
+  item:
+  - type: EXPLOSIVE_MINECART
+  value: 2244
+VINE_0:
+  item:
+  - type: VINE
+  value: 8
+BOWL_0:
+  item:
+  - type: BOWL
+  value: 6
+DIAMOND_HOE_0:
+  item:
+  - type: DIAMOND_HOE
+  value: 16392
+LEATHER_CHESTPLATE_0:
+  item:
+  - type: LEATHER_CHESTPLATE
+  value: 512
+GOLD_PICKAXE_0:
+  item:
+  - type: GOLD_PICKAXE
+  value: 6152
+GOLD_BOOTS_0:
+  item:
+  - type: GOLD_BOOTS
+  value: 8192
+GRILLED_PORK_0:
+  item:
+  - type: GRILLED_PORK
+  value: 64
+STORAGE_MINECART_0:
+  item:
+  - type: STORAGE_MINECART
+  value: 1344
+WOOD_SWORD_0:
+  item:
+  - type: WOOD_SWORD
+  value: 20
+ARROW_0:
+  item:
+  - type: ARROW
+  value: 14
+CARPET_15:
+  item:
+  - type: CARPET
+    damage: 15
+  value: 42
+CARPET_11:
+  item:
+  - type: CARPET
+    damage: 11
+  value: 608
+CARPET_12:
+  item:
+  - type: CARPET
+    damage: 12
+  value: 117
+CARPET_13:
+  item:
+  - type: CARPET
+    damage: 13
+  value: 37
+SANDSTONE_2:
+  item:
+  - type: SANDSTONE
+    damage: 2
+  value: 4
+CARPET_14:
+  item:
+  - type: CARPET
+    damage: 14
+  value: 42
+SANDSTONE_1:
+  item:
+  - type: SANDSTONE
+    damage: 1
+  value: 4
+SANDSTONE_0:
+  item:
+  - type: SANDSTONE
+  value: 4
+CARPET_10:
+  item:
+  - type: CARPET
+    damage: 10
+  value: 325
+WOOL_11:
+  item:
+  - type: WOOL
+    damage: 11
+  value: 912
+WOOL_12:
+  item:
+  - type: WOOL
+    damage: 12
+  value: 176
+WOOL_10:
+  item:
+  - type: WOOL
+    damage: 10
+  value: 488
+WOOL_15:
+  item:
+  - type: WOOL
+    damage: 15
+  value: 64
+SNOW_BLOCK_0:
+  item:
+  - type: SNOW_BLOCK
+  value: 1
+CLAY_BRICK_0:
+  item:
+  - type: CLAY_BRICK
+  value: 16
+LADDER_0:
+  item:
+  - type: LADDER
+  value: 9
+WOOL_13:
+  item:
+  - type: WOOL
+    damage: 13
+  value: 56
+WOOL_14:
+  item:
+  - type: WOOL
+    damage: 14
+  value: 64
+EMERALD_0:
+  item:
+  - type: EMERALD
+  value: 16384
+SAND_1:
+  item:
+  - type: SAND
+    damage: 1
+  value: 1
+SAND_0:
+  item:
+  - type: SAND
+  value: 1
+LEVER_0:
+  item:
+  - type: LEVER
+  value: 5
+TORCH_0:
+  item:
+  - type: TORCH
+  value: 9
+FLINT_0:
+  item:
+  - type: FLINT
+  value: 4
+IRON_HELMET_0:
+  item:
+  - type: IRON_HELMET
+  value: 1280
+POISONOUS_POTATO_0:
+  item:
+  - type: POISONOUS_POTATO
+  value: 64
+GOLD_CHESTPLATE_0:
+  item:
+  - type: GOLD_CHESTPLATE
+  value: 16384
+NETHER_FENCE_0:
+  item:
+  - type: NETHER_FENCE
+  value: 4
+POWERED_RAIL_0:
+  item:
+  - type: POWERED_RAIL
+  value: 2059
+RAW_BEEF_0:
+  item:
+  - type: RAW_BEEF
+  value: 64
+GOLD_PLATE_0:
+  item:
+  - type: GOLD_PLATE
+  value: 4096
+COBBLESTONE_0:
+  item:
+  - type: COBBLESTONE
+  value: 1
+TNT_0:
+  item:
+  - type: TNT
+  value: 964
+IRON_BARDING_0:
+  item:
+  - type: IRON_BARDING
+  value: 1280
+FENCE_0:
+  item:
+  - type: FENCE
+  value: 13
+PISTON_STICKY_BASE_0:
+  item:
+  - type: PISTON_STICKY_BASE
+  value: 380
+RAILS_0:
+  item:
+  - type: RAILS
+  value: 96
+GOLD_SPADE_0:
+  item:
+  - type: GOLD_SPADE
+  value: 2056
+BREWING_STAND_ITEM_0:
+  item:
+  - type: BREWING_STAND_ITEM
+  value: 1539
+CARROT_ITEM_0:
+  item:
+  - type: CARROT_ITEM
+  value: 64
+GOLD_BARDING_0:
+  item:
+  - type: GOLD_BARDING
+  value: 1024
+WOOD_STAIRS_0:
+  item:
+  - type: WOOD_STAIRS
+  value: 12
+QUARTZ_STAIRS_0:
+  item:
+  - type: QUARTZ_STAIRS
+  value: 1536
+NOTE_BLOCK_0:
+  item:
+  - type: NOTE_BLOCK
+  value: 128
+MUSHROOM_SOUP_0:
+  item:
+  - type: MUSHROOM_SOUP
+  value: 70
+HAY_BLOCK_0:
+  item:
+  - type: HAY_BLOCK
+  value: 216
+POWERED_MINECART_0:
+  item:
+  - type: POWERED_MINECART
+  value: 1288
+GLOWSTONE_0:
+  item:
+  - type: GLOWSTONE
+  value: 1536
+STONE_PICKAXE_0:
+  item:
+  - type: STONE_PICKAXE
+  value: 11
+MELON_0:
+  item:
+  - type: MELON
+  value: 16
+SHEARS_0:
+  item:
+  - type: SHEARS
+  value: 512
+HOPPER_MINECART_0:
+  item:
+  - type: HOPPER_MINECART
+  value: 2624
+COOKED_FISH_0:
+  item:
+  - type: COOKED_FISH
+  value: 64
+COOKED_FISH_1:
+  item:
+  - type: COOKED_FISH
+    damage: 1
+  value: 64
+ENDER_STONE_0:
+  item:
+  - type: ENDER_STONE
+  value: 1
+MELON_BLOCK_0:
+  item:
+  - type: MELON_BLOCK
+  value: 144
+FERMENTED_SPIDER_EYE_0:
+  item:
+  - type: FERMENTED_SPIDER_EYE
+  value: 192
+WOOD_DOOR_0:
+  item:
+  - type: WOOD_DOOR
+  value: 16
+RECORD_3_0:
+  item:
+  - type: RECORD_3
+  value: 2048
+SPRUCE_FENCE_GATE_0:
+  item:
+  - type: SPRUCE_FENCE_GATE
+  value: 32
+NETHER_BRICK_ITEM_0:
+  item:
+  - type: NETHER_BRICK_ITEM
+  value: 1
+ARMOR_STAND_0:
+  item:
+  - type: ARMOR_STAND
+  value: 24
+DIAMOND_AXE_0:
+  item:
+  - type: DIAMOND_AXE
+  value: 24584
+FLOWER_POT_ITEM_0:
+  item:
+  - type: FLOWER_POT_ITEM
+  value: 48
+IRON_FENCE_0:
+  item:
+  - type: IRON_FENCE
+  value: 96
+JUNGLE_FENCE_0:
+  item:
+  - type: JUNGLE_FENCE
+  value: 13
+CARPET_5:
+  item:
+  - type: CARPET
+    damage: 5
+  value: 50
+COOKIE_0:
+  item:
+  - type: COOKIE
+  value: 22
+CARPET_4:
+  item:
+  - type: CARPET
+    damage: 4
+  value: 42
+SPIDER_EYE_0:
+  item:
+  - type: SPIDER_EYE
+  value: 128
+BOOKSHELF_0:
+  item:
+  - type: BOOKSHELF
+  value: 528
+CARPET_7:
+  item:
+  - type: CARPET
+    damage: 7
+  value: 53
+CARPET_6:
+  item:
+  - type: CARPET
+    damage: 6
+  value: 42
+CARPET_9:
+  item:
+  - type: CARPET
+    damage: 9
+  value: 322
+CARPET_8:
+  item:
+  - type: CARPET
+    damage: 8
+  value: 42
+DISPENSER_0:
+  item:
+  - type: DISPENSER
+  value: 119
+WOOD_PLATE_0:
+  item:
+  - type: WOOD_PLATE
+  value: 16
+PACKED_ICE_0:
+  item:
+  - type: PACKED_ICE
+  value: 4
+IRON_SPADE_0:
+  item:
+  - type: IRON_SPADE
+  value: 264
+PORK_0:
+  item:
+  - type: PORK
+  value: 64
+FENCE_GATE_0:
+  item:
+  - type: FENCE_GATE
+  value: 32
+GOLDEN_CARROT_0:
+  item:
+  - type: GOLDEN_CARROT
+  value: 1880
+TRIPWIRE_HOOK_0:
+  item:
+  - type: TRIPWIRE_HOOK
+  value: 134
+STONE_PLATE_0:
+  item:
+  - type: STONE_PLATE
+  value: 2
+SMOOTH_STAIRS_0:
+  item:
+  - type: SMOOTH_STAIRS
+  value: 1
+POTATO_ITEM_0:
+  item:
+  - type: POTATO_ITEM
+  value: 64
+IRON_BOOTS_0:
+  item:
+  - type: IRON_BOOTS
+  value: 1024
+FEATHER_0:
+  item:
+  - type: FEATHER
+  value: 48
+IRON_SWORD_0:
+  item:
+  - type: IRON_SWORD
+  value: 516
+STONE_AXE_0:
+  item:
+  - type: STONE_AXE
+  value: 11
+DEAD_BUSH_0:
+  item:
+  - type: DEAD_BUSH
+  value: 1
+DIRT_0:
+  item:
+  - type: DIRT
+  value: 1
+DIRT_1:
+  item:
+  - type: DIRT
+    damage: 1
+  value: 2
+DIRT_2:
+  item:
+  - type: DIRT
+    damage: 2
+  value: 2
+JUKEBOX_0:
+  item:
+  - type: JUKEBOX
+  value: 8256
+RAW_FISH_3:
+  item:
+  - type: RAW_FISH
+    damage: 3
+  value: 64
+SADDLE_0:
+  item:
+  - type: SADDLE
+  value: 192
+RAW_FISH_2:
+  item:
+  - type: RAW_FISH
+    damage: 2
+  value: 64
+WORKBENCH_0:
+  item:
+  - type: WORKBENCH
+  value: 32
+RAW_FISH_1:
+  item:
+  - type: RAW_FISH
+    damage: 1
+  value: 64
+RAW_FISH_0:
+  item:
+  - type: RAW_FISH
+  value: 64
+SULPHUR_0:
+  item:
+  - type: SULPHUR
+  value: 192
+HARD_CLAY_0:
+  item:
+  - type: HARD_CLAY
+  value: 64
+ENCHANTMENT_TABLE_0:
+  item:
+  - type: ENCHANTMENT_TABLE
+  value: 16800
+SEEDS_0:
+  item:
+  - type: SEEDS
+  value: 16
+CARPET_1:
+  item:
+  - type: CARPET
+    damage: 1
+  value: 42
+CARPET_0:
+  item:
+  - type: CARPET
+  value: 32
+CARPET_3:
+  item:
+  - type: CARPET
+    damage: 3
+  value: 42
+CARPET_2:
+  item:
+  - type: CARPET
+    damage: 2
+  value: 42
+GLASS_BOTTLE_0:
+  item:
+  - type: GLASS_BOTTLE
+  value: 1
+RED_ROSE_1:
+  item:
+  - type: RED_ROSE
+    damage: 1
+  value: 16
+IRON_INGOT_0:
+  item:
+  - type: IRON_INGOT
+  value: 256
+RED_ROSE_0:
+  item:
+  - type: RED_ROSE
+  value: 16
+IRON_PICKAXE_0:
+  item:
+  - type: IRON_PICKAXE
+  value: 776
+JUNGLE_DOOR_ITEM_0:
+  item:
+  - type: JUNGLE_DOOR_ITEM
+  value: 16
+OBSIDIAN_0:
+  item:
+  - type: OBSIDIAN
+  value: 64
+LAVA_BUCKET_0:
+  item:
+  - type: LAVA_BUCKET
+  value: 832
+CLAY_0:
+  item:
+  - type: CLAY
+  value: 64
+RED_ROSE_7:
+  item:
+  - type: RED_ROSE
+    damage: 7
+  value: 16
+RED_ROSE_6:
+  item:
+  - type: RED_ROSE
+    damage: 6
+  value: 16
+RED_ROSE_8:
+  item:
+  - type: RED_ROSE
+    damage: 8
+  value: 16
+RED_ROSE_3:
+  item:
+  - type: RED_ROSE
+    damage: 3
+  value: 16
+RED_ROSE_2:
+  item:
+  - type: RED_ROSE
+    damage: 2
+  value: 16
+RED_ROSE_5:
+  item:
+  - type: RED_ROSE
+    damage: 5
+  value: 16
+RED_ROSE_4:
+  item:
+  - type: RED_ROSE
+    damage: 4
+  value: 16
+ICE_0:
+  item:
+  - type: ICE
+  value: 1
+QUARTZ_BLOCK_2:
+  item:
+  - type: QUARTZ_BLOCK
+    damage: 2
+  value: 1024
+QUARTZ_BLOCK_0:
+  item:
+  - type: QUARTZ_BLOCK
+  value: 1024
+LEASH_0:
+  item:
+  - type: LEASH
+  value: 40
+QUARTZ_BLOCK_1:
+  item:
+  - type: QUARTZ_BLOCK
+    damage: 1
+  value: 1024
+INK_SACK_9:
+  item:
+  - type: INK_SACK
+    damage: 9
+  value: 16
+INK_SACK_8:
+  item:
+  - type: INK_SACK
+    damage: 8
+  value: 32
+INK_SACK_1:
+  item:
+  - type: INK_SACK
+    damage: 1
+  value: 16
+INK_SACK_0:
+  item:
+  - type: INK_SACK
+  value: 16
+INK_SACK_3:
+  item:
+  - type: INK_SACK
+    damage: 3
+  value: 128
+INK_SACK_2:
+  item:
+  - type: INK_SACK
+    damage: 2
+  value: 8
+INK_SACK_5:
+  item:
+  - type: INK_SACK
+    damage: 5
+  value: 440
+INK_SACK_4:
+  item:
+  - type: INK_SACK
+    damage: 4
+  value: 864
+INK_SACK_7:
+  item:
+  - type: INK_SACK
+    damage: 7
+  value: 16
+INK_SACK_6:
+  item:
+  - type: INK_SACK
+    damage: 6
+  value: 436
+ACACIA_FENCE_0:
+  item:
+  - type: ACACIA_FENCE
+  value: 13
+DIAMOND_BOOTS_0:
+  item:
+  - type: DIAMOND_BOOTS
+  value: 32768
+IRON_TRAPDOOR_0:
+  item:
+  - type: IRON_TRAPDOOR
+  value: 1024
+CLAY_BALL_0:
+  item:
+  - type: CLAY_BALL
+  value: 16
+BLAZE_ROD_0:
+  item:
+  - type: BLAZE_ROD
+  value: 1536
+DIAMOND_SPADE_0:
+  item:
+  - type: DIAMOND_SPADE
+  value: 8200
+IRON_HOE_0:
+  item:
+  - type: IRON_HOE
+  value: 520
+GHAST_TEAR_0:
+  item:
+  - type: GHAST_TEAR
+  value: 4096
+ROTTEN_FLESH_0:
+  item:
+  - type: ROTTEN_FLESH
+  value: 32
+STAINED_CLAY_13:
+  item:
+  - type: STAINED_CLAY
+    damage: 13
+  value: 64
+FIREBALL_0:
+  item:
+  - type: FIREBALL
+  value: 330
+GOLD_HELMET_0:
+  item:
+  - type: GOLD_HELMET
+  value: 10240
+STAINED_CLAY_12:
+  item:
+  - type: STAINED_CLAY
+    damage: 12
+  value: 64
+STAINED_CLAY_15:
+  item:
+  - type: STAINED_CLAY
+    damage: 15
+  value: 64
+DROPPER_0:
+  item:
+  - type: DROPPER
+  value: 71
+JACK_O_LANTERN_0:
+  item:
+  - type: JACK_O_LANTERN
+  value: 153
+STAINED_CLAY_14:
+  item:
+  - type: STAINED_CLAY
+    damage: 14
+  value: 64
+DIAMOND_BLOCK_0:
+  item:
+  - type: DIAMOND_BLOCK
+  value: 73728
+COOKED_CHICKEN_0:
+  item:
+  - type: COOKED_CHICKEN
+  value: 64
+CAULDRON_ITEM_0:
+  item:
+  - type: CAULDRON_ITEM
+  value: 1792
+STAINED_CLAY_11:
+  item:
+  - type: STAINED_CLAY
+    damage: 11
+  value: 64
+STAINED_CLAY_10:
+  item:
+  - type: STAINED_CLAY
+    damage: 10
+  value: 64
+MYCEL_0:
+  item:
+  - type: MYCEL
+  value: 2
+DIAMOND_SWORD_0:
+  item:
+  - type: DIAMOND_SWORD
+  value: 16388
+WOOD_HOE_0:
+  item:
+  - type: WOOD_HOE
+  value: 24
+WOOD_5:
+  item:
+  - type: WOOD
+    damage: 5
+  value: 8
+WOOD_4:
+  item:
+  - type: WOOD
+    damage: 4
+  value: 8
+WOOD_3:
+  item:
+  - type: WOOD
+    damage: 3
+  value: 8
+WOOD_SPADE_0:
+  item:
+  - type: WOOD_SPADE
+  value: 16
+WOOD_2:
+  item:
+  - type: WOOD
+    damage: 2
+  value: 8
+BANNER_0:
+  item:
+  - type: BANNER
+  value: 388
+BANNER_1:
+  item:
+  - type: BANNER
+    damage: 1
+  value: 388
+BANNER_2:
+  item:
+  - type: BANNER
+    damage: 2
+  value: 340
+SANDSTONE_STAIRS_0:
+  item:
+  - type: SANDSTONE_STAIRS
+  value: 6
+DIAMOND_BARDING_0:
+  item:
+  - type: DIAMOND_BARDING
+  value: 40960
+LEATHER_HELMET_0:
+  item:
+  - type: LEATHER_HELMET
+  value: 320
+SIGN_0:
+  item:
+  - type: SIGN
+  value: 17
+BANNER_3:
+  item:
+  - type: BANNER
+    damage: 3
+  value: 1060
+APPLE_0:
+  item:
+  - type: APPLE
+  value: 128
+BANNER_4:
+  item:
+  - type: BANNER
+    damage: 4
+  value: 5476
+BANNER_5:
+  item:
+  - type: BANNER
+    damage: 5
+  value: 2932
+BANNER_6:
+  item:
+  - type: BANNER
+    damage: 6
+  value: 2908
+WOOD_1:
+  item:
+  - type: WOOD
+    damage: 1
+  value: 8
+BRICK_STAIRS_0:
+  item:
+  - type: BRICK_STAIRS
+  value: 96
+BANNER_7:
+  item:
+  - type: BANNER
+    damage: 7
+  value: 388
+WOOD_0:
+  item:
+  - type: WOOD
+  value: 8
+NETHER_BRICK_STAIRS_0:
+  item:
+  - type: NETHER_BRICK_STAIRS
+  value: 6
+BANNER_8:
+  item:
+  - type: BANNER
+    damage: 8
+  value: 484
+RED_SANDSTONE_STAIRS_0:
+  item:
+  - type: RED_SANDSTONE_STAIRS
+  value: 6
+BANNER_9:
+  item:
+  - type: BANNER
+    damage: 9
+  value: 388
+NETHER_STALK_0:
+  item:
+  - type: NETHER_STALK
+  value: 24
+COBBLE_WALL_0:
+  item:
+  - type: COBBLE_WALL
+  value: 1
+COBBLE_WALL_1:
+  item:
+  - type: COBBLE_WALL
+    damage: 1
+  value: 2
+DARK_OAK_DOOR_ITEM_0:
+  item:
+  - type: DARK_OAK_DOOR_ITEM
+  value: 16
+FLINT_AND_STEEL_0:
+  item:
+  - type: FLINT_AND_STEEL
+  value: 260
+SPECKLED_MELON_0:
+  item:
+  - type: SPECKLED_MELON
+  value: 1832
+SPRUCE_WOOD_STAIRS_0:
+  item:
+  - type: SPRUCE_WOOD_STAIRS
+  value: 12
+ENCHANTED_BOOK_0:
+  item:
+  - v: 3218
+    type: ENCHANTED_BOOK
+    meta:
+      ==: ItemMeta
+      meta-type: ENCHANTED
+      stored-enchants:
+        MENDING: 1
+  value: 114514

@@ -1,0 +1,12 @@
+Height:
+ enable: false
+ Limit: 60
+ World:
+  - world
+ Message: §b[§eHeightLimit§b]§a您不能在超过%LimitHeight%高度处建筑
+LowHeight:
+ enable: false
+ Limit: 50
+ World:
+  - world
+ Message: §b[§eHeightLimit§b]§a您不能在低于%LowLimitHeight%高度处建筑
