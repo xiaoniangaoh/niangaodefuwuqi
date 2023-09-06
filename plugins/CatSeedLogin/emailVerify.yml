@@ -1,0 +1,7 @@
+Enable: true
+EmailAccount: "3559888052@qq.com"
+EmailPassword: "bzemgmsugtcmchah"
+EmailSmtpHost: "smtp.qq.com"
+EmailSmtpPort: "25"
+SSLAuthVerify: false
+FromPersonal: "糕点服服务器"

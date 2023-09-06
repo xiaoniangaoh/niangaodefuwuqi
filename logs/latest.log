@@ -1,0 +1,151 @@
+2023-09-06 02:29:13,569 INFO  [Craft Scheduler Thread - 681] n.m.v.Vault.publish(37): [Vault] Checking for Updates ... 
+2023-09-06 02:29:14,523 INFO  [Craft Scheduler Thread - 681] n.m.v.Vault.publish(37): [Vault] No new version available
+2023-09-06 08:29:13,583 INFO  [Craft Scheduler Thread - 755] n.m.v.Vault.publish(37): [Vault] Checking for Updates ... 
+2023-09-06 08:29:14,544 INFO  [Craft Scheduler Thread - 755] n.m.v.Vault.publish(37): [Vault] No new version available
+2023-09-06 09:22:11,212 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
+2023-09-06 09:22:11,222 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
+java.lang.Throwable: null
+	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:69) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at de.teamlapen.vampirism.GeneralEventHandler.onPlayerLoggedIn(GeneralEventHandler.java:104) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at de.teamlapen.vampirism.__GeneralEventHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:318) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerLoggedIn(ForgeEventFactory.java:902) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at net.minecraft.server.players.PlayerList.m_11261_(PlayerList.java:354) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_143699_(ServerLoginPacketListenerImpl.java:173) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginPacketListenerImpl.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginPacketListenerImpl.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:271) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1184) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1073) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-06 09:22:11,224 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:29539] logged in with entity id 15679 at ([world]62.99157703867537, 57.6875, 69.0685032986039)
+2023-09-06 09:22:11,242 INFO  [Craft Scheduler Thread - 768] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-06 09:22:20,874 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
+2023-09-06 09:22:20,892 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
+2023-09-06 09:22:20,949 INFO  [Craft Scheduler Thread - 771] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-06 09:23:22,367 INFO  [Server thread] c.s.c.Create.handleFinishedUpload(258): New Schematic Uploaded: xiaoniangaoh/hys.nbt
+2023-09-06 09:28:26,975 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /money
+2023-09-06 09:29:06,110 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode survival
+2023-09-06 09:29:06,112 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Survival Mode]
+2023-09-06 09:30:08,357 WARN  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_9933_(358): xiaoniangaoh was kicked for floating too long!
+2023-09-06 09:30:08,360 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Flying is not enabled on this server
+2023-09-06 09:30:08,379 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game.
+2023-09-06 09:30:08,420 WARN  [Server thread] n.m.n.Connection.m_129541_(438): handleDisconnection() called twice
+2023-09-06 09:30:18,210 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
+2023-09-06 09:30:18,217 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
+java.lang.Throwable: null
+	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:69) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at de.teamlapen.vampirism.GeneralEventHandler.onPlayerLoggedIn(GeneralEventHandler.java:104) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at de.teamlapen.vampirism.__GeneralEventHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:318) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerLoggedIn(ForgeEventFactory.java:902) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at net.minecraft.server.players.PlayerList.m_11261_(PlayerList.java:354) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_143699_(ServerLoginPacketListenerImpl.java:173) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginPacketListenerImpl.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginPacketListenerImpl.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:271) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1184) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1073) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-06 09:30:18,220 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:19193] logged in with entity id 16592 at ([world]67.58706474462323, -97.85199106309634, 72.38802561616313)
+2023-09-06 09:30:18,244 INFO  [Craft Scheduler Thread - 769] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-06 09:30:26,517 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
+2023-09-06 09:30:26,547 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
+2023-09-06 09:30:26,598 INFO  [Craft Scheduler Thread - 778] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-06 09:30:28,562 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh fell out of the world
+2023-09-06 10:20:09,192 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Disconnected
+2023-09-06 10:20:09,213 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game
+2023-09-06 10:55:36,354 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
+2023-09-06 10:55:36,356 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
+java.lang.Throwable: null
+	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:69) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at de.teamlapen.vampirism.GeneralEventHandler.onPlayerLoggedIn(GeneralEventHandler.java:104) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at de.teamlapen.vampirism.__GeneralEventHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:318) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.0.5.jar%2381!/:?]
+	at net.minecraftforge.event.ForgeEventFactory.firePlayerLoggedIn(ForgeEventFactory.java:902) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at net.minecraft.server.players.PlayerList.m_11261_(PlayerList.java:354) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_143699_(ServerLoginPacketListenerImpl.java:173) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginPacketListenerImpl.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginPacketListenerImpl.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.network.Connection.m_129483_(Connection.java:271) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1184) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1073) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-06 10:55:36,358 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:28035] logged in with entity id 22520 at ([world]-851.6999999880791, 70.0, 753.2419651445946)
+2023-09-06 10:55:36,374 INFO  [Craft Scheduler Thread - 784] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-06 10:55:48,774 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
+2023-09-06 10:55:48,784 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
+2023-09-06 10:55:48,869 INFO  [Craft Scheduler Thread - 792] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-06 11:11:43,586 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): Stopping the server
+2023-09-06 11:11:43,599 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(696): Stopping server
+2023-09-06 11:11:43,603 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Disabling Mohist v1.20.1
+2023-09-06 11:11:43,605 INFO  [Server thread] m.g.r.t.p.BukkitPlugin.publish(37): [GeekRewardPlus] Disabling GeekRewardPlus v2.2
+2023-09-06 11:11:43,610 INFO  [Server thread] c.z.h.HikariDataSource.close(350): GeekCos-SQLITE - Shutdown initiated...
+2023-09-06 11:11:43,613 INFO  [Server thread] c.z.h.HikariDataSource.close(352): GeekCos-SQLITE - Shutdown completed.
+2023-09-06 11:11:43,756 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Disabling AdvancedReplay v1.8.4
+2023-09-06 11:11:43,758 INFO  [Server thread] c.h.m.PlayerMenu.publish(37): [PlayerMenu] Disabling PlayerMenu v1.1.8
+2023-09-06 11:11:43,760 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1m已成功卸载！[m
+2023-09-06 11:11:43,761 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1mAuthor:handy QQ群:1064982471[m
+2023-09-06 11:11:43,763 INFO  [Server thread] c.t.d.Main.publish(37): [DemonMarket] Disabling DemonMarket v1.6.2
+2023-09-06 11:11:43,765 INFO  [Server thread] Minecraft.publish(37): [DemonMarket] Disabled Version 1.6.2
+2023-09-06 11:11:43,776 INFO  [Server thread] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] Disabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+2023-09-06 11:11:43,810 INFO  [Server thread] c.h.p.PlayerTitle.publish(37): [PlayerTitle] Disabling PlayerTitle v3.4.7
+2023-09-06 11:11:43,814 INFO  [Server thread] n.s.b.SkinsRestorerBootstrap.publish(37): [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+2023-09-06 11:11:43,816 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Disabling ProtocolLib v5.1.0
+2023-09-06 11:11:43,820 INFO  [Server thread] c.o.M.MultiverseCore.publish(37): [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+2023-09-06 11:11:43,830 INFO  [Server thread] o.b.p.PlayerPoints.publish(37): [PlayerPoints] Disabling PlayerPoints v3.2.6
+2023-09-06 11:11:43,832 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Disabling XConomy v2.24.4
+2023-09-06 11:11:43,845 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] XConomy successfully disabled
+2023-09-06 11:11:43,846 INFO  [Server thread] d.g.v.BukkitPlugin.publish(37): [ViaRewind] Disabling ViaRewind v2.0.3
+2023-09-06 11:11:43,848 INFO  [Server thread] n.l.p.PlayerStatistics.publish(37): [PlayerStatistics] Disabling PlayerStatistics v1.1.1
+2023-09-06 11:11:43,849 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Disabling ViaBackwards v4.7.0
+2023-09-06 11:11:43,851 INFO  [Server thread] s.e.EpicCombat.publish(37): [EpicCombat] Disabling EpicCombat v1.19
+2023-09-06 11:11:43,852 INFO  [Server thread] c.p.b.P.PremiumCheck.publish(37): [PremiumCheck] Disabling PremiumCheck v2.0.0
+2023-09-06 11:11:43,854 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] Disabling Vault v1.7.3-b131
+2023-09-06 11:11:43,864 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Disabling ViaVersion v4.7.0
+2023-09-06 11:11:43,865 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+2023-09-06 11:11:43,868 INFO  [Server thread] m.g.s.STPA.publish(37): [STPA] Disabling STPA v1.0-SNAPSHOT
+2023-09-06 11:11:43,870 INFO  [Server thread] c.c.p.PlayersBackpacksViewer.publish(37): [PlayersBackpacksViewer] Disabling PlayersBackpacksViewer v2.0-ForAllVersions
+2023-09-06 11:11:43,872 INFO  [Server thread] c.m.p.PaymentPlugin.publish(37): [Payment] Disabling Payment v1.1.6
+2023-09-06 11:11:43,873 INFO  [Server thread] a.AdvancedWarps.publish(37): [AdvancedWarps] Disabling AdvancedWarps v1.0.0
+2023-09-06 11:11:43,874 INFO  [Server thread] d.p.M.Motd.publish(37): [SuperMotd] Disabling SuperMotd v1.0
+2023-09-06 11:11:43,875 INFO  [Server thread] S.Main.publish(37): [Stp] Disabling Stp v1.0.1
+2023-09-06 11:11:43,876 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+2023-09-06 11:11:43,877 INFO  [Server thread] n.c.CoreProtect.publish(37): [CoreProtect] Disabling CoreProtect v22.0
+2023-09-06 11:11:43,878 INFO  [Server thread] Minecraft.publish(37): [CoreProtect] Finishing up data logging. Please wait...
+2023-09-06 11:11:44,883 INFO  [Server thread] Minecraft.publish(37): [CoreProtect] Success! Disabled CoreProtect v22.0
+2023-09-06 11:11:44,885 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(708): Saving players
+2023-09-06 11:11:44,903 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Server closed
+2023-09-06 11:11:44,931 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game.
+2023-09-06 11:11:45,032 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(714): Saving worlds
+2023-09-06 11:11:47,930 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+2023-09-06 11:11:48,858 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+2023-09-06 11:11:48,872 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+2023-09-06 11:11:48,881 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[xyx]'/minecraft:xyx
+2023-09-06 11:11:48,886 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[zc]'/minecraft:zc
+2023-09-06 11:11:48,892 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[czf]'/minecraft:czf
+2023-09-06 11:11:48,984 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (world): All chunks are saved
+2023-09-06 11:11:48,985 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+2023-09-06 11:11:48,986 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+2023-09-06 11:11:48,987 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (xyx): All chunks are saved
+2023-09-06 11:11:48,987 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (zc): All chunks are saved
+2023-09-06 11:11:48,988 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (czf): All chunks are saved
+2023-09-06 11:11:48,989 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(651): ThreadedAnvilChunkStorage: All dimensions are saved

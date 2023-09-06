@@ -1,0 +1,72 @@
+
+#Set language manually(en,zh_cn,zh_tw)
+#lang: en
+lang:
+
+#Tax rate
+TaxRate: 0.005
+
+#The tax beneficiary
+OP:
+
+#The average balance of single player in mathematical expectation
+BasicProperty: 500000
+
+#Enable and make the numbers approximate(shorter and easier to read)
+Round: true
+
+#Enable progressive tax rate
+enable-demon-tax: true
+
+# For SlimeFun Plugin
+# Enable this option to block any items with lore being sold
+# Attention, this might cause the NBT support disable
+Filter: false
+
+# Disable this to cancel the version check notification
+version-check: true
+
+# Enable this option to prevent user from paying others by using ess or others plugin
+disable-pay: true
+# Set the paying command you want to block
+disable-pay-list:
+  - "/pay"
+  - "/ess pay"
+  - "/cmi pay"
+  - "/eco pay"
+# Max amount of money can be transfer in a transaction
+# Set -1 to disable limitation, set 0 to disable pay command
+max-pay: -1
+# Transfer unit. All transfer amount will be split as pay-unit to transfer. The tax will be calculated times.
+pay-unit: 1000
+
+# Enable this option to prevent user from selling others by using ess or others plugin
+disable-sell: true
+# Set the selling command you want to block
+disable-sell-list:
+  - "/sell"
+  - "/ess sell"
+  - "/cmi sell"
+  - "/eco sell"
+
+# Payer pay for the tax
+payer-tax: false
+
+# enable to auto refresh the price in gui(second per time)
+auto-refresh: true
+auto-refresh-gap: 1
+
+# disable mt shop command.
+disable-shop: false
+
+# c
+market.disable-market: false
+# Maximum number of user listings
+market.max-user-sell: 30
+# Handling fee for players selling items, percentage
+market.sell-tax-rate: 0.0
+# disable demon tax in market profit
+market.diasble-demon-tax: false
+
+# turn on transaction log
+log: false

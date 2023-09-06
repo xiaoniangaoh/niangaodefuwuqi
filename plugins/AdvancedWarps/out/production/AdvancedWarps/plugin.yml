@@ -1,0 +1,7 @@
+name: AdvancedWarps
+main: advancedwarps.AdvancedWarps
+version: 1.0.0
+depend: [PlaceholderAPI]
+commands:
+  aw:
+    usage: /aw
