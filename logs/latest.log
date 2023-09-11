@@ -1,9 +1,844 @@
-2023-09-06 02:29:13,569 INFO  [Craft Scheduler Thread - 681] n.m.v.Vault.publish(37): [Vault] Checking for Updates ... 
-2023-09-06 02:29:14,523 INFO  [Craft Scheduler Thread - 681] n.m.v.Vault.publish(37): [Vault] No new version available
-2023-09-06 08:29:13,583 INFO  [Craft Scheduler Thread - 755] n.m.v.Vault.publish(37): [Vault] Checking for Updates ... 
-2023-09-06 08:29:14,544 INFO  [Craft Scheduler Thread - 755] n.m.v.Vault.publish(37): [Vault] No new version available
-2023-09-06 09:22:11,212 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
-2023-09-06 09:22:11,222 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
+2023-09-11 12:30:21,479 INFO  [main] c.m.m.Launcher.main(77): ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.1.62, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+2023-09-11 12:30:21,487 INFO  [main] c.m.m.Launcher.<init>(52): ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 18.0.2 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+2023-09-11 12:30:21,802 INFO  [main] n.m.f.l.ImmediateWindowHandler.load(28): ImmediateWindowProvider not loading because launch target is forgeserver
+2023-09-11 12:30:21,867 INFO  [main] mixin.info(97): SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/F:/niangaodefuwuqi/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2394!/ Service=ModLauncher Env=SERVER
+2023-09-11 12:30:22,386 INFO  [main] n.m.f.l.m.JarInJarDependencyLocator.scanMods(57): Found 2 dependencies adding them to mods collection
+2023-09-11 12:30:24,018 INFO  [main] mixin.info(97): Compatibility level set to JAVA_17
+2023-09-11 12:30:24,038 INFO  [main] c.m.m.LaunchServiceHandler.launch(52): Launching target 'forgeserver' with arguments []
+2023-09-11 12:30:30,512 WARN  [main] mixin.warn(132): Method overwrite conflict for getHiddenEffect in werewolves.mixins.json:MobEffectInstanceAccessor, previously written by de.teamlapen.vampirism.mixin.MixinMobEffectInstance. Skipping method.
+2023-09-11 12:30:32,160 INFO  [modloading-worker-0] n.m.c.ForgeMod.<init>(419): Forge mod loading, version 47.1.62, for MC 1.20.1 with MCP 20230612.114412
+2023-09-11 12:30:32,161 INFO  [modloading-worker-0] n.m.c.MinecraftForge.initialize(41): MinecraftForge v47.1.62 Initialized
+2023-09-11 12:30:32,281 INFO  [modloading-worker-0] c.m.MohistMC.<init>(29): Mohist mod loading.....
+2023-09-11 12:30:32,349 INFO  [modloading-worker-0] c.m.MohistMC.init(39): EventDispatcherRegistry initialized
+2023-09-11 12:30:39,880 INFO  [Thread-2] d.t.l.l.u.VersionChecker.run(62): Starting version check at https://maxanier.de/projects/vampirism/versions.json
+2023-09-11 12:30:39,997 INFO  [main] d.t.v.c.ModEffects.fixNightVisionEffectTypesUnsafe(81): Fixing vanilla night vision potion types
+2023-09-11 12:30:40,016 INFO  [main] d.t.v.c.ModEffects.fixNightVisionEffectTypesUnsafe(81): Fixing vanilla night vision potion types
+2023-09-11 12:30:42,356 INFO  [Thread-2] d.t.l.l.u.VersionChecker.check(106): Did not find a version of type RELEASE for 1.20.1 (null)
+2023-09-11 12:30:42,450 INFO  [main] c.m.a.y.YggdrasilAuthenticationService.<init>(56): Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+2023-09-11 12:30:44,916 INFO  [main] d.t.v.w.b.OverworldModifications.m_274430_(106): Adding biome vampirism:vampire_forest to ParameterPoints [ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[-5666--500], offset=0], ParameterPoint[temperature=[-4000--1900], humidity=[1000-3000], continentalness=[-1100-5500], erosion=[-3750--2225], depth=0, weirdness=[500-4000], offset=0]] in Preset.OVERWORLD
+2023-09-11 12:30:45,051 INFO  [main] d.t.w.w.g.OverworldModifications.m_274430_(82): Adding biome ResourceKey[minecraft:worldgen/biome / werewolves:werewolf_heaven] to ParameterPoints [ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[-2000-2000], offset=0], ParameterPoint[temperature=[1900-4000], humidity=[-2500-2500], continentalness=[2000-5500], erosion=[-3750--2225], depth=0, weirdness=[2000-6000], offset=0]] in Preset.OVERWORLD
+2023-09-11 12:30:46,452 INFO  [main] n.m.w.i.c.RecipeManager.m_5787_(81): Skipping loading recipe vampirism:general/umbrella as it's serializer returned null
+2023-09-11 12:30:46,478 INFO  [main] n.m.w.i.c.RecipeManager.m_5787_(81): Skipping loading recipe vampirism:vampire/blood_bottle as it's serializer returned null
+2023-09-11 12:30:46,518 INFO  [main] n.m.w.i.c.RecipeManager.m_5787_(81): Skipping loading recipe vampirism:general/guidebook as it's serializer returned null
+2023-09-11 12:30:46,527 INFO  [main] n.m.w.i.c.RecipeManager.m_5787_(106): Loaded 25 recipes
+2023-09-11 12:30:46,657 INFO  [main] n.m.a.AdvancementList.m_139333_(90): Loaded 2476 advancements
+2023-09-11 12:30:46,661 INFO  [main] d.t.v.e.p.s.SkillTree.loadNodes(168): Loaded 80 skill nodes
+2023-09-11 12:30:46,666 INFO  [main] d.t.v.e.c.VampirismEntityRegistry.applyNewResources(110): Registered 12 convertibles
+2023-09-11 12:30:48,101 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(145): Starting minecraft server version 1.20.1
+2023-09-11 12:30:48,102 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(150): Loading properties
+2023-09-11 12:30:48,103 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(166): Default game type: SURVIVAL
+2023-09-11 12:30:48,103 INFO  [Server thread] n.m.s.MinecraftServer.m_129793_(1348): Generating keypair
+2023-09-11 12:30:48,183 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(177): Starting Minecraft server on *:25565
+2023-09-11 12:30:48,209 INFO  [Server thread] n.m.s.n.ServerConnectionListener.m_9711_(84): Using default channel type
+2023-09-11 12:30:48,342 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(189): **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+2023-09-11 12:30:48,343 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(190): The server will make no attempt to authenticate usernames. Beware.
+2023-09-11 12:30:48,344 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(191): While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+2023-09-11 12:30:48,345 WARN  [Server thread] n.m.s.d.DedicatedServer.m_7038_(192): To change this, set "online-mode" to "true" in the server.properties file.
+2023-09-11 12:30:48,409 INFO  [Server thread] Minecraft.publish(37): This server is running Mohist version 1.20.1-278 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT, Forge version 47.1.62)
+2023-09-11 12:30:49,216 INFO  [Server thread] Minecraft.publish(37): Debug logging is enabled
+2023-09-11 12:30:49,219 INFO  [Server thread] .playerSample(273): Server Ping Player Sample Count: 12
+2023-09-11 12:30:49,221 INFO  [Server thread] Minecraft.publish(37): Using 4 threads for Netty based IO
+2023-09-11 12:30:49,274 ERROR [Server thread] Minecraft.publish(33): Could not load 'plugins\bungeecord-prometheus-exporter-3.2.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:146) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:212) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+2023-09-11 12:30:49,306 ERROR [Server thread] Minecraft.publish(33): Ambiguous plugin name `PlayerMenu' for files `plugins\PlayerMenu-1.2.0.jar' and `plugins\PlayerMenu-1.1.8.jar' in `plugins'
+2023-09-11 12:30:49,315 ERROR [Server thread] Minecraft.publish(33): Could not load 'plugins\reconnect-1.2.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:146) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:212) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+2023-09-11 12:30:49,322 ERROR [Server thread] Minecraft.publish(33): Could not load 'plugins\SOTReqirement.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:170) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:146) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:212) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 7 more
+2023-09-11 12:30:50,181 WARN  [Server thread] .<clinit>(258): Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+2023-09-11 12:30:53,401 WARN  [Server thread] Minecraft.publish(35): Legacy plugin Stp v1.0.1 does not specify an api-version.
+2023-09-11 12:30:53,436 WARN  [Server thread] Minecraft.publish(35): Legacy plugin AdvancedWarps v1.0.0 does not specify an api-version.
+2023-09-11 12:30:53,451 ERROR [Server thread] Minecraft.publish(33): Could not load 'plugins\StatsAPI-HolographicDisplays-1.0.2-SNAPSHOT.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency StatsAPI. Please download and install StatsAPI to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:270) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:212) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-11 12:30:53,453 WARN  [Server thread] Minecraft.publish(35): Legacy plugin Payment v1.1.6 does not specify an api-version.
+2023-09-11 12:30:54,297 WARN  [Server thread] Minecraft.publish(35): Legacy plugin PremiumCheck v2.0.0 does not specify an api-version.
+2023-09-11 12:30:54,316 ERROR [Server thread] Minecraft.publish(33): Could not load 'plugins\GridLock-1.1.0.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Unknown dependency PolyGui. Please download and install PolyGui to run this plugin.
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:270) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:212) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-11 12:30:54,996 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.5.10
+2023-09-11 12:30:55,003 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib:1.5.10
+2023-09-11 12:30:55,004 INFO  [Server thread] .print(290): Loading library org.jetbrains:annotations:13.0
+2023-09-11 12:30:55,014 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.5.10
+2023-09-11 12:30:55,025 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.5.10
+2023-09-11 12:30:59,440 WARN  [Server thread] Minecraft.publish(35): [ApoSellReload] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.3 which is not a depend or softdepend of this plugin.
+2023-09-11 12:30:59,587 INFO  [ForkJoinPool.commonPool-worker-1] .print(290): Loading library org.apache.commons:commons-jexl3:3.2.1
+2023-09-11 12:30:59,989 INFO  [ForkJoinPool.commonPool-worker-2] .print(290): Loading library org.yaml:snakeyaml:2.0
+2023-09-11 12:31:00,006 INFO  [ForkJoinPool.commonPool-worker-2] .print(290): Loading library com.typesafe:config:1.4.2
+2023-09-11 12:31:00,024 INFO  [ForkJoinPool.commonPool-worker-2] .print(290): Loading library com.electronwill.night-config:core:3.6.6
+2023-09-11 12:31:00,027 INFO  [ForkJoinPool.commonPool-worker-2] .print(290): Loading library com.electronwill.night-config:json:3.6.6
+2023-09-11 12:31:00,040 INFO  [ForkJoinPool.commonPool-worker-2] .print(290): Loading library com.electronwill.night-config:hocon:3.6.6
+2023-09-11 12:31:01,045 ERROR [Server thread] Minecraft.publish(33): Could not load 'plugins\ApoSellReload-1.0.1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    com/milkfoam/aposellreload/taboolib/module/configuration/YamlCommentLoader.toNodeTree(Lcom/milkfoam/aposellreload/taboolib/library/configuration/ConfigurationSection;)Lorg/yaml/snakeyaml_2_0/nodes/MappingNode; @161: invokespecial
+  Reason:
+    Type 'java/lang/Object' (current frame, stack[4]) is not assignable to 'org/yaml/snakeyaml_2_0/nodes/Node'
+  Current Frame:
+    bci: @161
+    flags: { }
+    locals: { 'com/milkfoam/aposellreload/taboolib/module/configuration/YamlCommentLoader', 'com/milkfoam/aposellreload/taboolib/library/configuration/ConfigurationSection', 'java/util/ArrayList', 'java/util/Iterator', 'java/util/Map$Entry', 'org/yaml/snakeyaml_2_0/nodes/Node', 'java/lang/Object', 'java/util/List' }
+    stack: { 'java/util/ArrayList', uninitialized 153, uninitialized 153, 'org/yaml/snakeyaml_2_0/nodes/Node', 'java/lang/Object' }
+  Bytecode:
+    0000000: bb00 bd59 b700 be4d 2b03 b900 c202 00b9
+    0000010: 00c6 0100 b900 c901 004e 2db9 007c 0100
+    0000020: 9900 8d2d b900 8001 00c0 0007 3a04 2ab4
+    0000030: 0026 1904 b900 cc01 00b6 00d2 3a05 1904
+    0000040: b900 d401 00c1 0094 9900 162a 1904 b900
+    0000050: d401 00c0 0094 b600 d63a 06a7 0013 2ab4
+    0000060: 0026 1904 b900 d401 00b6 00d2 3a06 2a2b
+    0000070: 1904 b900 cc01 00c0 0086 b900 da02 00b2
+    0000080: 00dd b600 e03a 0719 07b9 003b 0100 9a00
+    0000090: 0a19 0519 07b6 0061 2cbb 0041 5919 0519
+    00000a0: 06b7 00e3 b900 e702 0057 a7ff 70bb 002e
+    00000b0: 59b2 00ed 2cb2 00f0 b700 f3b0          
+  Stackmap Table:
+    append_frame(@26,Object[#189],Object[#121])
+    append_frame(@94,Object[#7],Object[#71])
+    append_frame(@110,Object[#4])
+    append_frame(@152,Object[#55])
+    full_frame(@173,{Object[#2],Object[#148],Object[#189],Object[#121]},{})
+
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:149) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:395) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:303) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.loadPlugins(CraftServer.java:433) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:212) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.lang.VerifyError: Bad type on operand stack
+Exception Details:
+  Location:
+    com/milkfoam/aposellreload/taboolib/module/configuration/YamlCommentLoader.toNodeTree(Lcom/milkfoam/aposellreload/taboolib/library/configuration/ConfigurationSection;)Lorg/yaml/snakeyaml_2_0/nodes/MappingNode; @161: invokespecial
+  Reason:
+    Type 'java/lang/Object' (current frame, stack[4]) is not assignable to 'org/yaml/snakeyaml_2_0/nodes/Node'
+  Current Frame:
+    bci: @161
+    flags: { }
+    locals: { 'com/milkfoam/aposellreload/taboolib/module/configuration/YamlCommentLoader', 'com/milkfoam/aposellreload/taboolib/library/configuration/ConfigurationSection', 'java/util/ArrayList', 'java/util/Iterator', 'java/util/Map$Entry', 'org/yaml/snakeyaml_2_0/nodes/Node', 'java/lang/Object', 'java/util/List' }
+    stack: { 'java/util/ArrayList', uninitialized 153, uninitialized 153, 'org/yaml/snakeyaml_2_0/nodes/Node', 'java/lang/Object' }
+  Bytecode:
+    0000000: bb00 bd59 b700 be4d 2b03 b900 c202 00b9
+    0000010: 00c6 0100 b900 c901 004e 2db9 007c 0100
+    0000020: 9900 8d2d b900 8001 00c0 0007 3a04 2ab4
+    0000030: 0026 1904 b900 cc01 00b6 00d2 3a05 1904
+    0000040: b900 d401 00c1 0094 9900 162a 1904 b900
+    0000050: d401 00c0 0094 b600 d63a 06a7 0013 2ab4
+    0000060: 0026 1904 b900 d401 00b6 00d2 3a06 2a2b
+    0000070: 1904 b900 cc01 00c0 0086 b900 da02 00b2
+    0000080: 00dd b600 e03a 0719 07b9 003b 0100 9a00
+    0000090: 0a19 0519 07b6 0061 2cbb 0041 5919 0519
+    00000a0: 06b7 00e3 b900 e702 0057 a7ff 70bb 002e
+    00000b0: 59b2 00ed 2cb2 00f0 b700 f3b0          
+  Stackmap Table:
+    append_frame(@26,Object[#189],Object[#121])
+    append_frame(@94,Object[#7],Object[#71])
+    append_frame(@110,Object[#4])
+    append_frame(@152,Object[#55])
+    full_frame(@173,{Object[#2],Object[#148],Object[#189],Object[#121]},{})
+
+	at java.lang.Class.getDeclaredFields0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredFields(Class.java:3329) ~[?:?]
+	at java.lang.Class.getDeclaredFields(Class.java:2403) ~[?:?]
+	at com.mohistmc.bukkit.remapping.ReflectionHandler_21.redirectGetDeclaredFields(ReflectionHandler.java:71) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at com.milkfoam.aposellreload.taboolib.library.reflex.ClassAnalyser.analyseByReflection(ClassAnalyser.kt:27) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.library.reflex.ClassAnalyser.analyse(ClassAnalyser.kt:19) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.library.reflex.ReflexClass$Companion.of(ReflexClass.kt:69) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.library.reflex.ReflexClass$Companion.of$default(ReflexClass.kt:65) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.common.io.Project1Kt.getInstance(Project1.kt:89) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.common.inject.VisitorHandler.inject(VisitorHandler.java:89) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.common.inject.VisitorHandler.injectAll(VisitorHandler.java:60) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.common.TabooLibCommon.lifeCycle(TabooLibCommon.java:179) ~[?:?]
+	at com.milkfoam.aposellreload.taboolib.platform.BukkitPlugin.<clinit>(BukkitPlugin.java:56) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:488) ~[?:?]
+	at java.lang.Class.forName(Class.java:467) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:86) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:145) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	... 7 more
+2023-09-11 12:31:01,124 WARN  [Server thread] Minecraft.publish(35): Legacy plugin AdvancedReplay v1.8.4 does not specify an api-version.
+2023-09-11 12:31:01,326 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib-common:1.7.20
+2023-09-11 12:31:01,329 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+2023-09-11 12:31:01,330 INFO  [Server thread] .print(290): Loading library org.jetbrains:annotations:13.0
+2023-09-11 12:31:01,340 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.7.20
+2023-09-11 12:31:01,348 INFO  [Server thread] .print(290): Loading library org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.7.20
+2023-09-11 12:31:03,493 INFO  [Server thread] .print(290): Loading library org.apache.commons:commons-jexl3:3.2.1
+2023-09-11 12:31:03,559 INFO  [ForkJoinPool.commonPool-worker-6] .print(290): Loading library org.yaml:snakeyaml:2.0
+2023-09-11 12:31:03,574 INFO  [ForkJoinPool.commonPool-worker-6] .print(290): Loading library com.typesafe:config:1.4.2
+2023-09-11 12:31:03,588 INFO  [ForkJoinPool.commonPool-worker-6] .print(290): Loading library com.electronwill.night-config:core:3.6.6
+2023-09-11 12:31:03,591 INFO  [ForkJoinPool.commonPool-worker-6] .print(290): Loading library com.electronwill.night-config:json:3.6.6
+2023-09-11 12:31:03,608 INFO  [ForkJoinPool.commonPool-worker-6] .print(290): Loading library com.electronwill.night-config:hocon:3.6.6
+2023-09-11 12:31:04,827 INFO  [ForkJoinPool.commonPool-worker-4] .print(290): Downloading ... https://maven.aliyun.com/repository/central/org/slf4j/slf4j-api/2.0.8/slf4j-api-2.0.8.pom
+2023-09-11 12:31:05,342 INFO  [ForkJoinPool.commonPool-worker-4] .print(290): Downloading ... https://maven.aliyun.com/repository/central/org/slf4j/slf4j-api/2.0.8/slf4j-api-2.0.8.jar
+2023-09-11 12:31:05,910 INFO  [ForkJoinPool.commonPool-worker-4] .print(290): Loading library com.zaxxer:HikariCP:4.0.3
+2023-09-11 12:31:05,912 INFO  [ForkJoinPool.commonPool-worker-4] .print(290): Loading library org.slf4j:slf4j-api:2.0.8
+2023-09-11 12:31:05,914 INFO  [ForkJoinPool.commonPool-worker-4] .print(290): Relocating ...
+2023-09-11 12:31:06,931 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+2023-09-11 12:31:06,932 INFO  [Server thread] S.Main.publish(37): [Stp] Loading Stp v1.0.1
+2023-09-11 12:31:06,933 INFO  [Server thread] d.p.M.Motd.publish(37): [SuperMotd] Loading SuperMotd v1.0
+2023-09-11 12:31:06,934 INFO  [Server thread] a.AdvancedWarps.publish(37): [AdvancedWarps] Loading AdvancedWarps v1.0.0
+2023-09-11 12:31:06,935 INFO  [Server thread] c.m.p.PaymentPlugin.publish(37): [Payment] Loading Payment v1.1.6
+2023-09-11 12:31:06,936 INFO  [Server thread] c.c.p.PlayersBackpacksViewer.publish(37): [PlayersBackpacksViewer] Loading PlayersBackpacksViewer v2.0-ForAllVersions
+2023-09-11 12:31:06,938 INFO  [Server thread] m.g.s.STPA.publish(37): [STPA] Loading STPA v1.0-SNAPSHOT
+2023-09-11 12:31:06,939 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Loading ViaVersion v4.7.0
+2023-09-11 12:31:06,973 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] ViaVersion 4.7.0 is now loaded. Registering protocol transformers and injecting...
+2023-09-11 12:31:08,007 INFO  [Via-Mappingloader-0] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Loading block connection mappings ...
+2023-09-11 12:31:08,189 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Loading translations...
+2023-09-11 12:31:08,225 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Registering protocols...
+2023-09-11 12:31:08,253 INFO  [Via-Mappingloader-0] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+2023-09-11 12:31:08,847 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] Loading Vault v1.7.3-b131
+2023-09-11 12:31:08,848 INFO  [Server thread] c.p.b.P.PremiumCheck.publish(37): [PremiumCheck] Loading PremiumCheck v2.0.0
+2023-09-11 12:31:08,849 INFO  [Server thread] s.e.EpicCombat.publish(37): [EpicCombat] Loading EpicCombat v1.19
+2023-09-11 12:31:08,864 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Loading ViaBackwards v4.7.0
+2023-09-11 12:31:08,866 INFO  [Server thread] n.l.p.PlayerStatistics.publish(37): [PlayerStatistics] Loading PlayerStatistics v1.1.1
+2023-09-11 12:31:08,870 INFO  [Server thread] d.g.v.BukkitPlugin.publish(37): [ViaRewind] Loading ViaRewind v2.0.3
+2023-09-11 12:31:08,871 INFO  [Server thread] w.c.v.VeinMiner.publish(37): [VeinMiner] Loading VeinMiner v1.15.1
+2023-09-11 12:31:08,872 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Loading XConomy v2.25.1
+2023-09-11 12:31:08,873 INFO  [Server thread] c.o.M.MultiverseCore.publish(37): [Multiverse-Core] Loading Multiverse-Core v4.3.1-b861
+2023-09-11 12:31:08,953 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Loading ProtocolLib v5.1.0
+2023-09-11 12:31:12,093 INFO  [Server thread] n.s.b.SkinsRestorerBootstrap.publish(37): [SkinsRestorer] Loading SkinsRestorer v14.2.12
+2023-09-11 12:31:12,098 INFO  [Server thread] c.h.a.p.AfDianPay.publish(37): [AfDianPay] Loading AfDianPay v1.0.5
+2023-09-11 12:31:12,099 INFO  [Server thread] c.h.p.PlayerTitle.publish(37): [PlayerTitle] Loading PlayerTitle v3.4.8
+2023-09-11 12:31:12,102 INFO  [Server thread] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] Loading CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+2023-09-11 12:31:12,103 INFO  [Server thread] c.t.d.Main.publish(37): [DemonMarket] Loading DemonMarket v1.6.2
+2023-09-11 12:31:12,104 INFO  [Server thread] c.h.m.PlayerMenu.publish(37): [PlayerMenu] Loading PlayerMenu v1.2.0
+2023-09-11 12:31:12,105 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Loading AdvancedReplay v1.8.4
+2023-09-11 12:31:12,113 INFO  [Server thread] m.g.r.t.p.BukkitPlugin.publish(37): [GeekRewardPlus] Loading GeekRewardPlus v2.2
+2023-09-11 12:31:12,165 INFO  [Server thread] Console.sendMessage(64): [m
+2023-09-11 12:31:12,167 INFO  [Server thread] Console.sendMessage(64): 正在加载 [0;36;22m[21mGeekRewardPlus  [0;37;1m...  [0;30;1m1.20.1-278 (MC: 1.20.1)[m
+2023-09-11 12:31:12,168 INFO  [Server thread] Console.sendMessage(64): [m
+2023-09-11 12:31:12,173 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] Enabling Vault v1.7.3-b131
+2023-09-11 12:31:17,314 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] [Permission] SuperPermissions loaded as backup permission system.
+2023-09-11 12:31:18,545 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] Enabled Version 1.7.3-b131
+2023-09-11 12:31:18,546 INFO  [Server thread] d.g.v.BukkitPlugin.publish(37): [ViaRewind] Enabling ViaRewind v2.0.3
+2023-09-11 12:31:19,022 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Enabling XConomy v2.25.1
+2023-09-11 12:31:19,078 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] UUID-Mode: Default
+2023-09-11 12:31:19,085 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Language: ENGLISH
+2023-09-11 12:31:19,144 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Saving method - SQLite
+2023-09-11 12:31:19,283 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] SQLite successfully connected
+2023-09-11 12:31:19,288 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] XConomy successfully enabled
+2023-09-11 12:31:19,295 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Found PlaceholderAPI
+2023-09-11 12:31:19,309 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: xconomy [2.25.1]
+2023-09-11 12:31:19,313 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] PlaceholderAPI successfully hooked
+2023-09-11 12:31:19,369 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] ===== YiC =====
+2023-09-11 12:31:19,370 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Enabling ProtocolLib v5.1.0
+2023-09-11 12:31:19,489 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(219): Preparing level "world"
+2023-09-11 12:31:22,994 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:overworld
+2023-09-11 12:31:26,135 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,173 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,179 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,188 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,196 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,205 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,216 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,500 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:26,995 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 11%
+2023-09-11 12:31:27,495 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 81%
+2023-09-11 12:31:28,279 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 100%
+2023-09-11 12:31:28,625 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 100%
+2023-09-11 12:31:29,012 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 100%
+2023-09-11 12:31:29,407 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 6412 ms
+2023-09-11 12:31:29,472 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:the_end
+2023-09-11 12:31:31,038 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:31,040 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:31,041 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:31,043 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:31,474 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 27%
+2023-09-11 12:31:31,876 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 2402 ms
+2023-09-11 12:31:31,882 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:the_nether
+2023-09-11 12:31:33,758 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:33,763 INFO  [Worker-Main-4] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:33,765 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:33,768 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:33,980 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:34,383 INFO  [Worker-Main-5] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:34,918 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 23%
+2023-09-11 12:31:35,359 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 3477 ms
+2023-09-11 12:31:35,363 WARN  [Server thread] d.t.v.e.ModEntityEventHandler.makeVampireFriendly(95): Could not modify villager zombie attack target task for translation{key='entity.minecraft.zombified_piglin', args=[]}
+2023-09-11 12:31:35,365 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+2023-09-11 12:31:36,149 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Fetching available expansion information...
+2023-09-11 12:31:36,162 INFO  [Server thread] S.Main.publish(37): [Stp] Enabling Stp v1.0.1
+2023-09-11 12:31:36,166 INFO  [Server thread] Console.sendMessage(64): [0;36;1m[21m[[0;32;1m[21mStp[0;36;1m[21m] [m[0;37;1m[0;32;1mStp 已经加载.[m
+2023-09-11 12:31:36,186 INFO  [Server thread] d.p.M.Motd.publish(37): [SuperMotd] Enabling SuperMotd v1.0
+2023-09-11 12:31:36,212 INFO  [Server thread] a.AdvancedWarps.publish(37): [AdvancedWarps] Enabling AdvancedWarps v1.0.0
+2023-09-11 12:31:36,221 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: aw [1.0]
+2023-09-11 12:31:36,242 INFO  [Server thread] a.AdvancedWarps.publish(37): [AdvancedWarps] 插件启动完成，输入/aw help查看帮助！
+2023-09-11 12:31:36,246 INFO  [Server thread] c.m.p.PaymentPlugin.publish(37): [Payment] Enabling Payment v1.1.6
+2023-09-11 12:31:36,262 INFO  [Server thread] Console.sendMessage(64): [0;31;1m【码付】当前服务器：http://paycn.minezone.cn:10043，请在YUM等网络管理插件中放行[m
+2023-09-11 12:31:36,267 INFO  [Server thread] c.c.p.PlayersBackpacksViewer.publish(37): [PlayersBackpacksViewer] Enabling PlayersBackpacksViewer v2.0-ForAllVersions
+2023-09-11 12:31:36,277 INFO  [Server thread] m.g.s.STPA.publish(37): [STPA] Enabling STPA v1.0-SNAPSHOT
+2023-09-11 12:31:36,290 INFO  [Server thread] .onEnable(20): {GSY} STPA插件已加载
+2023-09-11 12:31:36,296 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Enabling ViaVersion v4.7.0
+2023-09-11 12:31:36,299 INFO  [Server thread] c.p.b.P.PremiumCheck.publish(37): [PremiumCheck] Enabling PremiumCheck v2.0.0
+2023-09-11 12:31:36,301 ERROR [Server thread] Minecraft.publish(33): Cannot load plugins\PremiumCheck\config.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'reader', line 20, column 1:
+    config_version: 2.0.0
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 49, column 3:
+      request:
+      ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:161) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:129) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:310) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.java.JavaPlugin.reloadConfig(JavaPlugin.java:161) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.java.JavaPlugin.getConfig(JavaPlugin.java:137) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at com.peckot.bukkit.PremiumCheck.PremiumCheck.onEnable(PremiumCheck.java:18) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:336) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:481) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:439) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:340) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'reader', line 20, column 1:
+    config_version: 2.0.0
+    ^
+expected <block end>, but found '<block mapping start>'
+ in 'reader', line 49, column 3:
+      request:
+      ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:656) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:162) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.composeSequenceNode(Composer.java:284) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:207) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.0.jar%2398!/:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	... 17 more
+2023-09-11 12:31:36,374 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: premium [2.0.0]
+2023-09-11 12:31:36,375 INFO  [Server thread] s.e.EpicCombat.publish(37): [EpicCombat] Enabling EpicCombat v1.19
+2023-09-11 12:31:36,378 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Enabling ViaBackwards v4.7.0
+2023-09-11 12:31:36,380 INFO  [Server thread] n.l.p.PlayerStatistics.publish(37): [PlayerStatistics] Enabling PlayerStatistics v1.1.1
+2023-09-11 12:31:36,407 INFO  [Server thread] Minecraft.publish(37): PlayerStatistics v1.1.1 has started
+2023-09-11 12:31:36,408 INFO  [Server thread] w.c.v.VeinMiner.publish(37): [VeinMiner] Enabling VeinMiner v1.15.1
+2023-09-11 12:31:36,460 INFO  [Server thread] .getNMSClass(103): Could not find class EntityPlayer
+2023-09-11 12:31:36,463 INFO  [Server thread] .getNMSClass(103): Could not find class PlayerInteractManager
+2023-09-11 12:31:36,465 ERROR [Server thread] Minecraft.publish(33): Error occurred while enabling VeinMiner v1.15.1 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "java.lang.Class.getSimpleName()" because "cl" is null
+	at com.mohistmc.bukkit.remapping.ReflectionHandler_14.redirectClassGetSimpleName(ReflectionHandler.java:133) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at wtf.choco.veinminer.utils.ReflectionUtil.getField(ReflectionUtil.java:81) ~[?:?]
+	at wtf.choco.veinminer.utils.ReflectionUtil.init(ReflectionUtil.java:56) ~[?:?]
+	at wtf.choco.veinminer.VeinMiner.onEnable(VeinMiner.java:81) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:267) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:336) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:481) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:546) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:458) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:f83c8df4-c335a555f-b41c46db]
+	at net.minecraft.server.MinecraftServer.m_129815_(MinecraftServer.java:439) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130006_(MinecraftServer.java:340) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.dedicated.DedicatedServer.m_7038_(DedicatedServer.java:220) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:852) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+2023-09-11 12:31:36,468 INFO  [Server thread] w.c.v.VeinMiner.publish(37): [VeinMiner] Disabling VeinMiner v1.15.1
+2023-09-11 12:31:36,469 INFO  [Server thread] w.c.v.VeinMiner.publish(37): [VeinMiner] Clearing localized data
+2023-09-11 12:31:36,492 INFO  [Server thread] c.o.M.MultiverseCore.publish(37): [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+2023-09-11 12:31:36,520 WARN  [Server thread] c.o.M.MultiverseCore.publish(35): [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+2023-09-11 12:31:36,523 INFO  [Server thread] Minecraft.publish(37): [Multiverse-Core] §aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+2023-09-11 12:31:36,712 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: sc
+2023-09-11 12:31:36,713 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Use '/mv remove' to remove it from the config!
+2023-09-11 12:31:36,714 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_the_end
+2023-09-11 12:31:36,715 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Use '/mv remove' to remove it from the config!
+2023-09-11 12:31:36,737 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: world_nether
+2023-09-11 12:31:36,739 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Use '/mv remove' to remove it from the config!
+2023-09-11 12:31:36,789 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:xyx
+2023-09-11 12:31:40,086 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,097 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,113 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,129 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,143 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,211 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,248 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,291 INFO  [Worker-Main-4] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:40,853 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:41,290 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:41,790 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 58%
+2023-09-11 12:31:42,080 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 5290 ms
+2023-09-11 12:31:42,085 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: DIM1
+2023-09-11 12:31:42,085 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Use '/mv remove' to remove it from the config!
+2023-09-11 12:31:42,120 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:zc
+2023-09-11 12:31:45,647 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,648 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,649 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,650 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,652 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,654 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,656 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:45,657 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:46,132 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:46,621 INFO  [Worker-Main-1] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 57%
+2023-09-11 12:31:46,871 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 4750 ms
+2023-09-11 12:31:46,876 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: jojo
+2023-09-11 12:31:46,877 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Use '/mv remove' to remove it from the config!
+2023-09-11 12:31:46,878 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] WorldManager: Can't load this world because the folder was deleted/moved: DIM-1
+2023-09-11 12:31:46,879 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Use '/mv remove' to remove it from the config!
+2023-09-11 12:31:46,879 INFO  [Server thread] Minecraft.publish(37): [Multiverse-Core] 3 - World(s) loaded.
+2023-09-11 12:31:46,915 WARN  [Server thread] Minecraft.publish(35): [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+2023-09-11 12:31:46,959 INFO  [Server thread] Minecraft.publish(37): [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+2023-09-11 12:31:46,960 INFO  [Server thread] n.s.b.SkinsRestorerBootstrap.publish(37): [SkinsRestorer] Enabling SkinsRestorer v14.2.12
+2023-09-11 12:31:48,719 INFO  [Server thread] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1mDetected Minecraft [33;1mv1_20_R1[32;1m, using [33;1mMappingSpigotSkinRefresher[32;1m.[0;39m[m
+2023-09-11 12:31:49,383 INFO  [Server thread] c.h.a.p.AfDianPay.publish(37): [AfDianPay] Enabling AfDianPay v1.0.5
+2023-09-11 12:31:49,475 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: afDianPay [1.0.5]
+2023-09-11 12:31:49,492 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[AfDianPay] [0;32;1m成功加载placeholderApi,启用自定义变量功能![m
+2023-09-11 12:31:49,493 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[AfDianPay] [0;31;22m未找到PlayerPoints,未启用点券相关功能![m
+2023-09-11 12:31:49,836 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[AfDianPay] [0;32;1m已成功载入服务器！[m
+2023-09-11 12:31:49,837 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[AfDianPay] [0;32;1mAuthor:handy QQ群:1064982471[m
+2023-09-11 12:31:50,493 INFO  [Server thread] c.h.p.PlayerTitle.publish(37): [PlayerTitle] Enabling PlayerTitle v3.4.8
+2023-09-11 12:31:50,683 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;32;1m成功加载Vault,启用经济相关功能![m
+2023-09-11 12:31:50,697 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: playerTitle [3.4.8]
+2023-09-11 12:31:50,698 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;32;1m成功加载placeholderApi,启用自定义变量功能![m
+2023-09-11 12:31:50,699 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到PlayerPoints,未启用点券相关功能![m
+2023-09-11 12:31:50,700 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到attributePlus,未启用属性标签相关功能![m
+2023-09-11 12:31:50,701 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到AttributeSystem,未启用属性标签相关功能![m
+2023-09-11 12:31:50,704 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到SXAttribute,未启用属性标签相关功能![m
+2023-09-11 12:31:50,705 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到SuperTrails,未启用粒子效果相关功能![m
+2023-09-11 12:31:50,706 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到MmoItems,未启用MmoItems buff相关功能![m
+2023-09-11 12:31:50,707 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;31;22m未找到PlayerParticles,未启用PlayerParticles粒子效果功能![m
+2023-09-11 12:31:50,708 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m[m
+2023-09-11 12:31:50,709 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m ____  _                      _____ _ _   _      [m
+2023-09-11 12:31:50,710 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m |  _ \| | __ _ _   _  ___ _ _|_   _(_) |_| | ___ [m
+2023-09-11 12:31:50,711 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m | |_) | |/ _` | | | |/ _ \ '__|| | | | __| |/ _ \[m
+2023-09-11 12:31:50,711 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m |  __/| | (_| | |_| |  __/ |   | | | | |_| |  __/[m
+2023-09-11 12:31:50,712 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m |_|   |_|\__,_|\__, |\___|_|   |_| |_|\__|_|\___|[m
+2023-09-11 12:31:50,713 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;36;22m                |___/                             [m
+2023-09-11 12:31:51,248 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;32;1m已成功载入服务器！[m
+2023-09-11 12:31:51,249 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;32;1mAuthor:handy MCBBS: https://www.mcbbs.net/thread-1004671-1-1.html[m
+2023-09-11 12:31:51,250 INFO  [Server thread] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] Enabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+2023-09-11 12:31:51,392 INFO  [Server thread] c.t.d.Main.publish(37): [DemonMarket] Enabling DemonMarket v1.6.2
+2023-09-11 12:31:51,494 WARN  [Server thread] c.t.d.Main.publish(35): [DemonMarket] Could not save zh_cn.yml to plugins\DemonMarket\lang\zh_cn.yml because zh_cn.yml already exists.
+2023-09-11 12:31:51,522 INFO  [Server thread] Minecraft.publish(37): [DemonMarket] Vault detected.
+2023-09-11 12:31:51,586 INFO  [Server thread] c.h.m.PlayerMenu.publish(37): [PlayerMenu] Enabling PlayerMenu v1.2.0
+2023-09-11 12:31:51,706 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1m已成功加载Vault 启用经济相关功能.[m
+2023-09-11 12:31:51,707 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;37;22m你的服务端没有安装PlayerPoints 未启用点券相关功能.[m
+2023-09-11 12:31:51,708 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1m已成功加载placeholderApi[m
+2023-09-11 12:31:51,709 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;37;22m你的服务端没有安装playerGuild 未兼容公会功能.[m
+2023-09-11 12:31:51,710 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m[m
+2023-09-11 12:31:51,711 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m  ____  _                       __  __                  [m
+2023-09-11 12:31:51,712 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m |  _  | | __ _ _   _  ___ _ __|  /  | ___ _ __  _   _ [m
+2023-09-11 12:31:51,712 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m | |_) | |/ _` | | | |/ _ \ '__| |/| |/ _ \ '_ \| | | |[m
+2023-09-11 12:31:51,723 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m |  __/| | (_| | |_| |  __/ |  | |  | |  __/ | | | |_| |[m
+2023-09-11 12:31:51,727 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m |_|   |_|\__,_|\__, |\___|_|  |_|  |_|\___|_| |_|\__,_|[m
+2023-09-11 12:31:51,729 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;36;22m                |___/                                   [m
+2023-09-11 12:31:52,087 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1m已成功载入服务器！[m
+2023-09-11 12:31:52,088 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1mAuthor:handy QQ群:1064982471[m
+2023-09-11 12:31:52,089 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Enabling AdvancedReplay v1.8.4
+2023-09-11 12:31:52,090 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Loading Replay v1.8.4 by Jumper251
+2023-09-11 12:31:52,238 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Finished (148ms)
+2023-09-11 12:31:52,239 INFO  [Server thread] m.g.r.t.p.BukkitPlugin.publish(37): [GeekRewardPlus] Enabling GeekRewardPlus v2.2
+2023-09-11 12:31:52,283 INFO  [Server thread] Console.sendMessage(64): [m
+2023-09-11 12:31:52,284 INFO  [Server thread] Console.sendMessage(64):   ________               __   __________                                .___[m
+2023-09-11 12:31:52,285 INFO  [Server thread] Console.sendMessage(64):  /  _____/  ____   ____ |  | _\______   \ ______  _  _______ _______  __| _/[m
+2023-09-11 12:31:52,286 INFO  [Server thread] Console.sendMessage(64): /   \  ____/ __ \_/ __ \|  |/ /|       _// __ \ \/ \/ /\__  \\_  __ \/ __ | [m
+2023-09-11 12:31:52,287 INFO  [Server thread] Console.sendMessage(64): \    \_\  \  ___/\  ___/|    < |    |   \  ___/\     /  / __ \|  | \/ /_/ | [m
+2023-09-11 12:31:52,287 INFO  [Server thread] Console.sendMessage(64):  \______  /\___  >\___  >__|_ \|____|_  /\___  >\/\_/  (____  /__|  \____ | [m
+2023-09-11 12:31:52,288 INFO  [Server thread] Console.sendMessage(64):         \/     \/     \/     \/       \/     \/             \/           \/ [m
+2023-09-11 12:31:52,289 INFO  [Server thread] Console.sendMessage(64): [m
+2023-09-11 12:31:52,290 INFO  [Server thread] Console.sendMessage(64): [m
+2023-09-11 12:31:52,291 INFO  [Server thread] Console.sendMessage(64):      [0;33;1mGeekRewardPlus [0;36;1mv2.2 [0;37;22mby [0;32;1mwww.geekcraft.ink[m
+2023-09-11 12:31:52,291 INFO  [Server thread] Console.sendMessage(64):      [0;30;1m适用于Bukkit: [0;37;22m1.12.x-1.20.x [0;30;1m当前: [0;37;22mMohist[m
+2023-09-11 12:31:52,292 INFO  [Server thread] Console.sendMessage(64): [m
+2023-09-11 12:31:52,318 INFO  [Server thread] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;37;22m加载 [0;37;1mpoints [0;37;22m奖励配置... [0;30;1m(耗时 24 ms)[m
+2023-09-11 12:31:52,324 INFO  [Server thread] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;37;22m加载 [0;37;1mmoney [0;37;22m奖励配置... [0;30;1m(耗时 5 ms)[m
+2023-09-11 12:31:52,384 INFO  [Server thread] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;37;22m加载 [0;37;1mtime [0;37;22m奖励配置... [0;30;1m(耗时 59 ms)[m
+2023-09-11 12:31:52,413 INFO  [Server thread] c.z.h.HikariDataSource.getConnection(110): GeekCos-SQLITE - Starting...
+2023-09-11 12:31:52,541 INFO  [Server thread] c.z.h.HikariDataSource.getConnection(123): GeekCos-SQLITE - Start completed.
+2023-09-11 12:31:52,588 INFO  [Server thread] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;37;22m加载奖励菜单配置... [0;30;1m(耗时 18 ms)[m
+2023-09-11 12:31:52,590 INFO  [Server thread] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;37;22m软依赖 [0;37;1mPlaceholderAPI [0;37;22m已兼容.[m
+2023-09-11 12:31:52,591 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: GeekReward [2.2]
+2023-09-11 12:31:52,671 INFO  [Server thread] n.m.s.MinecraftServer.m_129940_(570): Preparing start region for dimension minecraft:czf
+2023-09-11 12:31:56,834 INFO  [Worker-Main-4] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,835 INFO  [Worker-Main-4] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,843 INFO  [Worker-Main-4] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,844 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,846 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,847 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,848 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,851 INFO  [Worker-Main-3] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:56,900 INFO  [Worker-Main-6] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:57,211 INFO  [Worker-Main-4] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 0%
+2023-09-11 12:31:57,673 INFO  [Worker-Main-2] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 4%
+2023-09-11 12:31:58,174 INFO  [Worker-Main-7] n.m.s.l.p.LoggerChunkProgressListener.m_5511_(44): Preparing spawn area: 84%
+2023-09-11 12:31:58,303 INFO  [Server thread] n.m.s.l.p.LoggerChunkProgressListener.m_7646_(55): Time elapsed: 5630 ms
+2023-09-11 12:31:58,343 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Enabling Mohist v1.20.1
+2023-09-11 12:31:58,348 WARN  [Server thread] c.m.p.Main.publish(35): [Mohist] Loaded class me.clip.placeholderapi.expansion.PlaceholderExpansion from PlaceholderAPI v2.11.3 which is not a depend or softdepend of this plugin.
+2023-09-11 12:31:58,350 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Successfully registered expansion: mohist [1.20.1]
+2023-09-11 12:31:58,377 INFO  [Server thread] Minecraft.publish(37): Server permissions file permissions.yml is empty, ignoring it
+2023-09-11 12:31:58,423 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Placeholder expansion registration initializing...
+2023-09-11 12:31:58,432 INFO  [Server thread] Console.sendMessage(64): [0;33;22m0 placeholder hook(s) registered![m
+2023-09-11 12:31:58,434 INFO  [Server thread] n.m.s.d.DedicatedServer.m_7038_(223): Done (39.008s)! For help, type "help"
+2023-09-11 12:31:58,465 INFO  [Server thread] n.m.s.p.PermissionAPI.initializePermissionAPI(130): Successfully initialized permission handler forge:default_handler
+2023-09-11 12:31:58,522 ERROR [Server thread] c.v.v.ViaVersionPlugin.publish(33): [ViaVersion] ViaVersion failed to get the server protocol!
+2023-09-11 12:31:58,523 WARN  [Server thread] .println(762): java.lang.NullPointerException: Failed to get server data
+2023-09-11 12:31:58,524 WARN  [Server thread] .println(762): 	at MC-BOOTSTRAP/com.google.common@31.1-jre/com.google.common.base.Preconditions.checkNotNull(Preconditions.java:907)
+2023-09-11 12:31:58,525 WARN  [Server thread] .println(762): 	at com.viaversion.viaversion.bukkit.platform.BukkitViaInjector.veryCursedProtocolDetection(BukkitViaInjector.java:130)
+2023-09-11 12:31:58,526 WARN  [Server thread] .println(762): 	at com.viaversion.viaversion.bukkit.platform.BukkitViaInjector.getServerProtocolVersion(BukkitViaInjector.java:70)
+2023-09-11 12:31:58,527 WARN  [Server thread] .println(762): 	at com.viaversion.viaversion.ViaManagerImpl.loadServerProtocol(ViaManagerImpl.java:183)
+2023-09-11 12:31:58,527 WARN  [Server thread] .println(762): 	at com.viaversion.viaversion.ViaManagerImpl.onServerLoaded(ViaManagerImpl.java:121)
+2023-09-11 12:31:58,528 WARN  [Server thread] .println(762): 	at TRANSFORMER/forge@47.1.62/org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:78)
+2023-09-11 12:31:58,529 WARN  [Server thread] .println(762): 	at TRANSFORMER/forge@47.1.62/org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:416)
+2023-09-11 12:31:58,530 WARN  [Server thread] .println(762): 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1134)
+2023-09-11 12:31:58,530 WARN  [Server thread] .println(762): 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:343)
+2023-09-11 12:31:58,531 WARN  [Server thread] .println(762): 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1073)
+2023-09-11 12:31:58,532 WARN  [Server thread] .println(762): 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906)
+2023-09-11 12:31:58,532 WARN  [Server thread] .println(762): 	at TRANSFORMER/minecraft@1.20.1/net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280)
+2023-09-11 12:31:58,533 WARN  [Server thread] .println(762): 	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-09-11 12:31:58,553 ERROR [Server thread] c.v.v.ViaVersionPlugin.publish(33): [ViaVersion] Server version has not been loaded yet, cannot register additional listeners
+2023-09-11 12:31:58,573 INFO  [Craft Scheduler Thread - 6] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-11 12:31:58,603 INFO  [Craft Scheduler Thread - 7] n.m.v.Vault.publish(37): [Vault] Checking for Updates ... 
+2023-09-11 12:31:58,604 INFO  [Craft Scheduler Thread - 9] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Finished mapping loading, shutting down loader executor!
+2023-09-11 12:31:58,605 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;36;1mUPDATE [0;30;1m| [0;36;22m正在检查版本更新...[m
+2023-09-11 12:31:59,461 INFO  [Craft Scheduler Thread - 0] m.y.x.XConomy.publish(37): [XConomy] Is the latest version
+2023-09-11 12:31:59,470 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+2023-09-11 12:31:59,472 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+2023-09-11 12:31:59,474 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |   SkinsRestorer  |[0;39m[m
+2023-09-11 12:31:59,475 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |------------------|[0;39m[m
+2023-09-11 12:31:59,477 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    |  [34;1m[4m[21mStandalone Mode[0;39m[32;1m |[0;39m[m
+2023-09-11 12:31:59,479 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    +==================+[0;39m[m
+2023-09-11 12:31:59,480 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+2023-09-11 12:31:59,486 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[36;1m    Current version: [32;1m14.2.12[0;39m[m
+2023-09-11 12:31:59,487 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m    This is the latest version![0;39m[m
+2023-09-11 12:31:59,488 INFO  [Craft Scheduler Thread - 2] Console.sendMessage(64): [33;1m[[32;22mSkinsRestorer[33;1m] [0;39m[32;1m----------------------------------------------[0;39m[m
+2023-09-11 12:32:00,321 INFO  [Craft Scheduler Thread - 7] n.m.v.Vault.publish(37): [Vault] No new version available
+2023-09-11 12:32:01,374 INFO  [Craft Scheduler Thread - 3] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:32:01,647 INFO  [Craft Scheduler Thread - 3] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 12:32:01,730 INFO  [Craft Scheduler Thread - 5] Console.sendMessage(64): [0;37;22m[PlayerTitle] [0;32;1m您正在使用PlayerTitle插件免费版,感谢您的支持[m
+2023-09-11 12:32:08,794 WARN  [Craft Scheduler Thread - 4] n.s.b.SkinsRestorerBootstrap.publish(35): [SkinsRestorer] Plugin SkinsRestorer v14.2.12 generated an exception while executing task 17
+java.io.UncheckedIOException: java.net.SocketTimeoutException: Read timed out
+	at java.io.BufferedReader$1.hasNext(BufferedReader.java:574) ~[?:?]
+	at java.util.Iterator.forEachRemaining(Iterator.java:132) ~[?:?]
+	at java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682) ~[?:?]
+	at net.skinsrestorer.shared.utils.connections.MojangAPI.readURL(MojangAPI.java:285) ~[?:?]
+	at net.skinsrestorer.shared.utils.connections.MojangAPI.readURL(MojangAPI.java:271) ~[?:?]
+	at net.skinsrestorer.shared.utils.connections.MojangAPI.getUUIDAshcon(MojangAPI.java:135) ~[?:?]
+	at net.skinsrestorer.shared.utils.connections.ServiceChecker.checkServices(ServiceChecker.java:47) ~[?:?]
+	at net.skinsrestorer.shared.utils.SharedMethods.runServiceCheck(SharedMethods.java:55) ~[?:?]
+	at net.skinsrestorer.bukkit.SkinsRestorerBukkit.lambda$pluginStartup$7(SkinsRestorerBukkit.java:259) ~[?:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftTask.run(CraftTask.java:78) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at org.bukkit.craftbukkit.v1_20_R1.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:55) [forge-1.20.1-47.1.62-universal.jar%23174!/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: java.net.SocketTimeoutException: Read timed out
+	at sun.nio.ch.NioSocketImpl.timedRead(NioSocketImpl.java:280) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.implRead(NioSocketImpl.java:306) ~[?:?]
+	at sun.nio.ch.NioSocketImpl.read(NioSocketImpl.java:347) ~[?:?]
+	at sun.nio.ch.NioSocketImpl$1.read(NioSocketImpl.java:800) ~[?:?]
+	at java.net.Socket$SocketInputStream.read(Socket.java:966) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.read(SSLSocketInputRecord.java:478) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.readFully(SSLSocketInputRecord.java:461) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decodeInputRecord(SSLSocketInputRecord.java:243) ~[?:?]
+	at sun.security.ssl.SSLSocketInputRecord.decode(SSLSocketInputRecord.java:181) ~[?:?]
+	at sun.security.ssl.SSLTransport.decode(SSLTransport.java:111) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.decode(SSLSocketImpl.java:1508) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl.readApplicationRecord(SSLSocketImpl.java:1479) ~[?:?]
+	at sun.security.ssl.SSLSocketImpl$AppInputStream.read(SSLSocketImpl.java:1064) ~[?:?]
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:244) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:284) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:343) ~[?:?]
+	at sun.net.www.MeteredStream.read(MeteredStream.java:141) ~[?:?]
+	at java.io.FilterInputStream.read(FilterInputStream.java:133) ~[?:?]
+	at sun.net.www.protocol.http.HttpURLConnection$HttpInputStream.read(HttpURLConnection.java:3663) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:270) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:313) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:188) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:176) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:162) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:329) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:396) ~[?:?]
+	at java.io.BufferedReader$1.hasNext(BufferedReader.java:571) ~[?:?]
+	... 18 more
+2023-09-11 12:32:10,829 INFO  [DemonMarket-thread-0] c.t.d.Main.publish(37): [DemonMarket] Update check done
+2023-09-11 12:32:19,576 INFO  [Server thread] Console.sendMessage(64): [0;33;1m--------- [0;37;1mHelp: Index [0;33;1m---------------------------[m
+2023-09-11 12:32:19,577 INFO  [Server thread] Console.sendMessage(64): [0;37;22mUse /help [n] to get page n of help.[m
+2023-09-11 12:32:19,578 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[0;33;22mAdvancedReplay: [0;37;1mAll commands for AdvancedReplay[m
+2023-09-11 12:32:19,579 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mAdvancedWarps: [0;37;1mAll commands for AdvancedWarps[m
+2023-09-11 12:32:19,581 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mAfDianPay: [0;37;1mAll commands for AfDianPay[m
+2023-09-11 12:32:19,582 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mAliases: [0;37;1mLists command aliases[m
+2023-09-11 12:32:19,583 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mBukkit: [0;37;1mAll commands for Bukkit[m
+2023-09-11 12:32:19,584 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mCatSeedLogin: [0;37;1mAll commands for CatSeedLogin[m
+2023-09-11 12:32:19,585 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mDemonMarket: [0;37;1mAll commands for DemonMarket[m
+2023-09-11 12:32:19,586 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mGeekRewardPlus: [0;37;1mAll commands for GeekRewardPlus[m
+2023-09-11 12:32:19,587 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mMinecraft: [0;37;1mAll commands for Minecraft[m
+2023-09-11 12:32:19,587 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mMultiverse-Core: [0;37;1mAll commands for Multiverse-Core[m
+2023-09-11 12:32:19,588 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPayment: [0;37;1mAll commands for Payment[m
+2023-09-11 12:32:19,589 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPlaceholderAPI: [0;37;1mAll commands for PlaceholderAPI[m
+2023-09-11 12:32:19,590 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPlayerMenu: [0;37;1mAll commands for PlayerMenu[m
+2023-09-11 12:32:19,590 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPlayersBackpacksViewer: [0;37;1mAll commands for PlayersBackpacksViewer[m
+2023-09-11 12:32:19,591 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPlayerStatistics: [0;37;1mAll commands for PlayerStatistics[m
+2023-09-11 12:32:19,592 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPlayerTitle: [0;37;1mAll commands for PlayerTitle[m
+2023-09-11 12:32:19,592 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mPremiumCheck: [0;37;1mAll commands for PremiumCheck[m
+2023-09-11 12:32:19,593 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mProtocolLib: [0;37;1mAll commands for ProtocolLib[m
+2023-09-11 12:32:19,594 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mSkinsRestorer: [0;37;1mAll commands for SkinsRestorer[m
+2023-09-11 12:32:19,595 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mStp: [0;37;1mAll commands for Stp[m
+2023-09-11 12:32:19,614 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mSTPA: [0;37;1mAll commands for STPA[m
+2023-09-11 12:32:19,616 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mSuperMotd: [0;37;1mAll commands for SuperMotd[m
+2023-09-11 12:32:19,617 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mVault: [0;37;1mAll commands for Vault[m
+2023-09-11 12:32:19,618 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mVeinMiner: [0;37;1mAll commands for VeinMiner[m
+2023-09-11 12:32:19,619 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mViaVersion: [0;37;1mAll commands for ViaVersion[m
+2023-09-11 12:32:19,620 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22mXConomy: [0;37;1mAll commands for XConomy[m
+2023-09-11 12:32:19,620 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/advancement: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,621 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/afdianpay: [0;37;1m[m
+2023-09-11 12:32:19,622 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/alipay: [0;37;1m[m
+2023-09-11 12:32:19,623 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/attribute: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,624 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/aw: [0;37;1m[m
+2023-09-11 12:32:19,625 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/backupworld: [0;37;1mCreate a backup of your world.[m
+2023-09-11 12:32:19,626 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/balance: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,631 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/balancetop: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,633 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/ban: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,634 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/ban-ip: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,634 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/banlist: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,635 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/bans: [0;37;1mMohist related commands[m
+2023-09-11 12:32:19,636 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/bindemail: [0;37;1m绑定邮箱,重置密码[m
+2023-09-11 12:32:19,637 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/bossbar: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,637 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/c: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,638 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/catseedlogin: [0;37;1m管理员管理指令[m
+2023-09-11 12:32:19,639 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/changepassword: [0;37;1m修改密码[m
+2023-09-11 12:32:19,639 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/changeservermotd: [0;37;1mSet your Server MOTD.[m
+2023-09-11 12:32:19,640 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/checkping: [0;37;1mSee the ping of any player[m
+2023-09-11 12:32:19,641 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/clear: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,647 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/clearstats: [0;37;1mClear player's stats[m
+2023-09-11 12:32:19,650 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/clone: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,651 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/config: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,652 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/create: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,652 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/damage: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,653 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/data: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,654 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/datapack: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,655 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/debug: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,656 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/defaultgamemode: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,657 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/demonmarket: [0;37;1mBuy or sell some item in player's inventory[m
+2023-09-11 12:32:19,661 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/demonmarketadmin: [0;37;1mBuy or sell some item in player's inventory[m
+2023-09-11 12:32:19,663 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/deop: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,664 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/difficulty: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,665 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/dump: [0;37;1mUniversal Dump, which will print the information you need locally![m
+2023-09-11 12:32:19,666 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/ebalancetop: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,667 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/ebaltop: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,667 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/eco: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,668 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/economy: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,669 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/eeconomy: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,670 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/effect: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,670 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/enchant: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,671 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/execute: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,676 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/experience: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,678 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/fill: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,679 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/fillbiome: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,680 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/filter: [0;37;1mAdd or remove programmable filters to the packet listeners.[m
+2023-09-11 12:32:19,681 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/forceload: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,682 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/forge: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,683 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/function: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,684 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/gamemode: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,694 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/gamerule: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,698 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/geekrw: [0;37;1mgeekrw[m
+2023-09-11 12:32:19,699 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/getpluginlist: [0;37;1mPaste the list of your plugins on hastebin and get the link.[m
+2023-09-11 12:32:19,700 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/give: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,701 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/help: [0;37;1mShows the help menu[m
+2023-09-11 12:32:19,702 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/item: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,704 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/items: [0;37;1mMohist item edit commands[m
+2023-09-11 12:32:19,704 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/jfr: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,705 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/kick: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,706 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/kill: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,706 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/list: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,707 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/lobby: [0;37;1m返回大厅.[m
+2023-09-11 12:32:19,708 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/locate: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,709 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/login: [0;37;1m使用密码登录[m
+2023-09-11 12:32:19,709 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/loot: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,710 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/me: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,711 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/minecraft:help: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,712 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/minecraft:reload: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,713 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mohist: [0;37;1mMohist related commands[m
+2023-09-11 12:32:19,713 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/money: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,714 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/motdinfo: [0;37;1mCheck your In-Game MOTD and Server MOTD.[m
+2023-09-11 12:32:19,714 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/msg: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,715 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mv: [0;37;1mGeneric Multiverse Command[m
+2023-09-11 12:32:19,716 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvanchors: [0;37;1mCreating and removing Anchors command[m
+2023-09-11 12:32:19,717 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvcheck: [0;37;1mValidate your multiverse settings command[m
+2023-09-11 12:32:19,717 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvclone: [0;37;1mWorld clone command[m
+2023-09-11 12:32:19,718 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvconfig: [0;37;1mConfiguration command[m
+2023-09-11 12:32:19,719 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvconfirm: [0;37;1mConfirms sensitive decisions like deleting a world.[m
+2023-09-11 12:32:19,727 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvcoord: [0;37;1mDisplay World, Coordinates, Direction & Compression for a world.[m
+2023-09-11 12:32:19,732 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvcreate: [0;37;1mWorld create command[m
+2023-09-11 12:32:19,733 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvdebug: [0;37;1mTurns on debugging.[m
+2023-09-11 12:32:19,734 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvdelete: [0;37;1mDelete world from server folders command[m
+2023-09-11 12:32:19,735 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvenv: [0;37;1mTells the user all possible environment types.[m
+2023-09-11 12:32:19,736 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvgamerule: [0;37;1mSets a gamerule.[m
+2023-09-11 12:32:19,737 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvgamerules: [0;37;1mLists the gamerules[m
+2023-09-11 12:32:19,738 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvgenerators: [0;37;1mDisplays all found world generators.[m
+2023-09-11 12:32:19,739 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvhelp: [0;37;1mDisplays the Multiverse Help.[m
+2023-09-11 12:32:19,740 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvimport: [0;37;1mWorld import command[m
+2023-09-11 12:32:19,740 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvinfo: [0;37;1mGets world info.[m
+2023-09-11 12:32:19,741 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvlist: [0;37;1mPrint list of loaded Worlds[m
+2023-09-11 12:32:19,742 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvload: [0;37;1mLoads a world into Multiverse.[m
+2023-09-11 12:32:19,743 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvmadd: [0;37;1mModify the settings of an existing world[m
+2023-09-11 12:32:19,744 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvmclear: [0;37;1mModify the settings of an existing world[m
+2023-09-11 12:32:19,745 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvmodify: [0;37;1mModify the settings of an existing world[m
+2023-09-11 12:32:19,746 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvmremove: [0;37;1mModify the settings of an existing world[m
+2023-09-11 12:32:19,747 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvmset: [0;37;1mModify the settings of an existing world[m
+2023-09-11 12:32:19,747 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvpurge: [0;37;1mPurge the targetted world of creatures.[m
+2023-09-11 12:32:19,748 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvregen: [0;37;1mRegenerates a world Multiverse already knows about.[m
+2023-09-11 12:32:19,749 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvreload: [0;37;1mReload Configuration files.[m
+2023-09-11 12:32:19,750 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvremove: [0;37;1mRemove world from multiverse command[m
+2023-09-11 12:32:19,756 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvscript: [0;37;1mRuns a script from the Multiverse scripts directory.[m
+2023-09-11 12:32:19,760 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvsetspawn: [0;37;1mSet the spawn area for a particular world[m
+2023-09-11 12:32:19,761 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvsilent: [0;37;1mReduces startup messages[m
+2023-09-11 12:32:19,762 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvspawn: [0;37;1mTeleport to the spawn area[m
+2023-09-11 12:32:19,762 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvtp: [0;37;1mCommand to teleport between Worlds[m
+2023-09-11 12:32:19,763 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvunload: [0;37;1mWorld unload command[m
+2023-09-11 12:32:19,764 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvversion: [0;37;1mPrints out version info.[m
+2023-09-11 12:32:19,764 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/mvwho: [0;37;1mDisplay online users per world.[m
+2023-09-11 12:32:19,779 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/op: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,781 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/packet: [0;37;1mAdd or remove a simple packet listener.[m
+2023-09-11 12:32:19,783 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/packetlog: [0;37;1mLogs hex representations of packets to a file or console[m
+2023-09-11 12:32:19,784 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/pardon: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,786 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/pardon-ip: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,787 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/particle: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,787 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/pay: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,788 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/paypermission: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,789 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/paytoggle: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,789 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/pbv: [0;37;1m你可以通过这个指令来查看玩家的背包[m
+2023-09-11 12:32:19,790 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/pbve: [0;37;1m你可以通过这个指令来查看玩家的末影箱[m
+2023-09-11 12:32:19,791 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/perf: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,792 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/permission: [0;37;1mPermission manager[m
+2023-09-11 12:32:19,793 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/place: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,796 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/placeholderapi: [0;37;1mPlaceholderAPI Command[m
+2023-09-11 12:32:19,804 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/playermenu: [0;37;1m[m
+2023-09-11 12:32:19,805 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/playertitle: [0;37;1m[m
+2023-09-11 12:32:19,808 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/playsound: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,809 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/playtime: [0;37;1mSee the total playtime of any player[m
+2023-09-11 12:32:19,810 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/plugin: [0;37;1mPlugin manager[m
+2023-09-11 12:32:19,810 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/plugins: [0;37;1mGets a list of plugins running on the server[m
+2023-09-11 12:32:19,811 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/premium: [0;37;1mCheck a player's premium state.[m
+2023-09-11 12:32:19,812 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/protocol: [0;37;1mPerforms administrative tasks regarding ProtocolLib.[m
+2023-09-11 12:32:19,813 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/qq: [0;37;1m[m
+2023-09-11 12:32:19,814 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/recipe: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,815 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/register: [0;37;1m注册密码[m
+2023-09-11 12:32:19,816 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/reload: [0;37;1mReloads the server configuration and plugins[m
+2023-09-11 12:32:19,817 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/replay: [0;37;1mMain Replay command[m
+2023-09-11 12:32:19,818 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/resetpassword: [0;37;1m忘记密码,重置密码[m
+2023-09-11 12:32:19,819 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/return: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,819 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/ride: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,820 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/save-all: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,821 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/save-off: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,822 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/save-on: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,823 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/say: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,824 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/schedule: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,824 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/scoreboard: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,825 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/seed: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,826 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/setblock: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,826 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/setidletimeout: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,827 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/setworldspawn: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,828 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/shows: [0;37;1mMohist shows commands[m
+2023-09-11 12:32:19,837 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/skin: [0;37;1m[m
+2023-09-11 12:32:19,841 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/skins: [0;37;1m[m
+2023-09-11 12:32:19,842 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/skinsrestorer: [0;37;1m[m
+2023-09-11 12:32:19,843 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/spawnpoint: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,844 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/spectate: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,845 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/spigot: [0;37;1mSpigot related commands[m
+2023-09-11 12:32:19,846 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/spreadplayers: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,846 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/sr: [0;37;1m[m
+2023-09-11 12:32:19,847 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stats: [0;37;1mOpen a GUI to view the stats of any player[m
+2023-09-11 12:32:19,848 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stop: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,848 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stopsound: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,849 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stp: [0;37;1m跨服传送基础指令.[m
+2023-09-11 12:32:19,850 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stpadmin: [0;37;1m跨服传送管理指令.[m
+2023-09-11 12:32:19,861 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stpall: [0;37;1m全子服内传送至目标服务器.[m
+2023-09-11 12:32:19,867 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/stpbcall: [0;37;1m全BC内传送至目标服务器.[m
+2023-09-11 12:32:19,870 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/summon: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,871 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tag: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,872 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/team: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,872 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/teammsg: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,873 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/teleport: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,874 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tell: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,875 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tellraw: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,876 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/time: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,882 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/title: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,884 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tm: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,885 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tp: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,886 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tpa: [0;37;1mtpa PLAYER;tpa yes/no[m
+2023-09-11 12:32:19,886 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tpahere: [0;37;1mtpahere PLAYER;tpahere yes/no[m
+2023-09-11 12:32:19,887 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/tps: [0;37;1mGets the current ticks per second for the server[m
+2023-09-11 12:32:19,888 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/trigger: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,889 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/vampirism: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,890 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/vampirism-test: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,891 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/vault-convert: [0;37;1mConverts all data in economy1 and dumps it into economy2[m
+2023-09-11 12:32:19,892 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/vault-info: [0;37;1mDisplays information about Vault[m
+2023-09-11 12:32:19,896 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/veinminer: [0;37;1mThe main command for VeinMiner[m
+2023-09-11 12:32:19,898 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/version: [0;37;1mGets the version of this server including any plugins in use[m
+2023-09-11 12:32:19,899 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/viaversion: [0;37;1mShows ViaVersion Version and more.[m
+2023-09-11 12:32:19,900 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/w: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,900 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/weather: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,901 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/wechat: [0;37;1m[m
+2023-09-11 12:32:19,902 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/werewolves: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,903 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/whitelist: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,904 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/worldborder: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:32:19,905 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/worlds: [0;37;1mWorld Manager.[m
+2023-09-11 12:32:19,906 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/xconomy: [0;37;1mXConomy.[m
+2023-09-11 12:32:19,906 INFO  [Server thread] Console.sendMessage(64): [0;37;1m[0;33;22m/xp: [0;37;1mA Mojang provided command.[m
+2023-09-11 12:33:04,490 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;36;1mUPDATE [0;30;1m| [0;33;1m网络异常，无法获取更新信息...[m
+2023-09-11 12:33:04,493 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;30;1m[[0;36;1mGeekRewardPlus[0;30;1m] [0;36;1mUPDATE [0;30;1m| [0;36;22m当前已是最新版本...[m
+2023-09-11 12:33:28,764 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
+2023-09-11 12:33:28,809 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
 java.lang.Throwable: null
 	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:69) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
 	at de.teamlapen.vampirism.GeneralEventHandler.onPlayerLoggedIn(GeneralEventHandler.java:104) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
@@ -24,21 +859,184 @@ java.lang.Throwable: null
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-2023-09-06 09:22:11,224 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:29539] logged in with entity id 15679 at ([world]62.99157703867537, 57.6875, 69.0685032986039)
-2023-09-06 09:22:11,242 INFO  [Craft Scheduler Thread - 768] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
-2023-09-06 09:22:20,874 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
-2023-09-06 09:22:20,892 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
-2023-09-06 09:22:20,949 INFO  [Craft Scheduler Thread - 771] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
-2023-09-06 09:23:22,367 INFO  [Server thread] c.s.c.Create.handleFinishedUpload(258): New Schematic Uploaded: xiaoniangaoh/hys.nbt
-2023-09-06 09:28:26,975 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /money
-2023-09-06 09:29:06,110 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode survival
-2023-09-06 09:29:06,112 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Survival Mode]
-2023-09-06 09:30:08,357 WARN  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_9933_(358): xiaoniangaoh was kicked for floating too long!
-2023-09-06 09:30:08,360 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Flying is not enabled on this server
-2023-09-06 09:30:08,379 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game.
-2023-09-06 09:30:08,420 WARN  [Server thread] n.m.n.Connection.m_129541_(438): handleDisconnection() called twice
-2023-09-06 09:30:18,210 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
-2023-09-06 09:30:18,217 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
+2023-09-11 12:33:28,819 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:27727] logged in with entity id 218 at ([world]67.96933569078077, 22.0, -13.068669865596382)
+2023-09-11 12:33:28,860 INFO  [Craft Scheduler Thread - 4] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-11 12:33:35,502 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
+2023-09-11 12:33:35,554 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
+2023-09-11 12:33:35,624 INFO  [Craft Scheduler Thread - 10] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-11 12:33:36,073 INFO  [Server thread] n.m.w.l.d.e.EndDragonFight.m_64102_(173): Scanning for legacy world dragon fight...
+2023-09-11 12:33:36,074 INFO  [Server thread] n.m.w.l.d.e.EndDragonFight.m_64102_(176): Found that the dragon has been killed in this world already.
+2023-09-11 12:33:38,462 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode survival
+2023-09-11 12:33:38,466 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Survival Mode]
+2023-09-11 12:33:48,341 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdian
+2023-09-11 12:34:01,578 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdian send 1000点卷
+2023-09-11 12:35:01,369 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:35:01,935 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 12:35:17,394 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdian send 1000点券
+2023-09-11 12:37:46,388 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /me
+2023-09-11 12:37:50,905 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /help
+2023-09-11 12:38:01,368 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:38:01,973 INFO  [Craft Scheduler Thread - 10] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 12:39:59,142 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.handleCommand(2831): xiaoniangaoh issued server command: /plm open menu
+2023-09-11 12:40:30,338 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /plugins
+2023-09-11 12:40:52,812 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /playermenu open menu.yml
+2023-09-11 12:41:01,368 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:41:01,989 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 12:41:05,088 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /playermenu view menu.yml
+2023-09-11 12:41:21,104 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode creative
+2023-09-11 12:41:21,109 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Creative Mode]
+2023-09-11 12:42:04,906 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /playermenu view menu.yml
+2023-09-11 12:43:07,142 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdian send 1000点卷
+2023-09-11 12:44:01,371 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:44:03,238 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 12:44:40,678 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /playermenu reload
+2023-09-11 12:45:20,201 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode survival
+2023-09-11 12:45:20,203 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Survival Mode]
+2023-09-11 12:45:50,296 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /effect give xiaoniangaoh minecraft:haste infinite 100
+2023-09-11 12:45:50,310 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Applied effect Haste to xiaoniangaoh]
+2023-09-11 12:47:01,380 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:47:01,985 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 12:50:01,370 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:50:03,051 INFO  [Craft Scheduler Thread - 15] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 12:53:01,382 INFO  [Craft Scheduler Thread - 19] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:53:01,996 INFO  [Craft Scheduler Thread - 19] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 12:56:01,374 INFO  [Craft Scheduler Thread - 22] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:56:03,074 INFO  [Craft Scheduler Thread - 22] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 12:59:01,381 INFO  [Craft Scheduler Thread - 16] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 12:59:03,071 INFO  [Craft Scheduler Thread - 16] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 13:02:01,371 INFO  [Craft Scheduler Thread - 22] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:02:02,026 INFO  [Craft Scheduler Thread - 22] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:05:01,373 INFO  [Craft Scheduler Thread - 25] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:05:01,957 INFO  [Craft Scheduler Thread - 25] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:08:01,381 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:08:01,815 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:11:01,367 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:11:02,092 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:14:01,375 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:14:01,960 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:17:01,368 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:17:01,966 INFO  [Craft Scheduler Thread - 26] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:19:39,051 WARN  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7185_(1218): xiaoniangaoh moved wrongly!
+2023-09-11 13:20:01,383 INFO  [Craft Scheduler Thread - 29] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:20:01,815 INFO  [Craft Scheduler Thread - 29] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:23:01,374 INFO  [Craft Scheduler Thread - 31] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:23:02,115 INFO  [Craft Scheduler Thread - 31] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:26:01,367 INFO  [Craft Scheduler Thread - 32] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:26:01,954 INFO  [Craft Scheduler Thread - 32] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:28:37,691 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /effect clear
+2023-09-11 13:28:37,692 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Removed every effect from xiaoniangaoh]
+2023-09-11 13:29:01,378 INFO  [Craft Scheduler Thread - 32] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:29:01,988 INFO  [Craft Scheduler Thread - 32] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:32:01,376 INFO  [Craft Scheduler Thread - 35] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:32:01,983 INFO  [Craft Scheduler Thread - 35] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:35:01,368 INFO  [Craft Scheduler Thread - 34] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:35:01,998 INFO  [Craft Scheduler Thread - 34] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:35:51,751 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /effect give xiaoniangaoh minecraft:haste infinite 100
+2023-09-11 13:35:51,756 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Applied effect Haste to xiaoniangaoh]
+2023-09-11 13:38:01,381 INFO  [Craft Scheduler Thread - 34] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:38:01,945 INFO  [Craft Scheduler Thread - 34] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:41:01,374 INFO  [Craft Scheduler Thread - 36] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:41:01,974 INFO  [Craft Scheduler Thread - 36] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:44:01,367 INFO  [Craft Scheduler Thread - 38] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:44:05,271 INFO  [Craft Scheduler Thread - 38] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:3秒[m
+2023-09-11 13:47:01,369 INFO  [Craft Scheduler Thread - 38] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:47:03,045 INFO  [Craft Scheduler Thread - 38] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 13:50:01,373 INFO  [Craft Scheduler Thread - 37] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:50:02,062 INFO  [Craft Scheduler Thread - 37] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:53:01,371 INFO  [Craft Scheduler Thread - 38] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:53:01,944 INFO  [Craft Scheduler Thread - 38] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:56:01,371 INFO  [Craft Scheduler Thread - 42] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:56:01,944 INFO  [Craft Scheduler Thread - 42] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 13:56:11,691 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /effect clear
+2023-09-11 13:56:11,694 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Removed every effect from xiaoniangaoh]
+2023-09-11 13:59:01,382 INFO  [Craft Scheduler Thread - 42] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 13:59:01,952 INFO  [Craft Scheduler Thread - 42] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:00:42,649 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode spectator
+2023-09-11 14:00:42,654 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Spectator Mode]
+2023-09-11 14:00:43,302 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /gamemode survival
+2023-09-11 14:00:43,304 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): [xiaoniangaoh: Set own game mode to Survival Mode]
+2023-09-11 14:00:59,732 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Disconnected
+2023-09-11 14:00:59,760 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game
+2023-09-11 14:02:01,368 INFO  [Craft Scheduler Thread - 44] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:02:01,989 INFO  [Craft Scheduler Thread - 44] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:05:01,372 INFO  [Craft Scheduler Thread - 45] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:05:01,986 INFO  [Craft Scheduler Thread - 45] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:08:01,382 INFO  [Craft Scheduler Thread - 45] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:08:01,848 INFO  [Craft Scheduler Thread - 45] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:11:01,368 INFO  [Craft Scheduler Thread - 48] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:11:03,082 INFO  [Craft Scheduler Thread - 48] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 14:14:01,370 INFO  [Craft Scheduler Thread - 48] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:14:01,969 INFO  [Craft Scheduler Thread - 48] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:17:01,378 INFO  [Craft Scheduler Thread - 50] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:17:01,969 INFO  [Craft Scheduler Thread - 50] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:20:01,381 INFO  [Craft Scheduler Thread - 50] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:20:03,097 INFO  [Craft Scheduler Thread - 50] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 14:23:01,374 INFO  [Craft Scheduler Thread - 51] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:23:03,077 INFO  [Craft Scheduler Thread - 51] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 14:26:01,382 INFO  [Craft Scheduler Thread - 48] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:26:01,796 INFO  [Craft Scheduler Thread - 48] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:29:01,372 INFO  [Craft Scheduler Thread - 54] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:29:01,935 INFO  [Craft Scheduler Thread - 54] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:32:01,373 INFO  [Craft Scheduler Thread - 54] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:32:02,171 INFO  [Craft Scheduler Thread - 54] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:35:01,382 INFO  [Craft Scheduler Thread - 54] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:35:03,111 INFO  [Craft Scheduler Thread - 54] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 14:38:01,371 INFO  [Craft Scheduler Thread - 56] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:38:02,027 INFO  [Craft Scheduler Thread - 56] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:41:01,373 INFO  [Craft Scheduler Thread - 56] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:41:02,098 INFO  [Craft Scheduler Thread - 56] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:44:01,381 INFO  [Craft Scheduler Thread - 55] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:44:02,015 INFO  [Craft Scheduler Thread - 55] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:47:01,382 INFO  [Craft Scheduler Thread - 56] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:47:02,098 INFO  [Craft Scheduler Thread - 56] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:50:01,381 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:50:01,958 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 14:53:01,373 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:53:02,994 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 14:56:01,378 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:56:03,270 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 14:59:01,380 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 14:59:02,386 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 15:02:01,370 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:02:01,941 INFO  [Craft Scheduler Thread - 62] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:05:01,373 INFO  [Craft Scheduler Thread - 66] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:05:01,885 INFO  [Craft Scheduler Thread - 66] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:08:01,381 INFO  [Craft Scheduler Thread - 68] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:08:02,007 INFO  [Craft Scheduler Thread - 68] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:11:01,381 INFO  [Craft Scheduler Thread - 69] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:11:01,809 INFO  [Craft Scheduler Thread - 69] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:14:01,370 INFO  [Craft Scheduler Thread - 68] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:14:05,160 INFO  [Craft Scheduler Thread - 68] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:3秒[m
+2023-09-11 15:17:01,376 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:17:04,085 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:2秒[m
+2023-09-11 15:20:01,370 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:20:01,944 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:23:01,367 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:23:02,116 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:26:01,380 INFO  [Craft Scheduler Thread - 74] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:26:01,950 INFO  [Craft Scheduler Thread - 74] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:29:01,375 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:29:02,017 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:32:01,381 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:32:02,085 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:35:01,373 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:35:02,013 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:38:01,381 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:38:01,970 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:41:01,367 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:41:03,114 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 15:44:01,381 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:44:01,996 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:47:01,368 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:47:01,943 INFO  [Craft Scheduler Thread - 70] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:50:01,382 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:50:01,968 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:53:01,378 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:53:01,988 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 15:56:01,374 INFO  [Craft Scheduler Thread - 83] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:56:03,073 INFO  [Craft Scheduler Thread - 83] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:1秒[m
+2023-09-11 15:58:16,596 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
+2023-09-11 15:58:16,601 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
 java.lang.Throwable: null
 	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:69) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
 	at de.teamlapen.vampirism.GeneralEventHandler.onPlayerLoggedIn(GeneralEventHandler.java:104) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
@@ -59,93 +1057,83 @@ java.lang.Throwable: null
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-2023-09-06 09:30:18,220 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:19193] logged in with entity id 16592 at ([world]67.58706474462323, -97.85199106309634, 72.38802561616313)
-2023-09-06 09:30:18,244 INFO  [Craft Scheduler Thread - 769] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
-2023-09-06 09:30:26,517 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
-2023-09-06 09:30:26,547 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
-2023-09-06 09:30:26,598 INFO  [Craft Scheduler Thread - 778] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
-2023-09-06 09:30:28,562 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh fell out of the world
-2023-09-06 10:20:09,192 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Disconnected
-2023-09-06 10:20:09,213 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game
-2023-09-06 10:55:36,354 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh joined the game
-2023-09-06 10:55:36,356 WARN  [Server thread] d.t.v.e.f.FactionPlayerHandler.getOpt(69): Cannot get Faction player capability. This might break mod functionality.
-java.lang.Throwable: null
-	at de.teamlapen.vampirism.entity.factions.FactionPlayerHandler.getOpt(FactionPlayerHandler.java:69) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
-	at de.teamlapen.vampirism.GeneralEventHandler.onPlayerLoggedIn(GeneralEventHandler.java:104) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
-	at de.teamlapen.vampirism.__GeneralEventHandler_onPlayerLoggedIn_PlayerLoggedInEvent.invoke(.dynamic) ~[必装%20吸血鬼xxg.jar%23164!/:1.9.1]
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%2381!/:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:318) ~[eventbus-6.0.5.jar%2381!/:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:298) ~[eventbus-6.0.5.jar%2381!/:?]
-	at net.minecraftforge.event.ForgeEventFactory.firePlayerLoggedIn(ForgeEventFactory.java:902) ~[forge-1.20.1-47.1.62-universal.jar%23174!/:?]
-	at net.minecraft.server.players.PlayerList.m_11261_(PlayerList.java:354) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_143699_(ServerLoginPacketListenerImpl.java:173) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_10055_(ServerLoginPacketListenerImpl.java:160) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.network.ServerLoginPacketListenerImpl.m_9933_(ServerLoginPacketListenerImpl.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.network.Connection.m_129483_(Connection.java:271) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.network.ServerConnectionListener.m_9721_(ServerConnectionListener.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.MinecraftServer.m_5703_(MinecraftServer.java:1184) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.dedicated.DedicatedServer.m_5703_(DedicatedServer.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.MinecraftServer.m_5705_(MinecraftServer.java:1073) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:906) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:280) ~[server-1.20.1-20230612.114412-srg.jar%23169!/:?]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-2023-09-06 10:55:36,358 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:28035] logged in with entity id 22520 at ([world]-851.6999999880791, 70.0, 753.2419651445946)
-2023-09-06 10:55:36,374 INFO  [Craft Scheduler Thread - 784] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
-2023-09-06 10:55:48,774 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
-2023-09-06 10:55:48,784 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
-2023-09-06 10:55:48,869 INFO  [Craft Scheduler Thread - 792] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
-2023-09-06 11:11:43,586 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): Stopping the server
-2023-09-06 11:11:43,599 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(696): Stopping server
-2023-09-06 11:11:43,603 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Disabling Mohist v1.20.1
-2023-09-06 11:11:43,605 INFO  [Server thread] m.g.r.t.p.BukkitPlugin.publish(37): [GeekRewardPlus] Disabling GeekRewardPlus v2.2
-2023-09-06 11:11:43,610 INFO  [Server thread] c.z.h.HikariDataSource.close(350): GeekCos-SQLITE - Shutdown initiated...
-2023-09-06 11:11:43,613 INFO  [Server thread] c.z.h.HikariDataSource.close(352): GeekCos-SQLITE - Shutdown completed.
-2023-09-06 11:11:43,756 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Disabling AdvancedReplay v1.8.4
-2023-09-06 11:11:43,758 INFO  [Server thread] c.h.m.PlayerMenu.publish(37): [PlayerMenu] Disabling PlayerMenu v1.1.8
-2023-09-06 11:11:43,760 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1m已成功卸载！[m
-2023-09-06 11:11:43,761 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1mAuthor:handy QQ群:1064982471[m
-2023-09-06 11:11:43,763 INFO  [Server thread] c.t.d.Main.publish(37): [DemonMarket] Disabling DemonMarket v1.6.2
-2023-09-06 11:11:43,765 INFO  [Server thread] Minecraft.publish(37): [DemonMarket] Disabled Version 1.6.2
-2023-09-06 11:11:43,776 INFO  [Server thread] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] Disabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
-2023-09-06 11:11:43,810 INFO  [Server thread] c.h.p.PlayerTitle.publish(37): [PlayerTitle] Disabling PlayerTitle v3.4.7
-2023-09-06 11:11:43,814 INFO  [Server thread] n.s.b.SkinsRestorerBootstrap.publish(37): [SkinsRestorer] Disabling SkinsRestorer v14.2.12
-2023-09-06 11:11:43,816 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Disabling ProtocolLib v5.1.0
-2023-09-06 11:11:43,820 INFO  [Server thread] c.o.M.MultiverseCore.publish(37): [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-2023-09-06 11:11:43,830 INFO  [Server thread] o.b.p.PlayerPoints.publish(37): [PlayerPoints] Disabling PlayerPoints v3.2.6
-2023-09-06 11:11:43,832 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Disabling XConomy v2.24.4
-2023-09-06 11:11:43,845 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] XConomy successfully disabled
-2023-09-06 11:11:43,846 INFO  [Server thread] d.g.v.BukkitPlugin.publish(37): [ViaRewind] Disabling ViaRewind v2.0.3
-2023-09-06 11:11:43,848 INFO  [Server thread] n.l.p.PlayerStatistics.publish(37): [PlayerStatistics] Disabling PlayerStatistics v1.1.1
-2023-09-06 11:11:43,849 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Disabling ViaBackwards v4.7.0
-2023-09-06 11:11:43,851 INFO  [Server thread] s.e.EpicCombat.publish(37): [EpicCombat] Disabling EpicCombat v1.19
-2023-09-06 11:11:43,852 INFO  [Server thread] c.p.b.P.PremiumCheck.publish(37): [PremiumCheck] Disabling PremiumCheck v2.0.0
-2023-09-06 11:11:43,854 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] Disabling Vault v1.7.3-b131
-2023-09-06 11:11:43,864 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Disabling ViaVersion v4.7.0
-2023-09-06 11:11:43,865 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-2023-09-06 11:11:43,868 INFO  [Server thread] m.g.s.STPA.publish(37): [STPA] Disabling STPA v1.0-SNAPSHOT
-2023-09-06 11:11:43,870 INFO  [Server thread] c.c.p.PlayersBackpacksViewer.publish(37): [PlayersBackpacksViewer] Disabling PlayersBackpacksViewer v2.0-ForAllVersions
-2023-09-06 11:11:43,872 INFO  [Server thread] c.m.p.PaymentPlugin.publish(37): [Payment] Disabling Payment v1.1.6
-2023-09-06 11:11:43,873 INFO  [Server thread] a.AdvancedWarps.publish(37): [AdvancedWarps] Disabling AdvancedWarps v1.0.0
-2023-09-06 11:11:43,874 INFO  [Server thread] d.p.M.Motd.publish(37): [SuperMotd] Disabling SuperMotd v1.0
-2023-09-06 11:11:43,875 INFO  [Server thread] S.Main.publish(37): [Stp] Disabling Stp v1.0.1
-2023-09-06 11:11:43,876 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
-2023-09-06 11:11:43,877 INFO  [Server thread] n.c.CoreProtect.publish(37): [CoreProtect] Disabling CoreProtect v22.0
-2023-09-06 11:11:43,878 INFO  [Server thread] Minecraft.publish(37): [CoreProtect] Finishing up data logging. Please wait...
-2023-09-06 11:11:44,883 INFO  [Server thread] Minecraft.publish(37): [CoreProtect] Success! Disabled CoreProtect v22.0
-2023-09-06 11:11:44,885 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(708): Saving players
-2023-09-06 11:11:44,903 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Server closed
-2023-09-06 11:11:44,931 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game.
-2023-09-06 11:11:45,032 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(714): Saving worlds
-2023-09-06 11:11:47,930 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-2023-09-06 11:11:48,858 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-2023-09-06 11:11:48,872 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-2023-09-06 11:11:48,881 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[xyx]'/minecraft:xyx
-2023-09-06 11:11:48,886 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[zc]'/minecraft:zc
-2023-09-06 11:11:48,892 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[czf]'/minecraft:czf
-2023-09-06 11:11:48,984 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (world): All chunks are saved
-2023-09-06 11:11:48,985 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-2023-09-06 11:11:48,986 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-2023-09-06 11:11:48,987 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (xyx): All chunks are saved
-2023-09-06 11:11:48,987 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (zc): All chunks are saved
-2023-09-06 11:11:48,988 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (czf): All chunks are saved
-2023-09-06 11:11:48,989 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(651): ThreadedAnvilChunkStorage: All dimensions are saved
+2023-09-11 15:58:16,603 INFO  [Server thread] n.m.s.p.PlayerList.m_11261_(355): xiaoniangaoh[/43.132.166.78:21149] logged in with entity id 103654 at ([world]-852.6171358568793, 70.0, 754.3439594162359)
+2023-09-11 15:58:16,628 INFO  [Craft Scheduler Thread - 86] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-11 15:58:24,949 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /l 101325ae
+2023-09-11 15:58:24,961 WARN  [Server thread] n.m.s.l.ServerLevel.m_8853_(970): Force-added player with duplicate UUID 976484e9-cb06-3833-b2c1-60c05ed90ea8
+2023-09-11 15:58:25,045 INFO  [Craft Scheduler Thread - 90] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] 缓存加载 23 个数据
+2023-09-11 15:59:01,367 INFO  [Craft Scheduler Thread - 83] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 15:59:01,969 INFO  [Craft Scheduler Thread - 83] Console.sendMessage(64): [0;37;22m[AfDianPay] 没有获取到爱发电数据,耗时:0秒[m
+2023-09-11 16:00:20,308 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdianpay
+2023-09-11 16:00:49,767 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdian
+2023-09-11 16:00:58,760 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdian look
+2023-09-11 16:01:38,639 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdianpay:afdianpay getIp
+2023-09-11 16:01:47,419 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_246958_(1784): xiaoniangaoh issued server command: /afdianpay:afdianpay
+2023-09-11 16:02:01,379 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 16:02:01,971 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:1[m
+2023-09-11 16:02:01,974 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-09-11 16:02:02,040 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-09-11 16:02:02,050 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作1条[m
+2023-09-11 16:02:02,059 INFO  [Craft Scheduler Thread - 81] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-09-11 16:02:02,084 INFO  [Server thread] n.m.s.MinecraftServer.m_241158_(2054): [Server] xiaoniangaoh 成功充值了 1000点卷
+2023-09-11 16:02:02,085 INFO  [Server thread] n.m.s.MinecraftServer.m_241158_(2054): [Server] xiaoniangaoh 氪金了大礼包
+2023-09-11 16:05:01,367 INFO  [Craft Scheduler Thread - 92] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-09-11 16:05:01,914 INFO  [Craft Scheduler Thread - 92] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:1[m
+2023-09-11 16:05:01,915 INFO  [Craft Scheduler Thread - 92] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-09-11 16:05:01,917 INFO  [Craft Scheduler Thread - 92] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-09-11 16:05:01,929 INFO  [Craft Scheduler Thread - 92] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-09-11 16:05:01,930 INFO  [Craft Scheduler Thread - 92] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-09-11 16:06:03,541 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): Stopping the server
+2023-09-11 16:06:03,568 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(696): Stopping server
+2023-09-11 16:06:03,569 INFO  [Server thread] c.m.p.Main.publish(37): [Mohist] Disabling Mohist v1.20.1
+2023-09-11 16:06:03,571 INFO  [Server thread] m.g.r.t.p.BukkitPlugin.publish(37): [GeekRewardPlus] Disabling GeekRewardPlus v2.2
+2023-09-11 16:06:03,576 INFO  [Server thread] c.z.h.HikariDataSource.close(350): GeekCos-SQLITE - Shutdown initiated...
+2023-09-11 16:06:03,580 INFO  [Server thread] c.z.h.HikariDataSource.close(352): GeekCos-SQLITE - Shutdown completed.
+2023-09-11 16:06:03,699 INFO  [Server thread] m.j.r.ReplaySystem.publish(37): [AdvancedReplay] Disabling AdvancedReplay v1.8.4
+2023-09-11 16:06:03,701 INFO  [Server thread] c.h.m.PlayerMenu.publish(37): [PlayerMenu] Disabling PlayerMenu v1.2.0
+2023-09-11 16:06:03,704 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1m已成功卸载！[m
+2023-09-11 16:06:03,705 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[PlayerMenu] [0;32;1mAuthor:handy QQ群:1064982471[m
+2023-09-11 16:06:03,708 INFO  [Server thread] c.t.d.Main.publish(37): [DemonMarket] Disabling DemonMarket v1.6.2
+2023-09-11 16:06:03,710 INFO  [Server thread] Minecraft.publish(37): [DemonMarket] Disabled Version 1.6.2
+2023-09-11 16:06:03,711 INFO  [Server thread] c.b.c.b.CatSeedLogin.publish(37): [CatSeedLogin] Disabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+2023-09-11 16:06:03,742 INFO  [Server thread] c.h.p.PlayerTitle.publish(37): [PlayerTitle] Disabling PlayerTitle v3.4.8
+2023-09-11 16:06:03,745 INFO  [Server thread] c.h.a.p.AfDianPay.publish(37): [AfDianPay] Disabling AfDianPay v1.0.5
+2023-09-11 16:06:03,746 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[AfDianPay] [0;32;1m已成功卸载！[m
+2023-09-11 16:06:03,747 INFO  [Server thread] Console.sendMessage(64): [0;37;22m[AfDianPay] [0;32;1mAuthor:handy QQ群:1064982471[m
+2023-09-11 16:06:03,748 INFO  [Server thread] n.s.b.SkinsRestorerBootstrap.publish(37): [SkinsRestorer] Disabling SkinsRestorer v14.2.12
+2023-09-11 16:06:03,750 INFO  [Server thread] c.c.p.ProtocolLib.publish(37): [ProtocolLib] Disabling ProtocolLib v5.1.0
+2023-09-11 16:06:03,755 INFO  [Server thread] c.o.M.MultiverseCore.publish(37): [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+2023-09-11 16:06:03,765 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] Disabling XConomy v2.25.1
+2023-09-11 16:06:03,773 INFO  [Server thread] m.y.x.XConomy.publish(37): [XConomy] XConomy successfully disabled
+2023-09-11 16:06:03,775 INFO  [Server thread] d.g.v.BukkitPlugin.publish(37): [ViaRewind] Disabling ViaRewind v2.0.3
+2023-09-11 16:06:03,777 INFO  [Server thread] n.l.p.PlayerStatistics.publish(37): [PlayerStatistics] Disabling PlayerStatistics v1.1.1
+2023-09-11 16:06:03,779 INFO  [Server thread] c.v.v.BukkitPlugin.publish(37): [ViaBackwards] Disabling ViaBackwards v4.7.0
+2023-09-11 16:06:03,782 INFO  [Server thread] s.e.EpicCombat.publish(37): [EpicCombat] Disabling EpicCombat v1.19
+2023-09-11 16:06:03,803 INFO  [Server thread] c.p.b.P.PremiumCheck.publish(37): [PremiumCheck] Disabling PremiumCheck v2.0.0
+2023-09-11 16:06:03,806 INFO  [Server thread] n.m.v.Vault.publish(37): [Vault] Disabling Vault v1.7.3-b131
+2023-09-11 16:06:03,810 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] Disabling ViaVersion v4.7.0
+2023-09-11 16:06:03,811 INFO  [Server thread] c.v.v.ViaVersionPlugin.publish(37): [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+2023-09-11 16:06:03,813 INFO  [Server thread] m.g.s.STPA.publish(37): [STPA] Disabling STPA v1.0-SNAPSHOT
+2023-09-11 16:06:03,815 INFO  [Server thread] c.c.p.PlayersBackpacksViewer.publish(37): [PlayersBackpacksViewer] Disabling PlayersBackpacksViewer v2.0-ForAllVersions
+2023-09-11 16:06:03,816 INFO  [Server thread] c.m.p.PaymentPlugin.publish(37): [Payment] Disabling Payment v1.1.6
+2023-09-11 16:06:03,818 INFO  [Server thread] a.AdvancedWarps.publish(37): [AdvancedWarps] Disabling AdvancedWarps v1.0.0
+2023-09-11 16:06:03,820 INFO  [Server thread] d.p.M.Motd.publish(37): [SuperMotd] Disabling SuperMotd v1.0
+2023-09-11 16:06:03,822 INFO  [Server thread] S.Main.publish(37): [Stp] Disabling Stp v1.0.1
+2023-09-11 16:06:03,836 INFO  [Server thread] m.c.p.PlaceholderAPIPlugin.publish(37): [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+2023-09-11 16:06:03,838 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(708): Saving players
+2023-09-11 16:06:03,863 INFO  [Server thread] n.m.s.n.ServerGamePacketListenerImpl.m_7026_(1655): xiaoniangaoh lost connection: Server closed
+2023-09-11 16:06:03,882 INFO  [Server thread] n.m.s.MinecraftServer.m_213846_(1319): xiaoniangaoh left the game.
+2023-09-11 16:06:03,986 INFO  [Server thread] n.m.s.MinecraftServer.m_7041_(714): Saving worlds
+2023-09-11 16:06:07,003 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+2023-09-11 16:06:07,768 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+2023-09-11 16:06:07,786 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+2023-09-11 16:06:07,798 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[xyx]'/minecraft:xyx
+2023-09-11 16:06:07,804 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[zc]'/minecraft:zc
+2023-09-11 16:06:07,811 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(627): Saving chunks for level 'ServerLevel[czf]'/minecraft:czf
+2023-09-11 16:06:07,900 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (world): All chunks are saved
+2023-09-11 16:06:07,901 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+2023-09-11 16:06:07,901 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+2023-09-11 16:06:07,902 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (xyx): All chunks are saved
+2023-09-11 16:06:07,903 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (zc): All chunks are saved
+2023-09-11 16:06:07,904 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(648): ThreadedAnvilChunkStorage (czf): All chunks are saved
+2023-09-11 16:06:07,905 INFO  [Server thread] n.m.s.MinecraftServer.m_129885_(651): ThreadedAnvilChunkStorage: All dimensions are saved

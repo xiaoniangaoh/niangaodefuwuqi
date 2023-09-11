@@ -3,20 +3,20 @@
 language: zh_CN
 
 # 默认称号
-default: "§f[ §7萌新 §f]"
+default: §f[ §7萌新 §f]
 
 # 请在添加称号前修改默认前缀和后缀,不然之后修改只对之后新增的生效
 # 称号默认前缀
-prefixBrackets: "§f[ "
+prefixBrackets: '§f[ '
 
 # 称号默认后缀
-suffixBrackets: " §f]"
+suffixBrackets: ' §f]'
 
 # 聊天显示称号
 isChat: true
 
 # 聊天显示称号格式(就是那个称号与名字之间的空格)
-isChatFormat: " "
+isChatFormat: ' '
 
 # tab列表和玩家头顶显示称号,默认关闭
 # 跟计分板插件冲突,请使用变量功能进行兼容
@@ -49,3 +49,6 @@ customLength: 16
 
 # 完全版本签名验证
 sign: 123456
+# 禁用buff的世界(不设置默认不启用)
+disabledBuffWorld:
+- ''

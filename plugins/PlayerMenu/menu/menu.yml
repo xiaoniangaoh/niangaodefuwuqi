@@ -54,14 +54,16 @@ menu:
     id: 4
   '29':
     index: 29
-    name: 兑换码（调试中）
-    material: PAPER
+    name: 点卷充值
+    material: MAP
     lore: null
     isEnchant: false
     custom-model-data: 0
     hideFlag: true
     hideEnchant: true
-    id: 8
+    id: 17
+    commands:
+    - '[command] afdian send 1000点卷'
   '31':
     index: 31
     name: 皮肤设置
@@ -119,6 +121,6 @@ menu:
     custom-model-data: 0
     hideFlag: true
     hideEnchant: true
-    id: 16
     commands:
     - '[command] mt'
+    id: 16
