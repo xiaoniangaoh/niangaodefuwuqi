@@ -11,6 +11,8 @@
   command:
     - 'say ${player} 成功充值了 ${shop}'
     - 'say ${player} 氪金了1000点券'
+    - 'points pay @p 1000'
+
   # 执行成功后发送消息提醒
   # 消息类型
   # 发给玩家本身的消息类型 actionBar (1.9+) ; title (1.9+) ; message(全版本)
@@ -29,6 +31,7 @@
   command:
     - 'say ${player} 成功充值了 ${shop}'
     - 'say ${player} 氪金了大礼包'
+    - 'points pay @p 1000'
   message:
     - '[message] &7感谢 &e${player} &7赞助了服务器,本次赞助商品: &e${shop}'
     - '[title] 赞助标题:&7感谢 &e${player} &7赞助了服务器,本次赞助商品: &e${shop}'
