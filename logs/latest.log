@@ -1,0 +1,324 @@
+2023-10-16 00:00:48,894 INFO  [Craft Scheduler Thread - 6115] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:00:49,422 INFO  [Craft Scheduler Thread - 6115] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:00:49,424 INFO  [Craft Scheduler Thread - 6115] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:00:49,428 INFO  [Craft Scheduler Thread - 6115] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:00:49,430 INFO  [Craft Scheduler Thread - 6115] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:00:49,432 INFO  [Craft Scheduler Thread - 6115] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:03:48,895 INFO  [Craft Scheduler Thread - 6118] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:03:49,364 INFO  [Craft Scheduler Thread - 6118] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:03:49,366 INFO  [Craft Scheduler Thread - 6118] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:03:49,369 INFO  [Craft Scheduler Thread - 6118] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:03:49,371 INFO  [Craft Scheduler Thread - 6118] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:03:49,373 INFO  [Craft Scheduler Thread - 6118] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:06:48,895 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:06:49,368 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:06:49,370 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:06:49,373 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:06:49,375 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:06:49,377 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:09:48,894 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:09:54,822 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:09:54,824 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:09:54,825 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:09:54,826 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:09:54,827 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:5秒[m
+2023-10-16 00:12:48,894 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:12:53,870 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:12:53,871 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:12:53,873 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:12:53,875 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:12:53,875 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:4秒[m
+2023-10-16 00:15:48,894 INFO  [Craft Scheduler Thread - 6127] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:15:49,464 INFO  [Craft Scheduler Thread - 6127] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:15:49,465 INFO  [Craft Scheduler Thread - 6127] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:15:49,469 INFO  [Craft Scheduler Thread - 6127] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:15:49,471 INFO  [Craft Scheduler Thread - 6127] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:15:49,472 INFO  [Craft Scheduler Thread - 6127] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:18:48,895 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:18:49,393 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:18:49,394 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:18:49,396 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:18:49,397 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:18:49,398 INFO  [Craft Scheduler Thread - 6123] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:21:48,894 INFO  [Craft Scheduler Thread - 6130] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:21:49,350 INFO  [Craft Scheduler Thread - 6130] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:21:49,352 INFO  [Craft Scheduler Thread - 6130] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:21:49,356 INFO  [Craft Scheduler Thread - 6130] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:21:49,358 INFO  [Craft Scheduler Thread - 6130] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:21:49,359 INFO  [Craft Scheduler Thread - 6130] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:24:48,894 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:24:49,404 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:24:49,405 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:24:49,409 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:24:49,411 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:24:49,412 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:27:48,894 INFO  [Craft Scheduler Thread - 6132] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:27:49,465 INFO  [Craft Scheduler Thread - 6132] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:27:49,467 INFO  [Craft Scheduler Thread - 6132] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:27:49,470 INFO  [Craft Scheduler Thread - 6132] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:27:49,472 INFO  [Craft Scheduler Thread - 6132] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:27:49,474 INFO  [Craft Scheduler Thread - 6132] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:30:48,894 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:30:49,494 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:30:49,495 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:30:49,499 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:30:49,501 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:30:49,502 INFO  [Craft Scheduler Thread - 6128] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:33:48,895 INFO  [Craft Scheduler Thread - 6134] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:33:49,368 INFO  [Craft Scheduler Thread - 6134] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:33:49,369 INFO  [Craft Scheduler Thread - 6134] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:33:49,371 INFO  [Craft Scheduler Thread - 6134] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:33:49,372 INFO  [Craft Scheduler Thread - 6134] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:33:49,372 INFO  [Craft Scheduler Thread - 6134] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:36:48,895 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:36:49,385 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:36:49,387 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:36:49,391 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:36:49,393 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:36:49,394 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:39:48,895 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:39:49,420 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:39:49,422 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:39:49,425 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:39:49,426 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:39:49,427 INFO  [Craft Scheduler Thread - 6136] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:42:48,894 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:42:49,368 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:42:49,370 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:42:49,373 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:42:49,375 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:42:49,377 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:45:48,894 INFO  [Craft Scheduler Thread - 6139] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:45:49,352 INFO  [Craft Scheduler Thread - 6139] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:45:49,354 INFO  [Craft Scheduler Thread - 6139] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:45:49,357 INFO  [Craft Scheduler Thread - 6139] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:45:49,359 INFO  [Craft Scheduler Thread - 6139] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:45:49,360 INFO  [Craft Scheduler Thread - 6139] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:48:48,895 INFO  [Craft Scheduler Thread - 6140] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:48:49,426 INFO  [Craft Scheduler Thread - 6140] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:48:49,427 INFO  [Craft Scheduler Thread - 6140] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:48:49,428 INFO  [Craft Scheduler Thread - 6140] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:48:49,429 INFO  [Craft Scheduler Thread - 6140] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:48:49,429 INFO  [Craft Scheduler Thread - 6140] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:51:48,895 INFO  [Craft Scheduler Thread - 6142] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:51:49,358 INFO  [Craft Scheduler Thread - 6142] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:51:49,360 INFO  [Craft Scheduler Thread - 6142] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:51:49,364 INFO  [Craft Scheduler Thread - 6142] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:51:49,365 INFO  [Craft Scheduler Thread - 6142] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:51:49,366 INFO  [Craft Scheduler Thread - 6142] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:54:48,894 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:54:49,367 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:54:49,369 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:54:49,372 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:54:49,375 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:54:49,376 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 00:57:48,894 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 00:57:49,398 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 00:57:49,400 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 00:57:49,403 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 00:57:49,406 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 00:57:49,407 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:00:48,895 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:00:49,391 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:00:49,393 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:00:49,395 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:00:49,397 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:00:49,397 INFO  [Craft Scheduler Thread - 6135] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:03:48,895 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:03:49,409 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:03:49,410 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:03:49,414 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:03:49,416 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:03:49,418 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:06:48,894 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:06:49,471 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:06:49,473 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:06:49,476 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:06:49,478 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:06:49,480 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:09:48,894 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:09:49,390 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:09:49,392 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:09:49,395 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:09:49,396 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:09:49,397 INFO  [Craft Scheduler Thread - 6148] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:12:48,895 INFO  [Craft Scheduler Thread - 6146] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:12:49,475 INFO  [Craft Scheduler Thread - 6146] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:12:49,477 INFO  [Craft Scheduler Thread - 6146] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:12:49,481 INFO  [Craft Scheduler Thread - 6146] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:12:49,483 INFO  [Craft Scheduler Thread - 6146] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:12:49,484 INFO  [Craft Scheduler Thread - 6146] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:15:48,895 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:15:49,391 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:15:49,391 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:15:49,392 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:15:49,393 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:15:49,393 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:18:48,895 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:18:49,382 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:18:49,384 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:18:49,387 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:18:49,389 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:18:49,391 INFO  [Craft Scheduler Thread - 6144] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:21:48,895 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:21:49,393 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:21:49,394 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:21:49,396 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:21:49,397 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:21:49,398 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:24:48,895 INFO  [Craft Scheduler Thread - 6150] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:24:49,371 INFO  [Craft Scheduler Thread - 6150] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:24:49,372 INFO  [Craft Scheduler Thread - 6150] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:24:49,374 INFO  [Craft Scheduler Thread - 6150] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:24:49,376 INFO  [Craft Scheduler Thread - 6150] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:24:49,376 INFO  [Craft Scheduler Thread - 6150] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:27:48,894 INFO  [Craft Scheduler Thread - 6155] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:27:49,360 INFO  [Craft Scheduler Thread - 6155] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:27:49,361 INFO  [Craft Scheduler Thread - 6155] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:27:49,364 INFO  [Craft Scheduler Thread - 6155] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:27:49,366 INFO  [Craft Scheduler Thread - 6155] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:27:49,366 INFO  [Craft Scheduler Thread - 6155] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:30:48,895 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:30:49,473 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:30:49,475 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:30:49,478 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:30:49,481 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:30:49,482 INFO  [Craft Scheduler Thread - 6154] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:33:48,895 INFO  [Craft Scheduler Thread - 6157] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:33:49,391 INFO  [Craft Scheduler Thread - 6157] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:33:49,392 INFO  [Craft Scheduler Thread - 6157] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:33:49,395 INFO  [Craft Scheduler Thread - 6157] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:33:49,396 INFO  [Craft Scheduler Thread - 6157] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:33:49,396 INFO  [Craft Scheduler Thread - 6157] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:36:48,895 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:36:49,471 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:36:49,472 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:36:49,476 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:36:49,478 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:36:49,479 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:39:48,894 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:39:49,380 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:39:49,381 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:39:49,385 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:39:49,387 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:39:49,389 INFO  [Craft Scheduler Thread - 6158] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:42:48,895 INFO  [Craft Scheduler Thread - 6159] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:42:49,365 INFO  [Craft Scheduler Thread - 6159] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:42:49,367 INFO  [Craft Scheduler Thread - 6159] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:42:49,370 INFO  [Craft Scheduler Thread - 6159] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:42:49,372 INFO  [Craft Scheduler Thread - 6159] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:42:49,374 INFO  [Craft Scheduler Thread - 6159] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:45:48,895 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:45:49,404 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:45:49,406 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:45:49,409 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:45:49,412 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:45:49,413 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:48:48,894 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:48:49,365 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:48:49,367 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:48:49,370 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:48:49,373 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:48:49,374 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:51:48,894 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:51:49,372 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:51:49,373 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:51:49,375 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:51:49,377 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:51:49,378 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:54:48,895 INFO  [Craft Scheduler Thread - 6165] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:54:49,391 INFO  [Craft Scheduler Thread - 6165] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:54:49,392 INFO  [Craft Scheduler Thread - 6165] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:54:49,395 INFO  [Craft Scheduler Thread - 6165] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:54:49,396 INFO  [Craft Scheduler Thread - 6165] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:54:49,397 INFO  [Craft Scheduler Thread - 6165] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 01:57:48,894 INFO  [Craft Scheduler Thread - 6168] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 01:57:49,329 INFO  [Craft Scheduler Thread - 6168] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 01:57:49,329 INFO  [Craft Scheduler Thread - 6168] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 01:57:49,330 INFO  [Craft Scheduler Thread - 6168] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 01:57:49,331 INFO  [Craft Scheduler Thread - 6168] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 01:57:49,331 INFO  [Craft Scheduler Thread - 6168] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:00:48,894 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:00:50,384 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:00:50,385 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:00:50,387 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:00:50,388 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:00:50,389 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:1秒[m
+2023-10-16 02:03:48,895 INFO  [Craft Scheduler Thread - 6169] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:03:51,352 INFO  [Craft Scheduler Thread - 6169] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:03:51,353 INFO  [Craft Scheduler Thread - 6169] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:03:51,357 INFO  [Craft Scheduler Thread - 6169] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:03:51,359 INFO  [Craft Scheduler Thread - 6169] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:03:51,360 INFO  [Craft Scheduler Thread - 6169] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:2秒[m
+2023-10-16 02:06:48,895 INFO  [Craft Scheduler Thread - 6172] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:06:50,476 INFO  [Craft Scheduler Thread - 6172] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:06:50,478 INFO  [Craft Scheduler Thread - 6172] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:06:50,481 INFO  [Craft Scheduler Thread - 6172] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:06:50,483 INFO  [Craft Scheduler Thread - 6172] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:06:50,485 INFO  [Craft Scheduler Thread - 6172] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:1秒[m
+2023-10-16 02:09:48,895 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:09:49,400 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:09:49,401 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:09:49,405 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:09:49,407 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:09:49,409 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:12:48,895 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:12:49,373 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:12:49,374 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:12:49,376 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:12:49,377 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:12:49,378 INFO  [Craft Scheduler Thread - 6160] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:15:48,895 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:15:49,396 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:15:49,397 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:15:49,399 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:15:49,401 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:15:49,402 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:18:48,895 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:18:49,475 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:18:49,476 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:18:49,480 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:18:49,482 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:18:49,484 INFO  [Craft Scheduler Thread - 6174] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:21:48,894 INFO  [Craft Scheduler Thread - 6178] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:21:49,396 INFO  [Craft Scheduler Thread - 6178] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:21:49,397 INFO  [Craft Scheduler Thread - 6178] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:21:49,399 INFO  [Craft Scheduler Thread - 6178] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:21:49,400 INFO  [Craft Scheduler Thread - 6178] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:21:49,401 INFO  [Craft Scheduler Thread - 6178] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:24:48,894 INFO  [Craft Scheduler Thread - 6176] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:24:49,368 INFO  [Craft Scheduler Thread - 6176] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:24:49,369 INFO  [Craft Scheduler Thread - 6176] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:24:49,370 INFO  [Craft Scheduler Thread - 6176] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:24:49,371 INFO  [Craft Scheduler Thread - 6176] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:24:49,372 INFO  [Craft Scheduler Thread - 6176] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:27:48,894 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:27:49,350 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:27:49,352 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:27:49,355 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:27:49,357 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:27:49,359 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:30:48,894 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:30:49,472 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:30:49,473 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:30:49,477 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:30:49,479 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:30:49,480 INFO  [Craft Scheduler Thread - 6179] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:33:48,895 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:33:49,383 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:33:49,385 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:33:49,389 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:33:49,391 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:33:49,392 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:36:48,895 INFO  [Craft Scheduler Thread - 6184] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:36:49,360 INFO  [Craft Scheduler Thread - 6184] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:36:49,362 INFO  [Craft Scheduler Thread - 6184] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:36:49,365 INFO  [Craft Scheduler Thread - 6184] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:36:49,366 INFO  [Craft Scheduler Thread - 6184] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:36:49,367 INFO  [Craft Scheduler Thread - 6184] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
+2023-10-16 02:39:48,894 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 定时开始获取爱发电数据[m
+2023-10-16 02:39:49,392 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据: 页数1,条数:3[m
+2023-10-16 02:39:49,394 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 开始保存爱发电订单[m
+2023-10-16 02:39:49,396 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 保存爱发电订单结束[m
+2023-10-16 02:39:49,397 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 发送奖励,本次需要操作0条[m
+2023-10-16 02:39:49,397 INFO  [Craft Scheduler Thread - 6181] Console.sendMessage(64): [0;37;22m[AfDianPay] 获取爱发电数据结束,耗时:0秒[m
