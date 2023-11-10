@@ -167,10 +167,6 @@ shop:
   name: CLAY_BALL
   type: common
   info: CLAY_BALL
-- price: '25.42'
-  name: CLOCK
-  type: common
-  info: CLOCK
 - price: '2.34'
   name: COAL
   type: common
