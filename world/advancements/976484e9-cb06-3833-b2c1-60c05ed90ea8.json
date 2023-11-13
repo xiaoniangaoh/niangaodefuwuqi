@@ -9105,12 +9105,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/orange_stained_glass_pane": {
-    "criteria": {
-      "has_glass": "2023-11-10 12:55:04 +0800"
-    },
-    "done": true
-  },
   "create:stressometer": {
     "criteria": {
       "0": "2023-11-10 12:49:54 +0800"
@@ -9123,21 +9117,27 @@
     },
     "done": true
   },
-  "create:speed_controller": {
-    "criteria": {
-      "0": "2023-11-10 13:35:40 +0800"
-    },
-    "done": true
-  },
   "create:recipes/misc/crafting/kinetics/speedometerfrom_conversion": {
     "criteria": {
       "has_item": "2023-11-10 12:49:54 +0800"
     },
     "done": true
   },
-  "create:arm_many_targets": {
+  "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
-      "0": "2023-11-10 13:45:54 +0800"
+      "has_glass": "2023-11-10 12:55:04 +0800"
+    },
+    "done": true
+  },
+  "create:speed_controller": {
+    "criteria": {
+      "0": "2023-11-10 13:35:40 +0800"
+    },
+    "done": true
+  },
+  "create:arm_blaze_burner": {
+    "criteria": {
+      "0": "2023-11-10 13:44:24 +0800"
     },
     "done": true
   },
@@ -9147,9 +9147,21 @@
     },
     "done": true
   },
-  "create:arm_blaze_burner": {
+  "create:arm_many_targets": {
     "criteria": {
-      "0": "2023-11-10 13:44:24 +0800"
+      "0": "2023-11-10 13:45:54 +0800"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2023-11-13 10:34:55 +0800"
+    },
+    "done": true
+  },
+  "create:diving_suit_lava": {
+    "criteria": {
+      "0": "2023-11-13 10:07:07 +0800"
     },
     "done": true
   },
