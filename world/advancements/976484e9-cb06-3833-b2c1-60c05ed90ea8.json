@@ -9153,15 +9153,15 @@
     },
     "done": true
   },
-  "create:diving_suit": {
-    "criteria": {
-      "0": "2023-11-13 10:34:55 +0800"
-    },
-    "done": true
-  },
   "create:diving_suit_lava": {
     "criteria": {
       "0": "2023-11-13 10:07:07 +0800"
+    },
+    "done": true
+  },
+  "create:diving_suit": {
+    "criteria": {
+      "0": "2023-11-13 10:34:55 +0800"
     },
     "done": true
   },
