@@ -6,6 +6,8 @@
 	#The chance that normal weapons can cause the 'Bleeding'-effect [higher = rarer | 0 = disabled | 1 = everytime]
 	#Range: 0 ~ 100
 	bleeding_chance = 20
+	#This option disables 'modern age' and 'future' -content
+	disale_modern_ages = false
 
 #Items
 [items]

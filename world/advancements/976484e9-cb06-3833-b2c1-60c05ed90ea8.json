@@ -9165,5 +9165,47 @@
     },
     "done": true
   },
+  "chiselsandbits:recipes/tools/magnifying_glass": {
+    "criteria": {
+      "has_c": "2023-11-27 14:40:58 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:recipes/tools/modification_table": {
+    "criteria": {
+      "has_c": "2023-11-27 14:40:58 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:recipes/tools/bit_storage": {
+    "criteria": {
+      "has_c": "2023-11-27 14:40:58 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:recipes/tools/wrench": {
+    "criteria": {
+      "has_b": "2023-11-27 14:41:17 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:chiselsandbits/root": {
+    "criteria": {
+      "chisel": "2023-11-27 14:40:58 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:recipes/tools/bit_bag": {
+    "criteria": {
+      "has_b": "2023-11-27 14:41:17 +0800"
+    },
+    "done": true
+  },
+  "chiselsandbits:recipes/tools/chiseled_printer": {
+    "criteria": {
+      "has_c": "2023-11-27 14:40:58 +0800"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
