@@ -41,6 +41,9 @@ messages:
   restart: Server is restarting
 world-settings:
   default:
+    max-tick-time:
+      tile: 50
+      entity: 50
     below-zero-generation-in-existing-chunks: true
     verbose: false
     mob-spawn-range: 6
