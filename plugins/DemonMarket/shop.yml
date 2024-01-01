@@ -935,3 +935,23 @@ shop:
   name: DEEPSLATE_COPPER_ORE
   type: common
   info: DEEPSLATE_COPPER_ORE
+- price: '0.5'
+  name: COBBLED_DEEPSLATE
+  type: common
+  info: COBBLED_DEEPSLATE
+- price: '0.6'
+  name: TUFF
+  type: common
+  info: TUFF
+- price: '0.6'
+  name: ANDESITE
+  type: common
+  info: ANDESITE
+- price: '0.6'
+  name: GRANITE
+  type: common
+  info: GRANITE
+- price: '0.6'
+  name: DIORITE
+  type: common
+  info: DIORITE

@@ -11,6 +11,7 @@
       "minecraft:birch_forest": "2023-05-16 20:49:33 +0800",
       "minecraft:windswept_hills": "2022-12-19 21:23:20 +0800",
       "minecraft:bamboo_jungle": "2023-05-16 21:07:20 +0800",
+      "minecraft:badlands": "2023-12-15 13:28:52 +0800",
       "minecraft:savanna_plateau": "2023-08-08 15:44:29 +0800",
       "minecraft:beach": "2022-12-19 20:50:15 +0800",
       "minecraft:dark_forest": "2023-05-16 21:04:50 +0800",
@@ -37,6 +38,7 @@
       "minecraft:old_growth_spruce_taiga": "2022-12-19 21:09:59 +0800",
       "minecraft:windswept_savanna": "2023-05-05 21:59:25 +0800",
       "minecraft:warm_ocean": "2023-05-16 21:14:59 +0800",
+      "minecraft:deep_lukewarm_ocean": "2023-12-15 13:30:04 +0800",
       "minecraft:flower_forest": "2023-05-05 22:20:08 +0800",
       "minecraft:frozen_peaks": "2023-05-13 21:56:59 +0800",
       "minecraft:old_growth_birch_forest": "2023-01-21 11:40:50 +0800",
@@ -5964,6 +5966,18 @@
   "minecraft:recipes/building_blocks/chiseled_sandstone": {
     "criteria": {
       "has_sandstone_slab": "2023-12-15 09:26:25 +0800"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_full_beacon": {
+    "criteria": {
+      "beacon": "2023-12-22 13:34:55 +0800"
+    },
+    "done": true
+  },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2023-12-22 17:53:23 +0800"
     },
     "done": true
   },

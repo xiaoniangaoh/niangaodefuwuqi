@@ -30,7 +30,7 @@ menu:
     id: 2
   '13':
     index: 13
-    name: 小游戏
+    name: 地皮
     material: DIRT
     lore: null
     isEnchant: false
@@ -38,7 +38,7 @@ menu:
     hideFlag: true
     hideEnchant: true
     commands:
-    - '[op] mvtp @p xyx'
+    - '[op] sl menu'
     id: 3
   '15':
     index: 15
