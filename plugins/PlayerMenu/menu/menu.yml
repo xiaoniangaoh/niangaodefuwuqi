@@ -54,7 +54,7 @@ menu:
     id: 4
   '29':
     index: 29
-    name: 点卷充值
+    name: 赞助
     material: MAP
     lore: null
     isEnchant: false
@@ -63,7 +63,7 @@ menu:
     hideEnchant: true
     id: 17
     commands:
-    - '[command] afdian send 1000点卷'
+    - '[command] afdian send 赞助'
   '31':
     index: 31
     name: 皮肤设置
