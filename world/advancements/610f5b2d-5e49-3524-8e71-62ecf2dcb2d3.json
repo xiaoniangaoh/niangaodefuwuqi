@@ -2515,6 +2515,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2024-01-22 12:59:59 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2024-01-22 12:59:59 +0800"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
     "criteria": {
       "has_potato": "2024-01-22 13:00:23 +0800"
@@ -2530,18 +2542,6 @@
   "minecraft:recipes/food/baked_potato": {
     "criteria": {
       "has_potato": "2024-01-22 13:00:23 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/cherry_boat": {
-    "criteria": {
-      "in_water": "2024-01-22 12:59:59 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/transportation/bamboo_raft": {
-    "criteria": {
-      "in_water": "2024-01-22 12:59:59 +0800"
     },
     "done": true
   },
