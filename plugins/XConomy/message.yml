@@ -56,3 +56,5 @@ help12: '&6paytoggle <player>  -  Toggle <player>''s accepting payments'
 help13: '&6paypermission set <player> True/False  -  Set <player>''s (* represents
   a global) pay permission'
 help14: '&6paypermission remove <player>  -  Set <player>''s pay permission to default'
+staff_hidden: '&aEntered hidden mode'
+staff_displayed: '&aExited hidden mode'
