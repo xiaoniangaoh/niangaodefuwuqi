@@ -120,3 +120,4 @@ command-importlegacy-only-mysql: '&c这个命令只有在你启用了MySQL后才
 command-version-description: '&8 - &d/points version &7- 显示版本信息 PlayerPoints'
 command-cooldown: '&c請等待一段時間再使用此指令.'
 command-pay-self: '&c你不能支付給自己.'
+command-take-not-enough: '&b%player% &c沒有足夠的%currency%.'

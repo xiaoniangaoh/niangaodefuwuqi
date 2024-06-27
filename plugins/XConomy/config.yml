@@ -92,6 +92,7 @@ Currency:
   format-balance:
     '1000': k
     '1000000': m
+  rounding-mode: 0
 
 
 

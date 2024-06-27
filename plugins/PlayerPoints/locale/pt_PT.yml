@@ -120,3 +120,4 @@ command-importlegacy-only-mysql: '&cEste comando apenas se encontra disponível 
 command-version-description: '&8 - &d/points version &7- Exibe informações sobre a versão de PlayerPoints'
 command-cooldown: '&cAguarde antes de utilizar esse comando novamente.'
 command-pay-self: '&cNão se pode pagar a si próprio!'
+command-take-not-enough: '&b%player% &cnão possui %currency% suficientes para isso.'

@@ -372,6 +372,7 @@
       "potato": "2022-12-24 20:53:59 +0800",
       "rabbit": "2022-12-23 17:19:55 +0800",
       "cooked_cod": "2023-01-04 17:56:11 +0800",
+      "pumpkin_pie": "2024-05-30 22:14:45 +0800",
       "mutton": "2023-06-06 21:19:23 +0800",
       "pufferfish": "2023-01-06 22:11:08 +0800",
       "bread": "2022-12-23 19:25:34 +0800",
@@ -6070,6 +6071,18 @@
   "minecraft:adventure/kill_mob_near_sculk_catalyst": {
     "criteria": {
       "kill_mob_near_sculk_catalyst": "2024-01-23 21:39:36 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bamboo_block": {
+    "criteria": {
+      "has_bamboo": "2024-05-23 18:04:45 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/purple_dye": {
+    "criteria": {
+      "has_blue_dye": "2024-05-23 18:11:02 +0800"
     },
     "done": true
   },

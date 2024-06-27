@@ -120,3 +120,4 @@ command-importlegacy-only-mysql: '&cEz a parancs csak akkor elérhető ha a MySQ
 command-version-description: '&8 - &d/points version &7- Kiírja a verzió információt a PlayerPointsról'
 command-cooldown: '&cKérjük, várjon, mielőtt újra használná ezt a parancsot.'
 command-pay-self: '&cNem tudsz magadnak fizetni.'
+command-take-not-enough: '&b%player%-nak/nek &cnincs elég %currency%ja ehhez.'

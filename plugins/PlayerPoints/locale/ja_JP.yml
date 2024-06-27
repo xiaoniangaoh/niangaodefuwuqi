@@ -120,3 +120,4 @@ command-importlegacy-only-mysql: '&cMySQLはエネブルたらこのコマンド
 command-version-description: '&8 - &d/points version &7- バージョン情報の表示 PlayerPoints'
 command-cooldown: '&cそのコマンドを再度使用する前にお待ちください。'
 command-pay-self: '&c自分で支払うことはできない！'
+command-take-not-enough: '&b%player% &cの所持%currency%が足りないため。'

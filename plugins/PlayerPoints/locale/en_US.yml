@@ -120,3 +120,4 @@ command-importlegacy-only-mysql: '&cThis command is only available when you have
 command-version-description: '&8 - &d/points version &7- Display the version info for PlayerPoints'
 command-cooldown: '&cPlease wait before using that command again.'
 command-pay-self: '&cYou cannot pay yourself!'
+command-take-not-enough: '&b%player% &cdoes not have enough %currency% for that.'

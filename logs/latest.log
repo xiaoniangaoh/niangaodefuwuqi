@@ -1,12 +1,10 @@
-[04:16:44] [Craft Scheduler Thread - 6821/INFO]: [Vault] Checking for Updates ... 
-[04:16:45] [Craft Scheduler Thread - 6821/INFO]: [Vault] No new version available
-[10:05:13] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.2.0 (Running 5.1.0). Download at https://www.spigotmc.org/resources/protocollib.1997/
-[10:16:44] [Craft Scheduler Thread - 7058/INFO]: [Vault] Checking for Updates ... 
-[10:16:45] [Craft Scheduler Thread - 7058/INFO]: [Vault] No new version available
-[16:16:44] [Craft Scheduler Thread - 7272/INFO]: [Vault] Checking for Updates ... 
-[16:16:44] [Craft Scheduler Thread - 7272/INFO]: [Vault] No new version available
-[17:22:42] [User Authenticator #5/INFO]: UUID of player xiaoniangaoh is 976484e9-cb06-3833-b2c1-60c05ed90ea8
-[17:22:46] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to ReplayAddon v1.0
+[02:50:15] [Craft Scheduler Thread - 4243/INFO]: [Vault] Checking for Updates ... 
+[02:50:15] [Craft Scheduler Thread - 4243/INFO]: [Vault] No new version available
+[08:50:15] [Craft Scheduler Thread - 4635/INFO]: [Vault] Checking for Updates ... 
+[08:50:15] [Craft Scheduler Thread - 4635/INFO]: [Vault] No new version available
+[08:50:29] [Server thread/INFO]: [ProtocolLib] The updater found an update: 5.2.0 (Running 5.1.0). Download at https://www.spigotmc.org/resources/protocollib.1997/
+[11:57:07] [User Authenticator #1/INFO]: UUID of player xiaoniangaoh is 976484e9-cb06-3833-b2c1-60c05ed90ea8
+[11:57:11] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to ReplayAddon v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
@@ -33,72 +31,75 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.sql.Connection.cr
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.20.1-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[17:22:46] [Server thread/INFO]: xiaoniangaoh joined the game
-[17:22:46] [Server thread/INFO]: xiaoniangaoh[/103.220.65.103:50759] logged in with entity id 6635 at ([zc]8.0, 34.0, 7.0)
-[17:22:46] [Craft Scheduler Thread - 7315/INFO]: [CatSeedLogin] 缓存加载 39 个数据
-[17:22:51] [Server thread/INFO]: xiaoniangaoh issued server command: /l 101325ae
-[17:22:51] [Craft Scheduler Thread - 7329/INFO]: [CatSeedLogin] 缓存加载 39 个数据
-[17:25:30] [Server thread/INFO]: xiaoniangaoh lost connection: Disconnected
-[17:25:30] [Server thread/INFO]: xiaoniangaoh left the game
-[17:27:50] [Server thread/INFO]: Stopping the server
-[17:27:50] [Server thread/INFO]: Stopping server
-[17:27:50] [Server thread/INFO]: [GeekRewardPlus] Disabling GeekRewardPlus v2.2
-[17:27:50] [Server thread/INFO]: GeekCos-SQLITE - Shutdown initiated...
-[17:27:50] [Server thread/INFO]: GeekCos-SQLITE - Shutdown completed.
-[17:27:50] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.8.0
-[17:27:50] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactionvisualizer
-[17:27:50] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractionVisualizer was disabled.
-[17:27:50] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
-[17:27:50] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
-[17:27:50] [Server thread/INFO]: [AdvancedReplay] Disabling AdvancedReplay v1.8.5
-[17:27:50] [Server thread/INFO]: [PlayerMenu] Disabling PlayerMenu v1.2.9
-[17:27:50] [Server thread/INFO]: [DemonMarket] Disabling DemonMarket v1.6.2
-[17:27:50] [Server thread/INFO]: [DemonMarket] Disabled Version 1.6.2
-[17:27:50] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.3-SNAPSHOT
-[17:27:50] [Server thread/INFO]: [Geyser-Spigot] Geyser关闭中
-[17:27:50] [Server thread/INFO]: [Geyser-Spigot] Geyser成功关闭.
-[17:27:50] [Server thread/INFO]: [CatSeedLogin] Disabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
-[17:27:50] [Server thread/INFO]: [Vivecraft] Disabling Vivecraft-Spigot-Extensions v1.20.4-2
-[17:27:50] [Server thread/INFO]: [ApoSellReload] Disabling ApoSellReload v1.0.1
-[17:27:50] [Server thread/INFO]: [PlayerTitle] Disabling PlayerTitle v3.6.3
-[17:27:50] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.12
-[17:27:50] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
-[17:27:50] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
-[17:27:50] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.6
-[17:27:50] [Server thread/INFO]: [XConomy] Disabling XConomy v2.25.12
-[17:27:50] [Server thread/INFO]: [XConomy] XConomy successfully disabled
-[17:27:50] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.5
-[17:27:50] [Server thread/INFO]: [PlayerStatistics] Disabling PlayerStatistics v1.1.1
-[17:27:50] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
-[17:27:50] [Server thread/INFO]: [EpicCombat] Disabling EpicCombat v1.19
-[17:27:50] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[17:27:50] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.10.0
-[17:27:50] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
-[17:27:50] [Server thread/INFO]: [ViaVersion] Empty pipeline, nothing to uninject
-[17:27:50] [Server thread/INFO]: [STPA] Disabling STPA v1.0-SNAPSHOT
-[17:27:50] [Server thread/INFO]: [PlayersBackpacksViewer] Disabling PlayersBackpacksViewer v2.0-ForAllVersions
-[17:27:50] [Server thread/INFO]: [Payment] Disabling Payment v1.1.6
-[17:27:50] [Server thread/INFO]: [SGSquareLand] Disabling SGSquareLand v1.5
-[17:27:50] [Server thread/INFO]: [SGSquareLand] §f[§6地皮系统§f]帅哥地皮已经卸载！
-[17:27:50] [Server thread/INFO]: [SGSquareLand] §f[§6地皮系统§f]ShuaiGe squareland unloaded！
-[17:27:50] [Server thread/INFO]: [ReplayAddon] Disabling ReplayAddon v1.0
-[17:27:50] [Server thread/INFO]: §4ReplayAddon | §cPlugin wurde erfolgreich deaktiviert!
-[17:27:50] [Server thread/INFO]: [AdvancedWarps] Disabling AdvancedWarps v1.0.0
-[17:27:50] [Server thread/INFO]: [SuperMotd] Disabling SuperMotd v1.0
-[17:27:50] [Server thread/INFO]: [Stp] Disabling Stp v1.0.1
-[17:27:50] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
-[17:27:50] [Server thread/INFO]: Saving players
-[17:27:50] [Server thread/INFO]: Saving worlds
-[17:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[17:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[17:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[17:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[squareland_world]'/minecraft:squareland_world
-[17:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[xyx]'/minecraft:xyx
-[17:27:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[zc]'/minecraft:zc
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (squareland_world): All chunks are saved
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (xyx): All chunks are saved
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage (zc): All chunks are saved
-[17:27:52] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[11:57:11] [Server thread/INFO]: xiaoniangaoh joined the game
+[11:57:11] [Server thread/INFO]: xiaoniangaoh[/103.220.65.118:53623] logged in with entity id 348 at ([zc]8.0, 34.0, 7.0)
+[11:57:11] [Craft Scheduler Thread - 4804/INFO]: [CatSeedLogin] 缓存加载 41 个数据
+[11:57:17] [Server thread/INFO]: xiaoniangaoh issued server command: /l 101325ae
+[11:57:17] [Craft Scheduler Thread - 4805/INFO]: [CatSeedLogin] 缓存加载 41 个数据
+[11:59:45] [Server thread/INFO]: xiaoniangaoh lost connection: Disconnected
+[11:59:45] [Server thread/INFO]: xiaoniangaoh left the game
+[12:22:04] [Server thread/INFO]: Stopping the server
+[12:22:04] [Server thread/INFO]: Stopping server
+[12:22:04] [Server thread/INFO]: [GeekRewardPlus] Disabling GeekRewardPlus v2.2
+[12:22:04] [Server thread/INFO]: GeekCos-SQLITE - Shutdown initiated...
+[12:22:04] [Server thread/INFO]: GeekCos-SQLITE - Shutdown completed.
+[12:22:04] [Server thread/INFO]: [AdvancedReplay] Disabling AdvancedReplay v1.8.5
+[12:22:04] [Server thread/INFO]: [PlayerMenu] Disabling PlayerMenu v1.2.9
+[12:22:04] [Server thread/INFO]: [DemonMarket] Disabling DemonMarket v1.6.2
+[12:22:04] [Server thread/INFO]: [DemonMarket] Disabled Version 1.6.2
+[12:22:04] [Server thread/INFO]: [Geyser-Spigot] Disabling Geyser-Spigot v2.2.3-SNAPSHOT
+[12:22:04] [Server thread/INFO]: [Geyser-Spigot] Geyser关闭中
+[12:22:05] [Server thread/INFO]: [Geyser-Spigot] Geyser成功关闭.
+[12:22:05] [Server thread/INFO]: [GSit] Disabling GSit v1.9.1
+[12:22:05] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[12:22:05] [Server thread/INFO]: [CatSeedLogin] Disabling CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT
+[12:22:05] [Server thread/INFO]: [Vivecraft] Disabling Vivecraft-Spigot-Extensions v1.20.4-2
+[12:22:05] [Server thread/INFO]: [ApoSellReload] Disabling ApoSellReload v1.0.1
+[12:22:05] [Server thread/INFO]: [PlayerTitle] Disabling PlayerTitle v4.0.2
+[12:22:05] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.14
+[12:22:05] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[12:22:05] [Server thread/INFO]: [Multiverse-Core] Disabling Multiverse-Core v4.3.1-b861
+[12:22:05] [Server thread/INFO]: [PlayerPoints] Disabling PlayerPoints v3.2.7
+[12:22:05] [Server thread/INFO]: [XConomy] Disabling XConomy v2.25.15
+[12:22:05] [Server thread/INFO]: [XConomy] XConomy successfully disabled
+[12:22:05] [Server thread/INFO]: [InteractionVisualizer] Disabling InteractionVisualizer v1.18.9.0
+[12:22:05] [Server thread/INFO]: [PlaceholderAPI] Unregistered placeholder expansion interactionvisualizer
+[12:22:05] [Server thread/INFO]: [PlaceholderAPI] Reason: required plugin InteractionVisualizer was disabled.
+[12:22:05] [Server thread/INFO]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[12:22:05] [Server thread/INFO]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[12:22:05] [Server thread/INFO]: [ViaRewind] Disabling ViaRewind v3.0.5
+[12:22:05] [Server thread/INFO]: [PlayerStatistics] Disabling PlayerStatistics v1.1.1
+[12:22:05] [Server thread/INFO]: [ViaBackwards] Disabling ViaBackwards v4.9.1
+[12:22:05] [Server thread/INFO]: [EpicCombat] Disabling EpicCombat v1.19
+[12:22:05] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[12:22:05] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.10.2
+[12:22:05] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[12:22:05] [Server thread/INFO]: [ViaVersion] Empty pipeline, nothing to uninject
+[12:22:05] [Server thread/INFO]: [STPA] Disabling STPA v1.0-SNAPSHOT
+[12:22:05] [Server thread/INFO]: [PlayersBackpacksViewer] Disabling PlayersBackpacksViewer v2.0-ForAllVersions
+[12:22:05] [Server thread/INFO]: [NoBuildPlus] Disabling NoBuildPlus v1.3.4
+[12:22:05] [Server thread/INFO]: [Payment] Disabling Payment v1.1.6
+[12:22:05] [Server thread/INFO]: [SGSquareLand] Disabling SGSquareLand v1.5
+[12:22:05] [Server thread/INFO]: [SGSquareLand] §f[§6地皮系统§f]帅哥地皮已经卸载！
+[12:22:05] [Server thread/INFO]: [SGSquareLand] §f[§6地皮系统§f]ShuaiGe squareland unloaded！
+[12:22:05] [Server thread/INFO]: [ReplayAddon] Disabling ReplayAddon v1.0
+[12:22:05] [Server thread/INFO]: §4ReplayAddon | §cPlugin wurde erfolgreich deaktiviert!
+[12:22:05] [Server thread/INFO]: [AdvancedWarps] Disabling AdvancedWarps v1.0.0
+[12:22:05] [Server thread/INFO]: [SuperMotd] Disabling SuperMotd v1.0
+[12:22:05] [Server thread/INFO]: [Stp] Disabling Stp v1.0.1
+[12:22:05] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.5
+[12:22:05] [Server thread/INFO]: Saving players
+[12:22:05] [Server thread/INFO]: Saving worlds
+[12:22:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[12:22:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[12:22:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[12:22:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[squareland_world]'/minecraft:squareland_world
+[12:22:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[xyx]'/minecraft:xyx
+[12:22:07] [Server thread/INFO]: Saving chunks for level 'ServerLevel[zc]'/minecraft:zc
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (squareland_world): All chunks are saved
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (xyx): All chunks are saved
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage (zc): All chunks are saved
+[12:22:07] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
