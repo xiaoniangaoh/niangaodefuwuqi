@@ -1,4 +1,10 @@
 market:
+- amount: '1'
+  ownerName: xiaoniangaoh
+  price: '900.0'
+  name: ELYTRA
+  dateString: '20240701'
+  info: H4sIAAAAAAAA_8ssSc214lJQsLW1UsgvStdLKs3OzizRy8wrS80ryS-q1PMEKgguSUzOBioqs1IwNjEzBbJKKgtSrRRcfSJDghy5AO528hhEAAAA
 - amount: '32'
   ownerName: xiaoniangaoh
   price: '40000.0'

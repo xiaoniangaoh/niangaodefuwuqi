@@ -109,3 +109,5 @@ SyncData:
   channel-type: BungeeCord
   # Server ID, keep the ID and the MySQL settings is the same between the servers requiring synchronization
   sign: aa
+Thread:
+  future-timeout: 3

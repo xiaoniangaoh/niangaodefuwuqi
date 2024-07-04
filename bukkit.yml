@@ -1,4 +1,6 @@
 settings:
+  compatibility:
+    allow-old-keys-in-registry: false
   allow-end: true
   warn-on-overload: false
   permissions-file: permissions.yml

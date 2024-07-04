@@ -41,6 +41,7 @@ messages:
   restart: Server is restarting
 world-settings:
   default:
+    unload-frozen-chunks: false
     max-tick-time:
       tile: 50
       entity: 50

@@ -911,10 +911,6 @@ shop:
   name: MINECART
   type: common
   info: MINECART
-- price: '2.0'
-  name: GRASS
-  type: common
-  info: GRASS
 - price: '30.0'
   name: BOW
   type: common
@@ -955,3 +951,7 @@ shop:
   name: DIORITE
   type: common
   info: DIORITE
+- price: '4.0'
+  name: WIND_CHARGE
+  type: common
+  info: WIND_CHARGE

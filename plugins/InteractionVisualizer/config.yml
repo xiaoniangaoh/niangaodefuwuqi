@@ -59,6 +59,7 @@ Messages:
     "interactionvisualizer:item": Item
     "interactionvisualizer:villager": Villager
     "bookshelf:bookshelf": Bookshelf
+    "interactionvisualizer:crafter": Crafter
 GarbageCollector:
   # How often should the plugin sweep up and remove tile entity blocks that no longer needs to be tracked
   # Measured in ticks, 20 ticks = 1 second
@@ -308,6 +309,9 @@ Blocks:
       SpawnRange: " &f{SpawnRange}m"
   Stonecutter:
     Enabled: true
+  Crafter:
+    Enabled: true
+    CheckingPeriod: 20
 Entities:
   Item:
     Enabled: true
