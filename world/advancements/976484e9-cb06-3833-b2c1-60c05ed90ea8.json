@@ -6519,33 +6519,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall": {
-    "criteria": {
-      "has_bricks": "2024-07-11 15:12:51 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_tuff_bricks_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_stairs": {
-    "criteria": {
-      "has_bricks": "2024-07-11 15:12:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/brick_slab": {
-    "criteria": {
-      "has_bricks": "2024-07-11 15:12:51 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/copper_bulb": {
-    "criteria": {
-      "has_copper_block": "2024-07-11 16:26:41 +0800"
     },
     "done": true
   },
@@ -6561,21 +6537,45 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/copper_grate": {
-    "criteria": {
-      "has_copper_block": "2024-07-11 16:26:41 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/tuff_brick_stairs_from_tuff_bricks_stonecutting": {
     "criteria": {
       "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting": {
+  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
     "criteria": {
-      "has_waxed_oxidized_cut_copper": "2024-07-11 15:29:31 +0800"
+      "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/tuff_brick_wall": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tuff_brick_slab": {
+    "criteria": {
+      "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/brick_wall": {
+    "criteria": {
+      "has_bricks": "2024-07-11 15:12:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_stairs": {
+    "criteria": {
+      "has_bricks": "2024-07-11 15:12:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/brick_slab": {
+    "criteria": {
+      "has_bricks": "2024-07-11 15:12:51 +0800"
     },
     "done": true
   },
@@ -6591,9 +6591,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/tuff_brick_slab_from_tuff_bricks_stonecutting": {
+  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
     "criteria": {
-      "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
+      "has_bricks": "2024-07-11 15:12:51 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_oxidized_chiseled_copper_from_waxed_oxidized_cut_copper_stonecutting": {
+    "criteria": {
+      "has_waxed_oxidized_cut_copper": "2024-07-11 15:29:31 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2024-07-11 16:26:41 +0800"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2024-07-11 16:26:41 +0800"
     },
     "done": true
   },
@@ -6603,27 +6621,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/brick_wall_from_bricks_stonecutting": {
-    "criteria": {
-      "has_bricks": "2024-07-11 15:12:51 +0800"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
     "criteria": {
       "has_copper_block": "2024-07-11 16:26:41 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/tuff_brick_wall": {
-    "criteria": {
-      "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/tuff_brick_slab": {
-    "criteria": {
-      "has_tuff_bricks": "2024-07-11 15:11:03 +0800"
     },
     "done": true
   },
