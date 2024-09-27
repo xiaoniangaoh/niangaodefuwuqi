@@ -1,0 +1,80 @@
+title: §4自定义坐骑
+row: 6
+
+#物品名称material空格要下划线带替，具体名称可在mc游戏中设置为英文时看到
+#网址：https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+#animalType
+#ZombieHorse,僵尸马
+#SkeletonHorse,骷髅马
+#Horse,马
+#Wlof,狼
+#------------#
+#菜单中的图标,material
+#颜色,color
+#花纹,style
+#移动速度,movement 从0.1开始
+#跳跃力,jump 从0.1开始
+#血量,maxHealth 1-25565
+#攻击力,attack 1-25565
+#护甲,armor 1-25565
+#击退抗性,resistance 1-25565
+#击退力度,knockback 1-25565
+#韧性,toughness 1-25565
+#畜力值,strength 从0.1开始
+#装备,equipment 例子：saddle,iron_horse_armor （马鞍，铁马铠）
+zombiehorse:
+ material: diamond_horse_armor
+ name: '§5僵尸马'
+ animalType: ZombieHorse
+ movement: 0.7
+ strength: 0.7
+ jump: 0.75
+ equipment: saddle
+ maxHealth: 20
+
+skeletonhorse:
+ material: golden_horse_armor
+ name: '§5骷髅马'
+ animalType: SkeletonHorse
+ movement: 0.7
+ strength: 0.7
+ jump: 0.75
+ equipment: saddle
+ maxHealth: 20
+
+horse:
+ material: iron_horse_armor
+ name: '§5马'
+ animalType: horse
+ movement: 0.7
+ strength: 0.7
+ jump: 0.75
+ color: white
+ style: none
+ equipment: saddle,iron_horse_armor
+ maxHealth: 20
+
+的卢:
+ material: leather_horse_armor
+ name: '§5的卢'
+ animalType: horse
+ movement: 0.7
+ strength: 0.7
+ jump: 0.75
+ style: none
+ color: brown
+ equipment: saddle,leather_horse_armor
+ maxHealth: 20
+
+阿狗:
+ material: bone
+ name: '§5狗'
+ animalType: wolf
+ movement: 0.7
+ resistance: 0
+ attack: 8
+ knockback: 0
+ armor: 10
+ toughness: 0
+ color: green
+ maxHealth: 30

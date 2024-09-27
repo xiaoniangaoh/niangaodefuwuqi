@@ -1,0 +1,38 @@
+#地皮放弃或重置菜单标题
+title: §4地皮放弃或重置
+#地皮放弃或重置菜单行数
+row: 1
+
+giveup:
+ material: ender_pearl
+ position_x: 1
+ position_y: 1
+ name: §e放弃脚下的地皮
+ command: sl giveup
+ keepon: false
+ lore:
+  - '§3指令：§d/sl giveup'
+  - '§2请先前往自己领地再输入此命令'
+
+reset:
+ material: clock
+ position_x: 2
+ position_y: 1
+ name: §e重置脚下的地皮
+ command: sl reset
+ keepon: false
+ lore:
+  - '§3指令：§d/sl reset'
+  - '§2此命令会将地皮恢复为领取时的模样'
+  - '§2请先前往自己领地再输入此命令'
+
+confirm:
+ material: eye_of_ender
+ position_x: 5
+ position_y: 1
+ name: §e确定放弃/重置脚下的地皮
+ command: sl confirm
+ keepon: false
+ lore:
+  - '§3指令：§d/sl confirm'
+  - '§2请先确认要进行的操作再点此按钮'

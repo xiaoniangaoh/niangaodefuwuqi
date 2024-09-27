@@ -1,0 +1,64 @@
+#SGSquareLand1.5,帅哥地皮
+#作者：极客LF,bilibili：哔哩_大帅哥，bug修改：1048885612@qq.com
+#B站有视频教程，欢迎大家提出保贵建议，刘谋不胜感激！
+#教新手三条指令：
+#禁止自然刷怪：/gamerule doMobSpawning false
+#死亡不掉落：/gamerule keepInventory true
+#防生物破坏地形(JJ怪，末影人之类的)：/gamerule mobGriefing false
+#以上三条指令，在哪个世界输入，那么就在哪个世界生效，谢谢！！！
+#地皮世界名
+landWorldName: squareland_world
+#JAVA17版本以下建议就默认50高,38宽
+#JAVA17版本以上可以适当调的大一点，建议64高,50宽
+#地皮高度，草皮的高度
+landHeight: 50
+#地皮宽度，包括边框
+landWidth: 38
+#无主人地皮告示牌第三行
+noOwner: no owner
+#未领取告示牌
+sginGiveUp: birch_wall_sign
+#领取后告示牌
+sginClaim: birch_wall_sign
+#未领取时边框
+edgeGiveUp: sandstone_slab
+#领取后边框
+edgeClaim: smooth_stone_slab
+#第一层
+firstFloor: grass_block
+#中间层
+middleLayer: stone
+#过道方块一
+aisle_1: birch_planks
+#过道方块二
+aisle_2: oak_planks
+#是否允许地皮世界发生玩家PVP(全局设置)
+allowPvp: true
+#每天领取和重置次数(下版本更新)
+claimAndResetCount: 3
+#放弃地皮确定秒数
+giveUpSeconds: 10
+#以下设置true为可以,false则　不可以
+#禁止TNT、末影水晶、JJ怪爆炸、恶魂的火球（如果你没有地形保护，最好禁止）
+boom: false
+#禁止水或岩浆流到地皮外
+overflow: false
+#禁止水上行走，防止有人破坏他人地皮
+waterWalk: false
+#禁止幽匿蔓延，防止有人污染他人地皮
+sculk: false
+#禁止凋零BOSS，防止有人破坏地皮世界
+boss: false
+#禁止火的蔓延，如果你没有地形保护，可以烧了过道
+fire: false
+#禁止地狱门的生成
+hellGate: false
+#开启地皮世界自动免费飞行
+autoFlyInLand: false
+#开启地皮世界免费飞行的指令(如果不这样写，会增加额外的内存占用，不如直接使用已有的东西)
+autoFlyInLandCommand: fly [player]
+#地皮世界禁止的指令，防止有人圈地之类的
+banCommand:
+ - res create
+#语言
+language: chinese.yml

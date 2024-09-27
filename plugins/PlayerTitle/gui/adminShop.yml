@@ -1,0 +1,189 @@
+# gui标题
+title: '&f[&e称号商城管理&f]'
+
+# 删除
+delete:
+  enable: true
+  index: 12
+  name: '     &8[&e点击删除&8]'
+  material: REDSTONE
+  isEnchant: false
+  lore:
+  - ' &8[&a✔&8] &a点击删除'
+  custom-model-data: 0
+
+# 显示状态
+status:
+  enable: true
+  index: 14
+  name: '   &8[&a显示状态&8]'
+  material: TORCH
+  # 是否附魔效果
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7当前状态 &8[${status}&8]'
+  - ''
+  - ' &8[&a✔&8] &a点击切换'
+  custom-model-data: 0
+
+# 变更名称
+name:
+  enable: true
+  index: 29
+  name: '   &8[&a变更名称&8]'
+  material: NAME_TAG
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7当前名称: &8${titleName}'
+  - ''
+  - ' &8[&a✔&8] &a点击更改'
+  custom-model-data: 0
+
+# 变更类型
+buyType:
+  enable: true
+  index: 30
+  name: '   &8[&a变更类型&8]'
+  material: NAME_TAG
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7当前类型 &8[${buyType}&8]'
+  - ''
+  - ' &8[&a✔&8] &a点击更改'
+  custom-model-data: 0
+
+# 变更物品
+item:
+  enable: true
+  index: 31
+  name: '   &8[&a变更物品&8]'
+  material: NAME_TAG
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7当前物品 &8[&a${item}&8]'
+  - ''
+  - ' &8[&a✔&8] &a点击更改'
+  custom-model-data: 0
+
+# 变更价格
+price:
+  enable: true
+  index: 32
+  name: '   &8[&a变更价格&8]'
+  material: NAME_TAG
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7当前价格 &8[&a${price}&8]'
+  - ''
+  - ' &8[&a✔&8] &a点击更改'
+  custom-model-data: 0
+
+# 变更天数
+day:
+  enable: true
+  index: 33
+  name: '      &8[&a变更天数&8]'
+  material: NAME_TAG
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7当前天数 &8[&a${day}&8]'
+  - ''
+  - ' &8[&a✔&8] &a点击更改'
+  custom-model-data: 0
+
+# 称号buff
+buff:
+  enable: true
+  index: 40
+  name: '     &8[&a称号BUFF&8]'
+  material: BOOK
+  isEnchant: false
+  lore:
+  - ''
+  - '&f[ &c称号BUFF &f]'
+  - ''
+  - '&8▪ &a${buff}'
+  custom-model-data: 0
+
+# 称号粒子
+particle:
+  enable: true
+  index: 39
+  name: '     &8[&a称号粒子&8]'
+  material: BOOK
+  isEnchant: false
+  lore:
+  - ''
+  - '&f[ &c称号粒子 &f]'
+  - ''
+  - '&8▪ &a${particle}'
+  custom-model-data: 0
+
+# 描述
+description:
+  enable: true
+  index: 41
+  name: '     &8[&a称号描述&8]'
+  material: BOOK
+  isEnchant: false
+  lore:
+  - ''
+  - '&f[ &c称号描述 &f]'
+  - ''
+  - '&8▪ &a${description}'
+  custom-model-data: 0
+
+# 返回按钮
+back:
+  enable: true
+  index: 49
+  name: '   &8[&a返回&8]'
+  material: barrier
+  isEnchant: false
+  lore:
+  - '&f- &7点击返回'
+  custom-model-data: 0
+
+# 分隔板
+pane:
+  enable: true
+  index: 0,1,2,3,4,5,6,7,8,9,17,18,26,27,35,36,44,45,46,47,48,50,51,52,53
+  material: BLACK_STAINED_GLASS_PANE
+  isEnchant: false
+  name: '       &8[&7分割板&8]'
+  lore:
+  - '&7哎呀,不要随便戳人家啦'
+  custom-model-data: 0
+player:
+  enable: true
+  index: 22
+  name: '   &8[&a拥有玩家&8]'
+  material: DIAMOND_CHESTPLATE
+  isEnchant: false
+  lore:
+  - ''
+  - '&8▪ &7购买数量 &8[${number}&8]'
+  - ''
+  - ' &8[&a✔&8] &a点击查看'
+  custom-model-data: 0
+playerView:
+  index: 10,11,12,13,14,15,16,19,20,21,22,23,24,25,28,29,30,31,32,33,34,37,38,39,40,41,42,43
+  name: '&8[&a${player_name}&8]'
+  material: PLAYER_HEAD
+  isEnchant: false
+  lore:
+  - ''
+  - '&f[ &c玩家名称 &f]'
+  - '&c&l>> &a${player_name}'
+  - ''
+  - '&f[ &c到期时间 &f]'
+  - '&c&l>> &a${expiration_time}'
+  - ''
+  - ' &8[&a✔&8] &a点击删除'
+  custom-model-data: 0

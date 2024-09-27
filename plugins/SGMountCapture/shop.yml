@@ -1,0 +1,412 @@
+title: §5坐骑商店
+row: 4
+
+#物品名称material要用大写，具体名称可在mc游戏中设置为英文时看到
+#网址：https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Material.html
+mount-sdfx:
+ material: GOLDEN_HORSE_ARMOR
+ position_x: 1
+ position_y: 1
+ name: '§5僵尸马'
+ species: '普氏野马'
+ animalType: ZombieHorse
+ movement: 0.7
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.75
+ balance: 150000
+ lore:
+ - '§f售价:§e§l150000§f$'
+ - '§f品种:§d普氏野马'
+ - '§f品级:§a超凡'
+ - '§f奔跑速度:§a快'
+ - '§f跳跃力:§a高'
+ - '§f血量:§a20'
+
+mount-w45sdgsds:
+ material: IRON_HORSE_ARMOR
+ position_x: 2
+ position_y: 1
+ name: '§c僵尸马'
+ species: '鞑靼野马'
+ animalType: ZombieHorse
+ movement: 0.65
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.7
+ balance: 100000
+ lore:
+ - '§f售价:§e§l100000§f$'
+ - '§f品种:§d鞑靼野马'
+ - '§f品级:§a优秀'
+ - '§f奔跑速度:§a正常'
+ - '§f跳跃力:§a正常'
+ - '§f血量:§a20'
+
+mount-w45gdssds:
+ material: LEATHER_HORSE_ARMOR
+ position_x: 3
+ position_y: 1
+ name: '§b僵尸马'
+ species: '哈萨克马'
+ animalType: ZombieHorse
+ movement: 0.6
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.65
+ balance: 80000
+ lore:
+ - '§f售价:§e§l80000§f$'
+ - '§f品种:§d哈萨克马'
+ - '§f品级:§a普通'
+ - '§f奔跑速度:§a普通'
+ - '§f跳跃力:§a普通'
+ - '§f血量:§a20'
+
+mount-w4745fdds:
+ material: GOLDEN_HORSE_ARMOR
+ position_x: 6
+ position_y: 1
+ name: '§5骷髅马'
+ species: '大宛马'
+ animalType: SkeletonHorse
+ movement: 0.7
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.75
+ balance: 150000
+ lore:
+ - '§f售价:§e§l150000§f$'
+ - '§f品种:§d大宛马'
+ - '§f品级:§a超凡'
+ - '§f奔跑速度:§a快'
+ - '§f跳跃力:§a高'
+ - '§f血量:§a20'
+
+mount-w474435ds:
+ material: IRON_HORSE_ARMOR
+ position_x: 7
+ position_y: 1
+ name: '§c骷髅马'
+ species: '蒙古马'
+ animalType: SkeletonHorse
+ movement: 0.65
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.7
+ balance: 100000
+ lore:
+ - '§f售价:§e§l100000§f$'
+ - '§f品种:§d蒙古马'
+ - '§f品级:§a优秀'
+ - '§f奔跑速度:§a正常'
+ - '§f跳跃力:§a正常'
+ - '§f血量:§a20'
+
+mount-w432dsfds:
+ material: LEATHER_HORSE_ARMOR
+ position_x: 8
+ position_y: 1
+ name: '§b骷髅马'
+ species: '河曲马'
+ animalType: SkeletonHorse
+ movement: 0.6
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.65
+ balance: 80000
+ lore:
+ - '§f售价:§e§l80000§f$'
+ - '§f品种:§d河曲马'
+ - '§f品级:§a普通'
+ - '§f奔跑速度:§a普通'
+ - '§f跳跃力:§a普通'
+ - '§f血量:§a20'
+
+mount-43eg:
+ material: GOLDEN_HORSE_ARMOR
+ position_x: 1
+ position_y: 2
+ name: '§5马'
+ species: '伊犁马'
+ animalType: horse
+ movement: 0.7
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.75
+ color: white
+ style: none
+ balance: 50000
+ lore:
+ - '§f售价:§e§l50000§f$'
+ - '§f品种:§d伊犁马'
+ - '§f品级:§a超凡'
+ - '§f颜色:§a雪白色'
+ - '§f花纹:§a无'
+ - '§f奔跑速度:§a快'
+ - '§f跳跃力:§a高'
+ - '§f血量:§a20'
+
+mount-4asdeg:
+ material: GOLDEN_HORSE_ARMOR
+ position_x: 2
+ position_y: 2
+ name: '§5马'
+ species: '蒙古马'
+ animalType: horse
+ movement: 0.7
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.75
+ color: brown
+ style: none
+ balance: 50000
+ lore:
+ - '§f售价:§e§l50000§f$'
+ - '§f品种:§d蒙古马'
+ - '§f品级:§a超凡'
+ - '§f颜色:§a棕色'
+ - '§f花纹:§a无'
+ - '§f奔跑速度:§a快'
+ - '§f跳跃力:§a高'
+ - '§f血量:§a20'
+
+mount-44seg:
+ material: IRON_HORSE_ARMOR
+ position_x: 3
+ position_y: 2
+ name: '§c马'
+ species: '弗里斯马'
+ animalType: horse
+ movement: 0.65
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.7
+ color: chestnut
+ style: white_dots
+ balance: 30000
+ lore:
+ - '§f售价:§e§l30000§f$'
+ - '§f品种:§d弗里斯马'
+ - '§f品级:§a优秀'
+ - '§f颜色:§a栗色'
+ - '§f花纹:§a圆白点'
+ - '§f奔跑速度:§a正常'
+ - '§f跳跃力:§a正常'
+ - '§f血量:§a20'
+
+mount-4435eg:
+ material: IRON_HORSE_ARMOR
+ position_x: 4
+ position_y: 2
+ name: '§c马'
+ species: '大宛马'
+ animalType: horse
+ movement: 0.65
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.7
+ color: creamy
+ style: black_dots
+ balance: 30000
+ lore:
+ - '§f售价:§e§l30000§f$'
+ - '§f品种:§d大宛马'
+ - '§f品级:§a优秀'
+ - '§f颜色:§a奶油色'
+ - '§f花纹:§a黑点'
+ - '§f奔跑速度:§a正常'
+ - '§f跳跃力:§a正常'
+ - '§f血量:§a20'
+
+mount-446deg:
+ material: IRON_HORSE_ARMOR
+ position_x: 5
+ position_y: 2
+ name: '§c马'
+ species: '鞑靼野马'
+ animalType: horse
+ movement: 0.65
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.7
+ color: gray
+ style: none
+ balance: 30000
+ lore:
+ - '§f售价:§e§l30000§f$'
+ - '§f品种:§d鞑靼野马'
+ - '§f品级:§a优秀'
+ - '§f颜色:§a灰色'
+ - '§f花纹:§a无'
+ - '§f奔跑速度:§a正常'
+ - '§f跳跃力:§a正常'
+ - '§f血量:§a20'
+
+mount-46dsgg:
+ material: LEATHER_HORSE_ARMOR
+ position_x: 6
+ position_y: 2
+ name: '§b马'
+ species: '河曲马'
+ animalType: horse
+ movement: 0.6
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.65
+ color: black
+ style: white
+ balance: 10000
+ lore:
+ - '§f售价:§e§l10000§f$'
+ - '§f品种:§d河曲马'
+ - '§f品级:§a普通'
+ - '§f颜色:§a黑色'
+ - '§f花纹:§a白短袜或条纹'
+ - '§f奔跑速度:§a普通'
+ - '§f跳跃力:§a普通'
+ - '§f血量:§a20'
+
+mount-528dfhg:
+ material: LEATHER_HORSE_ARMOR
+ position_x: 7
+ position_y: 2
+ name: '§b马'
+ species: '伊犁马'
+ animalType: horse
+ movement: 0.6
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.65
+ color: brown
+ style: whitefield
+ balance: 10000
+ lore:
+ - '§f售价:§e§l10000§f$'
+ - '§f品种:§d伊犁马'
+ - '§f品级:§a普通'
+ - '§f颜色:§a褐色'
+ - '§f花纹:§a乳白色斑点'
+ - '§f奔跑速度:§a普通'
+ - '§f跳跃力:§a普通'
+ - '§f血量:§a20'
+
+mount-57ddhg:
+ material: LEATHER_HORSE_ARMOR
+ position_x: 7
+ position_y: 2
+ name: '§b马'
+ species: '伊犁马'
+ animalType: horse
+ movement: 0.6
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.65
+ color: dark_brown
+ style: none
+ balance: 10000
+ lore:
+ - '§f售价:§e§l10000§f$'
+ - '§f品种:§d伊犁马'
+ - '§f品级:§a普通'
+ - '§f颜色:§a深褐色'
+ - '§f花纹:§a无'
+ - '§f奔跑速度:§a普通'
+ - '§f跳跃力:§a普通'
+ - '§f血量:§a20'
+
+mount-fu32hg:
+ material: LEATHER_HORSE_ARMOR
+ position_x: 8
+ position_y: 2
+ name: '§b马'
+ species: '哈萨克马'
+ animalType: horse
+ movement: 0.6
+ maxHealth: 20
+ strength: 0.7
+ jump: 0.65
+ color: white
+ style: black_dots
+ balance: 10000
+ lore:
+ - '§f售价:§e§l10000§f$'
+ - '§f品种:§d哈萨克马'
+ - '§f品级:§a普通'
+ - '§f颜色:§a雪白色'
+ - '§f花纹:§a小黑点'
+ - '§f奔跑速度:§a普通'
+ - '§f跳跃力:§a普通'
+ - '§f血量:§a20'
+
+mount-3asd:
+ material: BONE
+ position_x: 1
+ position_y: 3
+ name: '§5狗'
+ species: '金毛'
+ animalType: wolf
+ movement: 0.7
+ resistance: 0
+ maxHealth: 30
+ attack: 8
+ knockback: 0
+ armor: 10
+ toughness: 0
+ balance: 100000
+ lore:
+ - '§f售价:§e§l100000§f$'
+ - '§f品种:§d金毛'
+ - '§f品级:§a超凡'
+ - '§f攻击力:§a8'
+ - '§f护甲:§a10'
+ - '§f奔跑速度:§a快'
+ - '§f血量:§a30'
+
+mount-45sfgdsfg:
+ material: BONE
+ position_x: 2
+ position_y: 3
+ name: '§c狗'
+ species: '土狗'
+ animalType: wolf
+ movement: 0.65
+ resistance: 0
+ maxHealth: 25
+ attack: 6
+ knockback: 0
+ armor: 5
+ toughness: 0
+ balance: 80000
+ lore:
+ - '§f售价:§e§l80000§f$'
+ - '§f品种:§d土狗'
+ - '§f品级:§a优秀'
+ - '§f攻击力:§a6'
+ - '§f护甲:§a5'
+ - '§f奔跑速度:§a正常'
+ - '§f血量:§a25'
+
+mount-567ffg:
+ material: BONE
+ position_x: 3
+ position_y: 3
+ name: '§b狗'
+ species: '泰迪'
+ animalType: wolf
+ movement: 0.6
+ resistance: 0
+ maxHealth: 20
+ attack: 4
+ knockback: 0
+ armor: 0
+ toughness: 0
+ balance: 30000
+ lore:
+ - '§f售价:§e§l30000§f$'
+ - '§f品种:§d泰迪'
+ - '§f品级:§a普通'
+ - '§f攻击力:§a4'
+ - '§f护甲:§a0'
+ - '§f奔跑速度:§a普通'
+ - '§f血量:§a20'

@@ -1,0 +1,51 @@
+global-settings:
+  # true = not prevent
+  # false = prevent
+  flags:
+    break: false
+    build: false
+    use: true
+    container: false
+    mob-damage: true
+    mob-explode: false
+    pvp: false
+    shoot: false
+    tnt: false
+    tnt-damage: false
+    frame: false
+    bed: false
+    voidtp: false
+    villager: true
+    command: true
+    chat: true
+    leaf-decay: true
+    melt: true
+    fall-damage: true
+    armorstand: false
+    farmbreak: false
+    ride: true
+    painting: true
+    bucket-place: false
+    bucket-fill: false
+    boat: false
+    button: true
+    door-interact: true
+    lever: true
+    trapdoor-interact: true
+    fencegate-interact: true
+    drop-item: true
+    egg-throw: true
+    snowball-throw: true
+    water-spread: true
+    lava-spread: true
+    fly: false
+    teleport: true
+    mob-spawn: true
+    minecart: true
+    item-pickup: true
+    potion: true
+    bonemeal: true
+    elytra: false
+    nether: true
+  permission: nobuildplus.bypass
+  deny-message: '&c&l! &7You cannot do that here.'

@@ -1,0 +1,30 @@
+#出售界面的标题，支持颜色代码
+Title: "出售商店"
+# [-] [+] 字符不可改动或占用
+# [-] [+] 字符不可改动或占用
+Layout:
+  - "####a####"
+  - "#+++++++#"
+  - "#+++++++#"
+  - "#+++++++#"
+  - "#+++++++#"
+  - "####-####"
+#name 以及 lore 支持颜色代码和PAPI变量
+Items:
+  "-":
+    material: "BOOK"
+    name: "&c点击出售"
+  "#":
+    material: "BLACK_STAINED_GLASS_PANE"
+    name: "&c我是装饰板"
+    lore:
+      - "我是第一条lore"
+      - "我是第二条lore"
+  "a":
+    material: "PLAYER_HEAD"
+    name: "&c%player_name%"
+    lore:
+      - "&e金币: &710000"
+      - "&e点卷: &710000"
+
+

@@ -1,0 +1,19 @@
+IpRegisterCountLimit: 1569325055
+IpCountLimit: 1530494977
+LimitChineseID: true
+BedrockLoginBypass: true
+MinLengthID: 2
+MaxLengthID: 114514
+BeforeLoginNoDamage: true
+ReenterInterval: 60
+AfterLoginBack: true
+CanTpSpawnLocation: true
+CommandWhiteList:
+- /(?i)l(ogin)?(\z| .*)
+- /(?i)reg(ister)?(\z| .*)
+- /(?i)resetpassword?(\z| .*)
+- /(?i)repw?(\z| .*)
+- /(?i)worldedit cui
+AutoKick: 120
+DeathStateQuitRecordLocation: true
+SpawnLocation: zc:8.0:33.0:7.0:0.0:0.0

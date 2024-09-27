@@ -1,0 +1,77 @@
+[02:00:26] [Craft Scheduler Thread - 3593/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[02:00:27] [Craft Scheduler Thread - 3593/INFO] [net.milkbowl.vault.Vault]: [Vault] No new version available
+[08:00:26] [Craft Scheduler Thread - 3935/INFO] [net.milkbowl.vault.Vault]: [Vault] Checking for Updates ... 
+[08:00:27] [Craft Scheduler Thread - 3935/INFO] [net.milkbowl.vault.Vault]: [Vault] No new version available
+[11:11:10] [pool-6-thread-1/INFO] []: Checking for Vivecraft Updates
+[11:11:10] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xiaoniangaoh加入了游戏
+[11:11:10] [Server thread/INFO] [net.minecraft.server.players.PlayerList]: xiaoniangaoh[/192.168.1.2:64005] logged in with entity id 66876 at ([zc]8.0, 33.0, 7.0)
+[11:11:10] [Craft Scheduler Thread - 4151/INFO] [cc.baka9.catseedlogin.bukkit.CatSeedLogin]: [CatSeedLogin] 缓存加载 52 个数据
+[11:11:22] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xiaoniangaoh issued server command: /l 101325ae
+[11:11:22] [Craft Scheduler Thread - 4128/INFO] [cc.baka9.catseedlogin.bukkit.CatSeedLogin]: [CatSeedLogin] 缓存加载 52 个数据
+[11:11:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xiaoniangaoh issued server command: /stop
+[11:11:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: [xiaoniangaoh: 正在关闭服务器]
+[11:11:39] [Server thread/INFO] [VivecraftServer]: shutting down vivecraft scheduler
+[11:11:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[11:11:39] [Server thread/INFO] [com.mohistmc.plugins.Main]: [Mohist] 小小墨正在与 Mohist v1.20.1 插件断开连接
+[11:11:39] [Server thread/INFO] [cn.handyplus.menu.PlayerMenu]: [PlayerMenu] 小小墨正在与 PlayerMenu v1.3.4 插件断开连接
+[11:11:39] [Server thread/INFO] [org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin]: [Geyser-Spigot] 小小墨正在与 Geyser-Spigot v2.4.3-SNAPSHOT 插件断开连接
+[11:11:39] [Server thread/INFO] [org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin]: [Geyser-Spigot] 正在关闭 Geyser。
+[11:11:39] [Server thread/INFO] [org.geysermc.geyser.platform.spigot.GeyserSpigotPlugin]: [Geyser-Spigot] Geyser 关闭成功。
+[11:11:39] [Server thread/INFO] [cc.baka9.catseedlogin.bukkit.CatSeedLogin]: [CatSeedLogin] 小小墨正在与 CatSeedLogin v[Unofficial]1.5.1-SNAPSHOT 插件断开连接
+[11:11:39] [Server thread/INFO] [com.handy.playertitle.PlayerTitle]: [PlayerTitle] 小小墨正在与 PlayerTitle v4.1.6 插件断开连接
+[11:11:39] [Server thread/INFO] [net.skinsrestorer.bukkit.SRBukkitBootstrap]: [SkinsRestorer] 小小墨正在与 SkinsRestorer v15.4.3 插件断开连接
+[11:11:39] [Server thread/INFO] [com.onarandombox.MultiverseCore.MultiverseCore]: [Multiverse-Core] 小小墨正在与 Multiverse-Core v4.3.1-b861 插件断开连接
+[11:11:39] [Server thread/INFO] [org.black_ixx.playerpoints.PlayerPoints]: [PlayerPoints] 小小墨正在与 PlayerPoints v3.2.7 插件断开连接
+[11:11:39] [Server thread/INFO] [me.yic.xconomy.XConomy]: [XConomy] 小小墨正在与 XConomy v2.26.3 插件断开连接
+[11:11:39] [Server thread/INFO] [me.yic.xconomy.XConomy]: [XConomy] XConomy successfully disabled
+[11:11:39] [Server thread/INFO] [com.loohp.interactionvisualizer.InteractionVisualizer]: [InteractionVisualizer] 小小墨正在与 InteractionVisualizer v1.18.11.0 插件断开连接
+[11:11:39] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Unregistered placeholder expansion interactionvisualizer
+[11:11:39] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] Reason: required plugin InteractionVisualizer was disabled.
+[11:11:39] [Server thread/INFO] [Console]: [InteractionVisualizer] Saving player preferences bitmask index, do not halt the server.
+[11:11:39] [Server thread/INFO] [Console]: [InteractionVisualizer] Plugin reload detected, attempting to despawn all visual entities. If anything went wrong, please restart! (Reloads are always not recommended)
+[11:11:39] [Server thread/INFO] [Console]: [InteractionVisualizer] InteractionVisualizer has been disabled!
+[11:11:39] [Server thread/INFO] [com.viaversion.viarewind.BukkitPlugin]: [ViaRewind] 小小墨正在与 ViaRewind v4.0.2-SNAPSHOT 插件断开连接
+[11:11:39] [Server thread/INFO] [net.lumiobyte.playerstatistics.PlayerStatistics]: [PlayerStatistics] 小小墨正在与 PlayerStatistics v1.1.1 插件断开连接
+[11:11:39] [Server thread/INFO] [com.viaversion.viabackwards.BukkitPlugin]: [ViaBackwards] 小小墨正在与 ViaBackwards v5.0.2-SNAPSHOT 插件断开连接
+[11:11:39] [Server thread/INFO] [shwendel.epiccombat.EpicCombat]: [EpicCombat] 小小墨正在与 EpicCombat v1.19 插件断开连接
+[11:11:39] [Server thread/INFO] [net.milkbowl.vault.Vault]: [Vault] 小小墨正在与 Vault v1.7.3-b131 插件断开连接
+[11:11:39] [Server thread/INFO] [com.viaversion.viaversion.ViaVersionPlugin]: [ViaVersion] 小小墨正在与 ViaVersion v5.0.3 插件断开连接
+[11:11:39] [Server thread/INFO] [com.viaversion.viaversion.ViaVersionPlugin]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[11:11:39] [Server thread/INFO] [com.viaversion.viaversion.ViaVersionPlugin]: [ViaVersion] Empty pipeline, nothing to uninject
+[11:11:39] [Server thread/INFO] [com.viaversion.viaversion.ViaVersionPlugin]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[11:11:39] [Server thread/INFO] [dev.geco.gsit.GSitMain]: [GSit] 小小墨正在与 GSit v1.10.0 插件断开连接
+[11:11:39] [Server thread/INFO] [Console]: [GSit] The plugin was successfully disabled.
+[11:11:39] [Server thread/INFO] [me.gsy.stpa.STPA]: [STPA] 小小墨正在与 STPA v1.0-SNAPSHOT 插件断开连接
+[11:11:39] [Server thread/INFO] [cc.cyrilic.playersbackpacksviewer.PlayersBackpacksViewer]: [PlayersBackpacksViewer] 小小墨正在与 PlayersBackpacksViewer v2.0-ForAllVersions 插件断开连接
+[11:11:39] [Server thread/INFO] [p1xel.nobuildplus.NoBuildPlus]: [NoBuildPlus] 小小墨正在与 NoBuildPlus v1.3.4 插件断开连接
+[11:11:39] [Server thread/INFO] [cn.minezone.payment.PaymentPlugin]: [Payment] 小小墨正在与 Payment v1.1.6 插件断开连接
+[11:11:39] [Server thread/INFO] [org.sg.squareland.StartLand]: [SGSquareLand] 小小墨正在与 SGSquareLand v1.5.2 插件断开连接
+[11:11:39] [Server thread/INFO] [org.sg.squareland.StartLand]: [SGSquareLand] [地皮系统]帅哥地皮已经卸载！
+[11:11:39] [Server thread/INFO] [org.sg.squareland.StartLand]: [SGSquareLand] [地皮系统]ShuaiGe squareland unloaded！
+[11:11:39] [Server thread/INFO] [advancedwarps.AdvancedWarps]: [AdvancedWarps] 小小墨正在与 AdvancedWarps v1.0.0 插件断开连接
+[11:11:39] [Server thread/INFO] [dev.proomaster.Motd.Motd]: [SuperMotd] 小小墨正在与 SuperMotd v1.0 插件断开连接
+[11:11:39] [Server thread/INFO] [Stp.Main]: [Stp] 小小墨正在与 Stp v1.0.1 插件断开连接
+[11:11:39] [Server thread/INFO] [me.clip.placeholderapi.PlaceholderAPIPlugin]: [PlaceholderAPI] 小小墨正在与 PlaceholderAPI v2.11.6 插件断开连接
+[11:11:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[11:11:39] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl]: xiaoniangaoh lost connection: Server closed
+[11:11:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: xiaoniangaoh left the game.
+[11:11:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[11:11:45] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/minecraft:overworld 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world_nether]'/minecraft:the_nether 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world_the_end]'/minecraft:the_end 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/twilightforest:twilight_forest 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[squareland_world]'/minecraft:squareland_world 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[xyx]'/minecraft:xyx 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[fps]'/minecraft:fps 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[zc]'/minecraft:zc 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: 正在保存世界 'ServerLevel[world]'/ae2:spatial_storage 中的区块
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (twilight_forest): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (squareland_world): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (xyx): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (fps): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (zc): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:11:46] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved

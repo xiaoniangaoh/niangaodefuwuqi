@@ -1,0 +1,15 @@
+#This is the external motd
+Server-MOTD: 
+  Line-1: "&b&l&m▂▃▄▅▆▇█&r&6&l✨糕点服✨&b&l&m]█▇▆▅▄▃▂"
+  Line-2: "&e&l生电无规则服务器"
+  
+#this is the join game motd
+JoinGame-MOTD:
+  Enabled: true
+  Messages:
+    - '欢迎游玩'
+    - 'QQ群：1017603373'
+    - 'kook频道：https://kook.top/50DQC9'
+    - '建议加群'
+#this is the max players, compatible with server.pro free servers (tested)
+Max-Players: 100

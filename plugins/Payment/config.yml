@@ -1,0 +1,42 @@
+# 不允许自定义金额充值
+# 请仅在某些扩展要求时这么做
+disable-custom-amount: false
+
+# 请不要更改此值，用于导出订单记录和验证订单
+serverID: cd7992b2-8e73-46f6-aa68-764356440fa6
+# 支付方式：
+# green 绿点支付(https://www.greenyep.com/)
+# codepay 码支付(https://codepay.fateqq.com/)
+# official 官方接口
+# 如果有其它喜欢的接口想要加入记得联系作者
+type: green
+
+green:
+  uid: '0009019181954315'
+  token: pd7e6ez7xtzh8kw9nz5o64u28unp6t8l
+codepay:
+  # id
+  uid: '164011'
+  # key
+  token: lSOYGlMW0qgMAcIcmFc0yfUfQlEvK2TR
+  # 超时时间
+  timeout: 120
+# 官方接口
+official:
+  # 在开发者信息
+  uid: ''
+# 服务器选项
+# 【1】作者私人自购服务器（坐标海外）
+# 【2】国内大佬的服务器（由国内大佬赞助，QQ1137103475）
+# 警告，两边数据不互通，请不要随意更改。
+host: 2
+# 自定义服务器，为防止滥用，部署价格59元
+# my-host: ''
+# 调试模式，输出所有网络信息
+debug: true
+# 充值处理
+payment:
+  # 倍数（1块=100点券）
+  times: 100
+  cmd:
+  - say <player> 充值 <amount> 点券

@@ -1,0 +1,77 @@
+ReplayAddon:
+  # ReplayAddon Prefix
+  prefix: '&4ReplayAddon | '
+  # Item on Join?
+  itemonjoin: true
+  # Item
+  item: NETHER_STAR
+  # Itemdisplayname in Minecraft
+  itemname: '&4Replays'
+  # The Itemslot in a Hotbar
+  itemslot: 4
+  # Enable or Disable Itemmove for Replayitem
+  itemmove: true
+  # Enable or Disable Itemdrop for Replayitem
+  itemdrop: true
+  # Enable or Disable /replaygui Command
+  command: true
+  # Define the BungeeCord Servername for Replayshow
+  replayserver: Replay-1
+  # false on a Lobbyserver and true on a Replayserver
+  replayloadmode: false
+  # Enable or Disable your inventoryopensound
+  openinventorysound: true
+  # Look at here for Sounds: https://www.spigotmc.org/wiki/cc-sounds-list/
+  inventorysound: LEVEL_UP​
+  # /replaygui is disable on replayloadmode
+  replayloadmodecommanderror: '&4You cannot execute this command here!'
+  # Player was kicked if the replay on end.
+  replaykickend: true
+  # Message for replayend
+  replayendmessage: '&4The replay is now over so you have been sent to the lobby!'
+  # Replaykicktimer in Seconds (If replaykicked == true)
+  replayendtimer: 5
+  # Replay was not found message
+  replaynotfound: '&cReplay was not found!'
+  # Has Replay not correctly create or is not finished then show by default Incorrect
+  replayincorrectplaceholder: '&cIncorrect'
+  # If option true then show the incorrects replay on Inventory
+  showincorrectreplays: true
+  inventorysize: 45
+  inventoryreplayamount: 5
+  # %REPLAYAMOUNT% show the inventoryreplayamount size and %REPLAYPLAYERAMOUNT% the player current replayamount
+  inventorytitle: '&e%REPLAYAMOUNT% &7Playrounds'
+  inventoryreplayitem: BOOK
+  inventoryreplayitemname: '&7GameID: &e%ID%'
+  inventoryreplayitemdata:
+  - '&7Server: &e%SERVER%'
+  - '&7Duration: &e%MINUTES%:%SECONDS%'
+  - '&7Date: &e%REPLAYDATE%'
+  - '&7Memory: &e%REPLAYMEMORY%'
+Placeholder:
+  itemid: GRAY_STAINED_GLASS_PANE
+  inventoryslots:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  - 18
+  - 19
+  - 27
+  - 28
+  - 36
+  - 37
+  - 38
+  - 39
+  - 40
+  - 41
+  - 42
+  - 43
+  - 44
+  - 45

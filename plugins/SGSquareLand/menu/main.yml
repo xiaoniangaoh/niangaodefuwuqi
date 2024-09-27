@@ -1,0 +1,253 @@
+#地皮主菜单标题
+title: §1地皮主菜单
+#地皮主菜单行数
+row: 3
+#返回自己的地皮
+goHome: §e前往§5[[index]]§e地皮
+#地皮公共权限菜单标题
+authTitle: §1地皮公共权限
+#自己在他人地皮上的权限
+myselfTitle: §1自己在他人地皮上的权限
+#他人在自己地皮上的权限
+otherTitle: §1他人在自己地皮上的权限
+#当前在自己地皮上的玩家
+currentTitle: §2当前在自己地皮上的玩家
+#修改他人在自己地皮上的权限
+changeOtherTitle: §e修改§5[player]§e权限
+#玩家查看他人在自己地皮上的黑名单
+selectLandBlack: §4地皮黑名单
+#开启权限
+clickOpen: §a点击开启此权限
+#关闭权限
+clickClose: §c点击关闭此权限
+#玩家将令一名玩家拉黑
+addBlack: §a点击将此玩家添加到黑名单
+#玩家将令一名玩家解除拉黑
+removeBlack: §c点击将此玩家从黑名单中移除
+#指令
+comAlert: '§3指令:§d'
+#地皮风格菜单标题
+landStyleTitle: §2地皮风格
+#玩家切换风格和生态的提示
+playerLandChangeAlert: §e点击切换为：§5
+#玩家可以更换的木牌
+playerChangeSign:
+ - oak_sign,橡木告示牌
+ - spruce_sign,云杉木告示牌
+ - birch_sign,白桦木告示牌
+ - Jungle_sign,丛林木告示牌
+ - acacia_sign,金合欢木告示牌
+ - dark_oak_sign,深色橡木告示牌
+ - mangrove_sign,红树木告示牌
+ - crimson_sign,绯红木告示牌
+ - warped_sign,诡异木告示牌
+#玩家可以更换的边框
+playerChangeBlock:
+ - cobblestone_slab,原石台阶
+ - stone_slab,石头台阶
+ - smooth_stone_slab,平滑石头台阶
+ - red_sandstone_slab,红沙岩台阶
+ - brick_slab,红砖台阶
+ - stone_brick_slab,石砖台阶
+ - quartz_slab,石英台阶
+ - prismarine_brick_slab,海晶石砖台阶
+ - polished_diorite_slab,磨制闪长岩台阶
+#地皮生态菜单标题
+changeBiomeTitle: §3地皮生态
+#玩家可以切换的地皮生态
+#菜单显示物品名,生态翻译,生态名
+playerChangeBiome:
+ - white_terracotta,恶地,badlands
+ - bamboo,竹林,bamboo_jungle
+ - basalt,玄武岩三角洲,basalt_deltas
+ - sand,沙滩,beach
+ - birch_sapling,桦树林,birch_forest
+ - ice,冷水海洋,cold_ocean
+ - nether_wart_block,绯红森林,crimson_forest
+ - packed_ice,冷水深海,deep_cold_ocean
+ - sculk_shrieker,深暗之域,deep_dark
+ - blue_ice,冰冻深海,deep_frozen_ocean
+ - tropical_fish,温水深海,deep_lukewarm_ocean
+ - cooked_salmon,深海,deep_ocean
+ - sand,沙漠,desert
+ - pointed_dripstone,溶洞,dripstone_caves
+ - end_stone,末地荒岛,end_barrens
+ - purpur_block,末地高岛,end_highlands
+ - chorus_flower,末地中型岛屿,end_midlands
+ - orange_terracotta,被风蚀的恶地/平顶山（岩柱）,eroded_badlands
+ - poppy,繁花森林,flower_forest
+ - oak_sapling,森林,forest
+ - ice,冻洋,frozen_ocean
+ - ice,冰封山峰,frozen_peaks
+ - ice,冻河,frozen_river
+ - snow_block,雪林,grove
+ - snow_block,冰刺平原,ice_spikes
+ - snow_block,尖峭山峰,jagged_peaks
+ - jungle_sapling,丛林,jungle
+ - cooked_salmon,温水海洋,lukewarm_ocean
+ - big_dripleaf,繁茂洞穴,lush_caves
+ - mangrove_roots,红树林沼泽,mangrove_swamp
+ - grass_block,草甸,meadow
+ - red_mushroom,蘑菇岛,mushroom_fields
+ - netherrack,下界荒地,nether_wastes
+ - cooked_salmon,海洋,ocean
+ - birch_log,高大桦木森林/原始桦木森林,old_growth_birch_forest
+ - podzol,巨型针叶林/原始松木针叶林,old_growth_pine_taiga
+ - grass_block,平原,plains
+ - cooked_salmon,河流,river
+ - acacia_sapling,热带草原,savanna
+ - acacia_sapling,热带高原,savanna_plateau
+ - end_stone_brick_slab,末地小型岛屿,small_end_islands
+ - sand,积雪的沙滩,snowy_beach
+ - snow_block,积雪的沙滩,snowy_beach
+ - snow_block,积雪的山坡,snowy_slopes
+ - spruce_sapling,积雪的针叶林,snowy_taiga
+ - soul_sand,灵魂沙谷,soul_sand_valley
+ - jungle_sapling,丛林边缘/稀疏的丛林,sparse_jungle
+ - stone,裸岩山峰,stony_peaks
+ - gravel,石岸,stony_shore
+ - sunflower,向日葵平原,sunflower_plains
+ - clay,沼泽,swamp
+ - podzol,针叶林,taiga
+ - end_stone,结束？,the_end
+ - glass,虚空世界,the_void
+ - tropical_fish,暖水海洋,warm_ocean
+ - warped_hyphae,诡异森林,warped_forest
+ - spruce_sapling,风袭森林/繁茂的山地,windswept_forest
+ - gravel,风袭沙砾丘陵/沙砾山地,windswept_gravelly_hills
+ - stone,风袭丘陵/山地,windswept_hills
+ - grass_block,风袭大草原,windswept_savanna
+ - orange_terracotta,繁茂的恶地高原/繁茂的恶地,wooded_badlands
+
+claim:
+ material: book_and_quill
+ position_x: 1
+ position_y: 1
+ name: §e认领脚下的地皮
+ command: sl claim
+ keepon: false
+ lore:
+  - '§3指令：§d/sl claim'
+
+auto:
+ material: redstone_torch
+ position_x: 2
+ position_y: 1
+ name: §e自动认领地皮
+ command: sl auto
+ keepon: false
+ lore:
+  - '§3指令：§d/sl auto'
+
+auth:
+ material: paper
+ position_x: 3
+ position_y: 1
+ name: §e设置地皮公共权限
+ command: sl menu auth
+ keepon: true
+ lore:
+  - '§3指令：§d/sl menu auth'
+  - '§2面向大家设置的权限'
+
+myself:
+ material: paper
+ position_x: 4
+ position_y: 1
+ name: §e拥有他人地皮的权限
+ command: sl menu myself
+ keepon: true
+ lore:
+  - '§3指令：§d/sl menu myself'
+
+other:
+ material: paper
+ position_x: 5
+ position_y: 1
+ name: §e他人拥有我地皮的权限
+ command: sl menu other
+ keepon: true
+ lore:
+  - '§3指令：§d/sl menu other'
+
+atland:
+ material: iron_boots
+ position_x: 6
+ position_y: 1
+ name: §e当前在我地皮上的玩家
+ command: sl menu atland
+ keepon: true
+ lore:
+  - '§3指令：§d/sl menu atland'
+
+black:
+ material: coal
+ position_x: 7
+ position_y: 1
+ name: §4地皮黑名单
+ command: sl menu black
+ keepon: true
+ lore:
+  - '§3指令：§d/sl menu black'
+
+giveupAndReset:
+ material: ender_pearl
+ position_x: 9
+ position_y: 1
+ name: §e放弃/重置脚下的地皮
+ command: sl menu reset
+ keepon: true
+ lore:
+  - '§3指令：§d/sl menu reset'
+  - '§2请先前往自己领地再输入此命令'
+
+sltp:
+ material: grass_block
+ position_x: 4
+ position_y: 3
+ name: §e前往地皮世界
+ command: sl tp
+ keepon: false
+ lore:
+  - '§3指令：§d/sl tp'
+
+spawn:
+ material: beacon
+ position_x: 5
+ position_y: 3
+ name: §e返回主城
+ command: spawn
+ keepon: false
+ lore:
+  - '§3指令：§d/spawn'
+
+style:
+ material: sandstone_slab
+ position_x: 6
+ position_y: 3
+ name: §e地皮风格
+ command: sl style
+ keepon: true
+ lore:
+  - '§3指令：§d/sl style'
+
+biome:
+ material: pufferfish
+ position_x: 7
+ position_y: 3
+ name: §e生物群系
+ command: sl biome
+ keepon: true
+ lore:
+  - '§3指令：§d/sl biome'
+
+#如果想取消地皮飞行，可以将其删除或注释，反之则禁止
+fly:
+ material: feather
+ position_x: 8
+ position_y: 3
+ name: §e地皮飞行
+ command: sl fly
+ keepon: false
+ lore:
+  - '§3指令：§d/sl fly'

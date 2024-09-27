@@ -1,0 +1,219 @@
+flags:
+  break:
+    enable: true
+    type: all
+    list:
+      - GRASS_BLOCK
+  build:
+    enable: true
+    type: all
+    list:
+      - GRASS_BLOCK
+  use:
+    enable: true
+    type: list
+    list:
+      - ENCHANTING_TABLE
+      - CRAFTING_TABLE
+      - ANVIL
+      - CHIPPED_ANVIL
+      - DAMAGED_ANVIL
+      - ENDER_PEARL
+  container:
+    enable: true
+    type: list
+    list:
+      - CHEST
+      - ENDER_CHEST
+      - TRAPPED_CHEST
+      - FURNACE
+  mob-damage:
+    enable: true
+    type: all
+    list:
+      - ZOMBIE
+  mob-explode:
+    enable: true
+    type: all
+    list:
+      - CREEPER
+  pvp:
+    enable: true
+  shoot:
+    enable: true
+    # set true if your minecraft server version has crossbow.
+    include-crossbow: false
+  tnt:
+    enable: true
+  tnt-damage:
+    enable: true
+  frame:
+    enable: true
+    # 1.17+
+    include-glow-frame: false
+  bed:
+    enable: true
+  voidtp:
+    enable: true
+  villager:
+    enable: true
+  command:
+    enable: true
+    type: list
+    list:
+      - 'spawn'
+  chat:
+    enable: true
+  leaf-decay:
+    enable: true
+  melt:
+    enable: true
+  fall-damage:
+    enable: true
+  armorstand:
+    enable: true
+  farmbreak:
+    enable: true
+  ride:
+    enable: true
+    # list only
+    type: list
+    list:
+      - HORSE
+      - MINECART
+  painting:
+    enable: true
+  bucket-place:
+    enable: true
+  bucket-fill:
+    enable: true
+  boat:
+    enable: true
+    # list only
+    type: list
+    # For Boat Placing only
+    list:
+      - 'OAK_BOAT'
+      - 'SPRUCE_BOAT'
+      - 'BIRCH_BOAT'
+      - 'JUNGLE_BOAT'
+      - 'ACACIA_BOAT'
+      - 'DARK_OAK_BOAT'
+      - 'MANGROVE_BOAT'
+      - 'OAK_CHEST_BOAT'
+      - 'SPRUCE_CHEST_BOAT'
+      - 'BIRCH_CHEST_BOAT'
+      - 'JUNGLE_CHEST_BOAT'
+      - 'ACACIA_CHEST_BOAT'
+      - 'DARK_OAK_CHEST_BOAT'
+      - 'MANGROVE_CHEST_BOAT'
+    chestBoatEnable: false
+  button:
+    enable: true
+    # list only
+    type: list
+    list:
+      - 'stone_button'
+      - 'oak_button'
+      - 'spruce_button'
+      - 'birch_button'
+      - 'jungle_button'
+      - 'acacia_button'
+      - 'dark_oak_button'
+      - 'mangrove_button'
+      - 'crimson_button'
+      - 'warped_button'
+      - 'polished_blackstone_button'
+  door-interact:
+    enable: true
+    # list only
+    type: list
+    list:
+      - 'oak_door'
+      - 'spruce_door'
+      - 'birch_door'
+      - 'jungle_door'
+      - 'acacia_door'
+      - 'dark_oak_door'
+      - 'mangrove_door'
+      - 'crimson_door'
+      - 'warped_door'
+  lever:
+    enable: true
+  trapdoor-interact:
+    enable: true
+    # list only
+    type: list
+    list:
+      - 'oak_trapdoor'
+      - 'spruce_trapdoor'
+      - 'birch_trapdoor'
+      - 'jungle_trapdoor'
+      - 'acacia_trapdoor'
+      - 'dark_oak_trapdoor'
+      - 'mangrove_trapdoor'
+      - 'crimson_trapdoor'
+      - 'warped_trapdoor'
+  fencegate-interact:
+    enable: true
+    # list only
+    type: list
+    list:
+      - 'oak_fence_gate'
+      - 'spruce_fence_gate'
+      - 'birch_fence_gate'
+      - 'jungle_fence_gate'
+      - 'acacia_fence_gate'
+      - 'dark_oak_fence_gate'
+      - 'mangrove_fence_gate'
+      - 'crimson_fence_gate'
+      - 'warped_fence_gate'
+  # For Player
+  drop-item:
+    enable: true
+    type: all
+    list:
+      - 'STONE'
+  egg-throw:
+    enable: true
+  snowball-throw:
+    enable: true
+  water-spread:
+    enable: false
+  lava-spread:
+    enable: false
+  fly:
+    enable: true
+  # For Player
+  teleport:
+    enable: true
+  mob-spawn:
+    enable: true
+    # List only
+    type: list
+    # Add entity here
+    list:
+      - ZOMBIE
+  minecart:
+    enable: true
+    # List only
+    type: list
+    # Item name
+    list:
+      - MINECART
+  # For Player
+  item-pickup:
+    enable: true
+    type: all
+    # Add what you're not hoping the player to pick up
+    list:
+      - 'STONE'
+  # For player
+  potion:
+    enable: true
+  bonemeal:
+    enable: true
+  elytra:
+    enable: true
+  nether:
+    enable: true

@@ -1,0 +1,126 @@
+# 标题
+title: '&7糕点服菜单'
+# 打开命令
+openCommand: mc
+# 打开物品
+openItem: clock
+# 打开权限 权限格式: playerMenu.open.menu.yml 设置false表示不需要权限
+permission: false
+# 菜单大小
+size: 54
+# 菜单 节点commands内容 支持变量
+# [message] 发送消息 [allMessage] 发送消息给全服
+# [title] 发送消息 [allTitle] 发送消息给全服  格式 title:subTitle
+# [actionbar] 发送消息 [allActionbar] 发送消息给全服
+# [command] 执行命令 [op] op身份执行命令(尽量不要使用这个,使用Console替代执行) [Console] 控制台执行命令
+# [close] 关闭菜单 [server] 跨服
+# id 如果存在该节点, 配置中做修改请先删除id节点在进行修改
+menu:
+  '11':
+    index: 11
+    name: 生存世界
+    material: GRASS_BLOCK
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[op] mvtp @p world'
+    id: 2
+  '13':
+    index: 13
+    name: 地皮
+    material: DIRT
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[op] sl menu'
+    id: 3
+  '15':
+    index: 15
+    name: 主城
+    material: CAMPFIRE
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[op] mvtp @p zc'
+    id: 4
+  '29':
+    index: 29
+    name: 赞助
+    material: MAP
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    id: 17
+    commands:
+    - '[command] afdian send 赞助'
+  '31':
+    index: 31
+    name: 皮肤设置
+    material: PLAYER_HEAD
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[command] skin'
+    id: 9
+  '33':
+    index: 33
+    name: 绑定邮箱
+    material: OAK_HANGING_SIGN
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[command] bdmail'
+    id: 10
+  '47':
+    index: 47
+    name: 统计
+    material: WRITABLE_BOOK
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[command] stats'
+    id: 15
+  '49':
+    index: 49
+    name: 称号
+    material: NAME_TAG
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[command] plt shop'
+    id: 11
+  '51':
+    index: 51
+    name: 商店
+    material: GOLD_INGOT
+    lore: null
+    isEnchant: false
+    custom-model-data: 0
+    hideFlag: true
+    hideEnchant: true
+    commands:
+    - '[command] mt'
+    id: 16

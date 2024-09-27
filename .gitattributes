@@ -1,0 +1,1 @@
+*[[:space:]]mohist-1.20.1-864-server.jar filter=lfs diff=lfs merge=lfs -text

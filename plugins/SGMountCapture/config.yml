@@ -1,0 +1,138 @@
+#SGMountCapture1.2,帅哥坐骑捕获
+#作者：极客LF,bilibili：哔哩_大帅哥，bug修改：1048885612@qq.com
+#B站有视频教程，欢迎大家提出保贵建议，刘谋不胜感激！
+#下版本更新计划，增加坐骑捕捉，坐骑拍卖行功能
+#插件名，系统提示
+name: §a[§c坐骑系统§a]§2
+#个人坐骑菜单名
+myMountTitle: §1我的坐骑
+#无此命令提示
+notCommand: 无此命令，请输入/mount help
+#无此命令权限提示
+notPower: 您没有权限，请联系服主！
+#坐骑名称修改成功提示
+changeNameSuccess: 坐骑昵称修改成功！
+#坐骑名称修改失败提示
+changeNameFail: 坐骑昵称修改失败！
+#您的坐骑已收回提示
+recovery: 您的坐骑已收回！
+#您并没有召唤坐骑提示
+notRecovery: 您并没有召唤坐骑！
+#买坐骑成功提示
+buySuccess: 购买 §d§l[name] §2成功，花费 §d§l[money] §2$，输入/mount my 即可查看！
+#买坐骑失败提示
+buyFail: 购买失败，请联系服主！
+#买坐骑余额不足提示
+balanceDef: 您的余额不足 §d§l[money] §2$！
+#玩家未给坐骑命名时的坐骑名称
+notNickName: 公民[name]的坐骑
+#玩家未给坐骑命名时召唤坐骑的提示
+notNickNameCall: 坐骑已经召唤到了您的身边！
+#玩家给坐骑已命名时召唤坐骑的提示
+nickNameCall: 坐骑 §d§l[name] §2已经召唤到了您的身边！
+#非主人和坐骑互动时的提示
+nonOwnerInteractive: 您好：这是的 §d§l[name] §2爱宠！
+#此玩家不在线，请检查
+offPlayer: 此玩家不在线，请检查!
+#坐骑名有误，请检查！/mount call [坐骑名] [t/f]
+mountNameError: 坐骑名有误，请检查！/mount call [坐骑名] [t/f]
+#命令有误，请填写要召吹的坐骑名！/mount call [坐骑名] [t/f]
+callCommandError: 命令有误，请填写要召吹的坐骑名！/mount call [坐骑名] [t/f]
+#马的移速决定颜色，品极，显示物品（速度,颜色,品极,速度描述,显示物品）
+horseSpeed: 0.75,§6,神马,飞快,DIAMOND_HORSE_ARMOR|0.7,§5,超凡,快,GOLDEN_HORSE_ARMOR|0.65,§c,卓越,正常,IRON_HORSE_ARMOR|0.6,§b,普通,普通,LEATHER_HORSE_ARMOR|0.55,§f,正常,慢,LEATHER_HORSE_ARMOR
+#马的跳跃力和描述（跳跃力,跳跃力描述）
+horseJump: 0.8,很高|0.75,高|0.7,正常|0.65,普通|0.6,低
+#狗的攻击力决定颜色（攻击力,颜色,品极）
+wolfFont: 10,§6,BONE,神狗|8,§5,BONE,超凡|6,§c,BONE,卓越|4,§b,BONE,优秀|2,§f,BONE,正常
+#狗的移动速度和描述（移速,移速描述）
+wolfSpeed: 0.75,飞快|0.7,快|0.65,正常|0.6,普通|0.55,慢
+color: 
+ - black,黑色
+ - brown,褐色
+ - chestnut,栗色
+ - creamy,奶油色
+ - dark_brown,深褐色
+ - gray,灰色
+ - white,雪白色
+#以上是马拥有的颜色，下面是狗项圈的颜色
+ - blue,蓝色
+ - cyan,青色
+ - green,绿色
+ - light_blue,淡蓝色
+ - light_gray,淡灰色
+ - lime,黄绿色
+ - magenta,品红色
+ - orange,橙色
+ - pink,粉色
+ - purple,紫色
+ - red,红色
+ - yellow,黄色
+#马的花纹
+style: 
+ - black_dots,小黑点
+ - none,无花纹
+ - white,白短袜或条纹
+ - white_dots,圆白点
+ - whitefield,乳白色斑点
+
+#菜单中的描述、玩家背包、拍卖行、自定义马菜单
+#品种
+speciesDsc: §f品种:§d[value]
+#品级
+gradeDsc: §f品级:§a[value]
+#颜色
+colorDsc: §f颜色:§a[value]
+#花纹
+styleDsc: §f花纹:§a[value]
+#奔跑速度
+speedDsc: §f奔跑速度:§a[value]
+#跳跃力
+jumpDsc: §f跳跃力:§a[value]
+#血量
+healthDsc: §f血量:§a[value]
+#攻击力
+attackDsc: §f攻击力:§a[value]
+#护甲
+armorDsc: §f护甲:§a[value]
+#击退抗性
+resistanceDsc: §f击退抗性:§a[value]
+#击退力度
+knockbackDsc: §f击退力度:§a[value]
+#韧性
+toughnessDsc: §f韧性:§a[value]
+#坐骑类型
+animalTypeRsc: §f坐骑类型:§a[value]
+#畜力值
+strengthDsc: §f畜力值:§a[value]
+#装备
+equipmentDsc: §f装备:§a[value]
+#召唤指令
+commandDsc: §f召唤指令:§a[value]
+#----------------------------
+#菜单最下面的名字
+#首页
+index: §b首页
+#末页
+last: §b末页
+#上一页
+prevPage: §d上一页
+#下一页
+nextPage: §d下一页
+#收回坐骑
+revMount: §8收回坐骑
+#关闭菜单
+closeMenu: §4关闭菜单
+#----------帮助----------#
+help: 
+ - §f--------------------§e帅哥坐骑命令大全§f--------------------
+ - §a/mount §2或 §a/mount my §f(§2打开自己的坐骑仓库§f)
+ - §a/mount come §f(§2召唤自己上一次召唤的坐骑§f)
+ - §a/mount shop §f(§2打开系统商店§f)
+ - §a/mount name §f[§2昵称§f] §f(§2给召唤的坐骑取名字§f)
+ - §a/mount back §f(§2将已经召唤的坐骑暂时收回§f)
+ - §a/mount cus §f(§2打开自定义菜单§f)
+ - §a/mount call [坐骑名] [玩家名] [t/f(是否直接骑乘)] §f(§2为自己或玩家召唤坐骑§f)
+ - §a/mount reload §f(§2重新加载插件，管理员§f)
+ - §f-------------------------§e结束§f-------------------------
+
+

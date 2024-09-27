@@ -1,0 +1,183 @@
+#这里是插件所有的语言显示
+#系统提示
+title: '§f[§6地皮系统§f]'
+#没有使用权限
+notUseAuth: §4您没有地皮的使用权限！
+#没有使用权限
+notStyleAuth: §4您没有地皮的风格修改权限！
+#没有使用权限
+notBiomeAuth: §4您没有地皮的生态修改权限！
+#没有管理权限
+notManageAuth: §4您没有地皮的管理权限！
+#世界创建中
+createWorldIng: §2地皮世界创建中，请稍等...
+#世界创建完成
+createWorldSuccess: §2地皮世界创建成功！
+#世界创建失败
+createWorldFail: §4地皮世界创建失败，如果已经生成世界请删除后重新生成！
+#地皮世界传送失败
+opTpLandFail: §4传送失败，请先生成地皮世界！
+#输入不存在的命令提示
+notCommand: §2无此命令，请输入§l§5/sl help §2查看
+#超过地皮最大领取数量
+overstepLandCount: §2已超出您最大地皮领取数，不能再领取了！
+#玩家输入指令时不在地皮世界
+commandNotInLand: §2请先前往地皮世界再输入此命令！
+#地皮领取成功
+claimSuccess: §2地皮领取成功！
+#地皮领取成功
+claimFail: §4地皮领取失败，请稍候重试！
+#地皮已经被他人领取
+claimHaveMaster: §2这块地皮已经被他人领取，请换一块吧！
+#放弃地皮中
+giveUpLandFirst: §2请输入§l§5/sl confirm§2确认放弃该地皮
+#重置地皮中
+resetLandFirst: §2请输入§l§5/sl confirm§2确认重置该地皮
+#您放弃了此次删除
+giveUpRemove: §2您放弃了此次删除
+#放弃地皮成功
+giveUpLandSuccess: §2地皮放弃成功！
+#您放弃了此次删除
+giveUpReset: §2您放弃了此次重置
+#重置地皮成功
+resetLandSuccess: §2地皮重置成功！
+#放弃地皮失败
+giveUpLandFail: §4地皮放弃失败，请稍候重试！
+#不能放弃他人的地皮
+giveUpOtherLand: §2这个地皮不是你的或没有主人，无法放弃！
+#重置地皮失败
+resetLandFail: §4地皮重置失败，请稍候重试！
+#不能重置他人的地皮
+resetOtherLand: §2这个地皮不是你的，无法重置！
+#地皮全局权限设置格式
+landSet: §2正确指令为：§l§5/sl set [权限] [t(开)/f(关)] [index]§2(如果在地皮内则可以省略)
+#输入了错误的地皮权限
+landErrorAuth: §2正确权限为：move(移动)、container(容器)、door(门)、build(建筑及其它所有权限)、pvp(玩家对战)、use(使用)、animal(伤害动物)、load(载具)
+#地皮权限更新成功
+landSetSuccess: §a地皮的 §2[auth] §a权限§2[switch]§a成功！
+#地皮权限更新失败
+landSetFail: §4地皮权限更新失败，请稍候重试！
+#不能修改非自己的地皮权限
+landSetOther: §4权限更新失败，因为此地皮不是您的！
+#地皮玩家权限设置格式
+landPset: §2正确指令为：§l§5/sl pset [权限] [玩家] [t(开)/f(关)] [index]§2(如果在地皮内则可以省略)
+#地皮权限更新成功
+landPSetSuccess: §a地皮的 §2[auth] §a权限为§2[playerName][switch]§a成功！
+#地皮权限更新，未找到玩家
+landPSetNotPlayer: §4服务器没有§e[playerName]§4这位玩家，请检查玩家名是否正确！
+#自动领取成功
+autoClaimSuccess: §2地皮领取成功，已传送至您的地皮！
+#自动领取失败
+autoClaimFail: §4自动领取地皮失败，请稍候重试！
+#传送回自己的地皮
+tpHomeSuccess: §2已传送回[index]地皮
+#传送回自己的地皮
+tpNotClaim: §4该在皮无人认领，无法传送！
+#传送回自己的地皮
+tpNotExist: §4不存在该坐标，无法传送！
+#传送回自己的地皮
+tpHomeFail: §4传送失败！
+#传送地皮失败
+playerNotLand: §2您还没有地皮，可以先领取一块！
+#玩家在他人地皮没权限操作时
+notLandAuth: §c您在此地皮没有§a[auth]§c权限！
+#暂无相关信息
+notInfo: §2暂无相关信息！
+#非玩家输入
+notConsole: §4此命令不能在控制台输入！
+#地皮风格修改成功
+landStyleChangeSuccess: §2地皮风格修改成功！
+#地皮生态修改成功
+landBiomeChangeSuccess: §2地皮生态修改成功！
+#服务器不存在此生态
+serverNotBiome: §c服务器不存在此生态！
+#地皮世界不可以输入的命令
+landCanNotCommand: §c地皮世界不可以输入此指令！
+#每天领取和重置的次数
+clainAndResetAlert: §c每天领取和重置的次数不得超过4次！
+#直接确认删除和重置时的提示
+breakConfirmAlert: §c请先确认要进行的操作或者操作已经超时失效！
+#管理员菜单标题
+adminPlayerTitle: §9玩家地皮管理-Admin
+#地皮生态修改成功
+autoEnableFlyInLandAlert: §2已开启地皮飞行！
+#地皮生态修改成功
+autoNotEnableFlyInLandAlert: §2服务器未启用地皮飞行！
+#地皮禁止生成地狱门
+hellGateAlert: §2地皮世界禁止生成地狱门！
+#权限类型
+auths:
+ - move,移动
+ - container,容器
+ - door,门
+ - pvp,玩家对战
+ - animal,动物伤害
+ - use,使用
+ - load,载具
+ - build,建筑
+ - black,黑名单
+#开启或关闭
+switchs:
+ - true,开启
+ - false,关闭
+#个人地皮公共权限显示开始
+landGlobalAuthStart: §2－－－－－－－－－－地皮公共权限－－－－－－－－－－－
+#个人地皮公共权限显示结束
+landGlobalAuthEnd: §2－－－－－－－－－－－－－结束－－－－－－－－－－－－－－
+#玩家权限显示开始
+landAuthOtherStart: §2－－－－－－－－－他人所在我地皮权限－－－－－－－－－－
+#玩家权限显示结束
+landAuthOtherEnd: §2－－－－[currentPage]/[countPage]－－/sl other [页码]－－－－－－－－
+#玩家在他人地皮权限显示开始
+atOtherLandAuthStart: §2－－－－－－－－－所拥有他人的地皮权限－－－－－－－－－－
+#玩家在他人地皮权限显示结束
+atOtherLandAuthEnd: §2－－－－[currentPage]/[countPage]－－/sl myself [页码]－－－－－－－－
+#玩家指令大全
+help:
+ - §2－－－－－－－－－地皮指令大全－－－－－－－－－－
+ - §5/sl menu §2打开地皮菜单
+ - §5/sl tp §2传送到地皮世界0,0坐标
+ - §5/sl claim §2领取脚下的地皮
+ - §5/sl auto §2自动领取地皮
+ - §5/sl home [index] §2回到自己或他人的地皮
+ - §5/sl set [权限] [t/f] §2设置地皮的权限，对所有玩家生效
+ - §5/sl pset [权限] [玩家] [t/f] §2对单个玩家设置权限
+ - §5/sl giveup §2放弃自己脚下的地皮
+ - §5/sl reset §2将地皮恢复到领取时的样子（不可后退，慎用）
+ - §5/sl auth §2查看自己地皮的全局权限
+ - §5/sl group §2查看他人在地皮的权限
+ - §5/sl style §2修改自己的地皮风格
+ - §5/sl biome §2修改自己的地皮生态
+ - §5/sl fly §2地皮飞行
+ - §2权限：§fmove§2(移动)、§fcontainer§2(箱子)、§fdoor§2(门)
+ - §2权限：§fpvp§2(玩家对战)、§fanimal§2(动物伤害)
+ - §2权限：§fuse§2(使用工作台、附魔台、切石机、铁砧等)
+ - §2权限：§fload§2(载具)、§fbuild§2(建筑，包括其它所有权限、请给信任的人)
+ - －－－－－－－－－－－结束－－－－－－－－－－－－
+#管理员指令大全
+admin:
+ - －－－－－－－－－地皮指令大全－－－－－－－－－－
+ - §5/sl home [坐标] §2前往任意玩家地皮
+ - §5/sl giveup §2放弃脚下的地皮(无视主人)
+ - §5/sl reset §2重置脚下的地皮(无视主人)
+ - §5/sl admin player §2打开地皮管理菜单
+ - §5/sl create §2生成地皮世界
+ - §5/sl reload §2重新加载配置文件
+ - §5squareland.admin §2管理员权限
+ - §5squareland.notuse §2不让玩家使用地皮！！！
+ - §5squareland.notstyle §2不让玩家修改地皮风格！！！
+ - §5squareland.notbiome §2不让玩家修改地皮生态！！！
+ - －－－－－－－－－－－结束－－－－－－－－－－－－
+#菜单GUI上的公共按钮
+#首页
+index: §b首页
+#末页
+lastPage: §b末页
+#上一页
+prevPage: §d上一页
+#下一页
+nextPage: §d下一页
+#关闭菜单
+closeMenu: §4关闭菜单
+#返回上一级菜单
+backMenu: §e返回上一级

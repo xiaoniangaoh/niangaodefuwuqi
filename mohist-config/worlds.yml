@@ -1,0 +1,38 @@
+worlds:
+  world:
+    worldborder: 5.9999968E7
+    difficulty: HARD
+    seed: -4445442292077111636
+    environment: NORMAL
+    name: world
+    info: -/-
+    mohist: false
+    keepspawninmemory: true
+  DIM1:
+    worldborder: 5.9999968E7
+  DIM-1:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: twilightforest
+  world_the_end:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+  world_nether:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+  xyx:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+  fps:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+  zc:
+    worldborder: 300.0
+    difficulty: EASY
+  squareland_world:
+    worldborder: 5.9999968E7
+    difficulty: EASY
+  twilight_forest:
+    worldborder: 5.9999968E7
+    ismods: true
+    modName: twilightforest

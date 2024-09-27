@@ -1,0 +1,23 @@
+#可以捕捉的动物（暂未实现，会在下个版本完成，此文件不能删除）
+#如果不需要则注释掉即可
+Bat: 蝙蝠
+Bee: 蜜蜂
+Cat: 猫
+Chicken: 鸡
+Cow: 牛
+Donkey: 驴
+Fox: 狐狸
+Horse: 马
+Llama: 羊驼
+Mule: 骡子
+MushroomCow: 哞菇
+Ocelot: 豹猫
+Panda: 熊猫
+Parrot: 鹦鹉
+Pig: 猪
+PolarBear: 北极熊
+Rabbit: 兔子
+Sheep: 羊
+SkeletonHorse: 骷髅马
+Wolf: 狗
+ZombieHorse: 僵尸马
